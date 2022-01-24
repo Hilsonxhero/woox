@@ -1,1935 +1,3168 @@
-<div class="aside aside-left  aside-fixed  d-flex flex-column flex-row-auto" id="kt_aside">
-    <!--begin::Brand-->
-    <div class="brand flex-column-auto " id="kt_brand">
-        <!--begin::Logo-->
-        <a href="index.html" class="brand-logo">
-            <img alt="Logo" src="assets/media/logos/logo-light.png"/>
-
-        </a>
-        <!--end::Logo-->
-
-        <!--begin::Toggle-->
-        <button class="brand-toggle btn btn-sm px-0" id="kt_aside_toggle">
-				<span class="svg-icon svg-icon svg-icon-xl"><!--begin::Svg Icon | path:assets/media/svg/icons/Navigation/Angle-double-left.svg--><svg
-                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px"
-                        height="24px" viewBox="0 0 24 24" version="1.1">
-    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <polygon points="0 0 24 0 24 24 0 24"/>
-        <path
-            d="M5.29288961,6.70710318 C4.90236532,6.31657888 4.90236532,5.68341391 5.29288961,5.29288961 C5.68341391,4.90236532 6.31657888,4.90236532 6.70710318,5.29288961 L12.7071032,11.2928896 C13.0856821,11.6714686 13.0989277,12.281055 12.7371505,12.675721 L7.23715054,18.675721 C6.86395813,19.08284 6.23139076,19.1103429 5.82427177,18.7371505 C5.41715278,18.3639581 5.38964985,17.7313908 5.76284226,17.3242718 L10.6158586,12.0300721 L5.29288961,6.70710318 Z"
-            fill="#000000" fill-rule="nonzero"
-            transform="translate(8.999997, 11.999999) scale(-1, 1) translate(-8.999997, -11.999999) "/>
-        <path
-            d="M10.7071009,15.7071068 C10.3165766,16.0976311 9.68341162,16.0976311 9.29288733,15.7071068 C8.90236304,15.3165825 8.90236304,14.6834175 9.29288733,14.2928932 L15.2928873,8.29289322 C15.6714663,7.91431428 16.2810527,7.90106866 16.6757187,8.26284586 L22.6757187,13.7628459 C23.0828377,14.1360383 23.1103407,14.7686056 22.7371482,15.1757246 C22.3639558,15.5828436 21.7313885,15.6103465 21.3242695,15.2371541 L16.0300699,10.3841378 L10.7071009,15.7071068 Z"
-            fill="#000000" fill-rule="nonzero" opacity="0.3"
-            transform="translate(15.999997, 11.999999) scale(-1, 1) rotate(-270.000000) translate(-15.999997, -11.999999) "/>
-    </g>
-</svg><!--end::Svg Icon--></span></button>
-        <!--end::Toolbar-->
-    </div>
-    <!--end::Brand-->
-
-    <!--begin::Aside Menu-->
-    <div class="aside-menu-wrapper flex-column-fluid" id="kt_aside_menu_wrapper">
-
-        <!--begin::Menu Container-->
-        <div
-            id="kt_aside_menu"
-            class="aside-menu my-4 "
-            data-menu-vertical="1"
-            data-menu-scroll="1" data-menu-dropdown-timeout="500">
-            <!--begin::Menu Nav-->
-            <ul class="menu-nav ">
-                <li class="menu-item  menu-item-active" aria-haspopup="true"><a href="index.html"
-                                                                                class="menu-link "><span
-                            class="svg-icon menu-icon"><!--begin::Svg Icon | path:assets/media/svg/icons/desgin/Layers.svg--><svg
-                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <polygon points="0 0 24 0 24 24 0 24"/>
-        <path
-            d="M12.9336061,16.072447 L19.36,10.9564761 L19.5181585,10.8312381 C20.1676248,10.3169571 20.2772143,9.3735535 19.7629333,8.72408713 C19.6917232,8.63415859 19.6104327,8.55269514 19.5206557,8.48129411 L12.9336854,3.24257445 C12.3871201,2.80788259 11.6128799,2.80788259 11.0663146,3.24257445 L4.47482784,8.48488609 C3.82645598,9.00054628 3.71887192,9.94418071 4.23453211,10.5925526 C4.30500305,10.6811601 4.38527899,10.7615046 4.47382636,10.8320511 L4.63,10.9564761 L11.0659024,16.0730648 C11.6126744,16.5077525 12.3871218,16.5074963 12.9336061,16.072447 Z"
-            fill="#000000" fill-rule="nonzero"/>
-        <path
-            d="M11.0563554,18.6706981 L5.33593024,14.122919 C4.94553994,13.8125559 4.37746707,13.8774308 4.06710397,14.2678211 C4.06471678,14.2708238 4.06234874,14.2738418 4.06,14.2768747 L4.06,14.2768747 C3.75257288,14.6738539 3.82516916,15.244888 4.22214834,15.5523151 C4.22358765,15.5534297 4.2250303,15.55454 4.22647627,15.555646 L11.0872776,20.8031356 C11.6250734,21.2144692 12.371757,21.2145375 12.909628,20.8033023 L19.7677785,15.559828 C20.1693192,15.2528257 20.2459576,14.6784381 19.9389553,14.2768974 C19.9376429,14.2751809 19.9363245,14.2734691 19.935,14.2717619 L19.935,14.2717619 C19.6266937,13.8743807 19.0546209,13.8021712 18.6572397,14.1104775 C18.654352,14.112718 18.6514778,14.1149757 18.6486172,14.1172508 L12.9235044,18.6705218 C12.377022,19.1051477 11.6029199,19.1052208 11.0563554,18.6706981 Z"
-            fill="#000000" opacity="0.3"/>
-    </g>
-</svg><!--end::Svg Icon--></span><span class="menu-text">داشبورد</span></a></li>
-                <li class="menu-section ">
-                    <h4 class="menu-text">سفارشی</h4>
-                    <i class="menu-icon ki ki-bold-more-hor icon-md"></i>
-                </li>
-                <li class="menu-item  menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a
-                        href="javascript:;" class="menu-link menu-toggle"><span class="svg-icon menu-icon"><!--begin::Svg Icon | path:assets/media/svg/icons/layout/layout-4-blocks.svg--><svg
-                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect x="0" y="0" width="24" height="24"/>
-        <rect fill="#000000" x="4" y="4" width="7" height="7" rx="1.5"/>
-        <path
-            d="M5.5,13 L9.5,13 C10.3284271,13 11,13.6715729 11,14.5 L11,18.5 C11,19.3284271 10.3284271,20 9.5,20 L5.5,20 C4.67157288,20 4,19.3284271 4,18.5 L4,14.5 C4,13.6715729 4.67157288,13 5.5,13 Z M14.5,4 L18.5,4 C19.3284271,4 20,4.67157288 20,5.5 L20,9.5 C20,10.3284271 19.3284271,11 18.5,11 L14.5,11 C13.6715729,11 13,10.3284271 13,9.5 L13,5.5 C13,4.67157288 13.6715729,4 14.5,4 Z M14.5,13 L18.5,13 C19.3284271,13 20,13.6715729 20,14.5 L20,18.5 C20,19.3284271 19.3284271,20 18.5,20 L14.5,20 C13.6715729,20 13,19.3284271 13,18.5 L13,14.5 C13,13.6715729 13.6715729,13 14.5,13 Z"
-            fill="#000000" opacity="0.3"/>
-    </g>
-</svg><!--end::Svg Icon--></span><span class="menu-text">اپلیکیشن ها</span><i class="menu-arrow"></i></a>
-                    <div class="menu-submenu "><i class="menu-arrow"></i>
-                        <ul class="menu-subnav">
-                            <li class="menu-item  menu-item-parent" aria-haspopup="true"><span
-                                    class="menu-link"><span class="menu-text">اپلیکیشن ها</span></span></li>
-                            <li class="menu-item  menu-item-submenu" aria-haspopup="true"
-                                data-menu-toggle="hover"><a href="javascript:;" class="menu-link menu-toggle"><i
-                                        class="menu-bullet menu-bullet-line"><span></span></i><span
-                                        class="menu-text">کاربران</span><span class="menu-label"><span
-                                            class="label label-rounded label-primary">6</span></span><i
-                                        class="menu-arrow"></i></a>
-                                <div class="menu-submenu "><i class="menu-arrow"></i>
-                                    <ul class="menu-subnav">
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/apps/user/list-default.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">لیست - پیش فرض</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/apps/user/list-datatable.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">لیست - قابل استفاده</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/apps/user/list-columns-1.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">لیست - ستون 1</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/apps/user/list-columns-2.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">لیست - ستون 2</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/apps/user/add-user.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">افزودن کاربر</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/apps/user/edit-user.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">ویرایش کاربر</span></a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="menu-item  menu-item-submenu" aria-haspopup="true"
-                                data-menu-toggle="hover"><a href="javascript:;" class="menu-link menu-toggle"><i
-                                        class="menu-bullet menu-bullet-line"><span></span></i><span
-                                        class="menu-text">پروفایل</span><i class="menu-arrow"></i></a>
-                                <div class="menu-submenu "><i class="menu-arrow"></i>
-                                    <ul class="menu-subnav">
-                                        <li class="menu-item  menu-item-submenu" aria-haspopup="true"
-                                            data-menu-toggle="hover"><a href="javascript:;"
-                                                                        class="menu-link menu-toggle"><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">پروفایل 1</span><i class="menu-arrow"></i></a>
-                                            <div class="menu-submenu "><i class="menu-arrow"></i>
-                                                <ul class="menu-subnav">
-                                                    <li class="menu-item " aria-haspopup="true"><a
-                                                            href="custom/apps/profile/profile-1/overview.html"
-                                                            class="menu-link "><i
-                                                                class="menu-bullet menu-bullet-line"><span></span></i><span
-                                                                class="menu-text">بررسی</span></a></li>
-                                                    <li class="menu-item " aria-haspopup="true"><a
-                                                            href="custom/apps/profile/profile-1/personal-information.html"
-                                                            class="menu-link "><i
-                                                                class="menu-bullet menu-bullet-line"><span></span></i><span
-                                                                class="menu-text">اطلاعات شخصی</span></a></li>
-                                                    <li class="menu-item " aria-haspopup="true"><a
-                                                            href="custom/apps/profile/profile-1/account-information.html"
-                                                            class="menu-link "><i
-                                                                class="menu-bullet menu-bullet-line"><span></span></i><span
-                                                                class="menu-text">اطلاعات حساب</span></a></li>
-                                                    <li class="menu-item " aria-haspopup="true"><a
-                                                            href="custom/apps/profile/profile-1/change-password.html"
-                                                            class="menu-link "><i
-                                                                class="menu-bullet menu-bullet-line"><span></span></i><span
-                                                                class="menu-text">تغییر رمز عبور</span></a></li>
-                                                    <li class="menu-item " aria-haspopup="true"><a
-                                                            href="custom/apps/profile/profile-1/email-settings.html"
-                                                            class="menu-link "><i
-                                                                class="menu-bullet menu-bullet-line"><span></span></i><span
-                                                                class="menu-text">پست الکترونیک تنظیمات</span></a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/apps/profile/profile-2.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">پروفایل 2</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/apps/profile/profile-3.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">پروفایل 3</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/apps/profile/profile-4.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">پروفایل 4</span></a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="menu-item  menu-item-submenu" aria-haspopup="true"
-                                data-menu-toggle="hover"><a href="javascript:;" class="menu-link menu-toggle"><i
-                                        class="menu-bullet menu-bullet-line"><span></span></i><span
-                                        class="menu-text">مخاطب</span><i class="menu-arrow"></i></a>
-                                <div class="menu-submenu "><i class="menu-arrow"></i>
-                                    <ul class="menu-subnav">
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/apps/contacts/list-columns.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">لیست - ستون ها</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/apps/contacts/list-datatable.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">لیست - قابل استفاده</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/apps/contacts/view-contact.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">مشاهده مخاطب</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/apps/contacts/add-contact.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">افزودن مخاطب</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/apps/contacts/edit-contact.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">ویرایش مخاطب</span></a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="menu-item  menu-item-submenu" aria-haspopup="true"
-                                data-menu-toggle="hover"><a href="javascript:;" class="menu-link menu-toggle"><i
-                                        class="menu-bullet menu-bullet-line"><span></span></i><span
-                                        class="menu-text">پروژه ها</span><i class="menu-arrow"></i></a>
-                                <div class="menu-submenu "><i class="menu-arrow"></i>
-                                    <ul class="menu-subnav">
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/apps/projects/list-columns-1.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">لیست - ستون 1</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/apps/projects/list-columns-2.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">لیست - ستون 2</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/apps/projects/list-columns-3.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">لیست - ستون ها 3</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/apps/projects/list-columns-4.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">لیست - ستون ها 4</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/apps/projects/list-datatable.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">لیست - قابل استفاده</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/apps/projects/view-project.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">مشاهده پروژه</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/apps/projects/add-project.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">افزودن پروژه</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/apps/projects/edit-project.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">ویرایش پروژه</span></a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="menu-item  menu-item-submenu" aria-haspopup="true"
-                                data-menu-toggle="hover"><a href="javascript:;" class="menu-link menu-toggle"><i
-                                        class="menu-bullet menu-bullet-line"><span></span></i><span
-                                        class="menu-text">مرکز پشتیبانی</span><i class="menu-arrow"></i></a>
-                                <div class="menu-submenu "><i class="menu-arrow"></i>
-                                    <ul class="menu-subnav">
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/apps/support-center/home-1.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">خانه 1</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/apps/support-center/home-2.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">خانه 2</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/apps/support-center/faq-1.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">سؤالات متداول 1</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/apps/support-center/faq-2.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">سؤالات متداول 2</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/apps/support-center/faq-3.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">سؤالات متداول 3</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/apps/support-center/feedback.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">بازخورد</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/apps/support-center/license.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">مجوز</span></a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="menu-item  menu-item-submenu" aria-haspopup="true"
-                                data-menu-toggle="hover"><a href="javascript:;" class="menu-link menu-toggle"><i
-                                        class="menu-bullet menu-bullet-line"><span></span></i><span
-                                        class="menu-text">چت</span><i class="menu-arrow"></i></a>
-                                <div class="menu-submenu "><i class="menu-arrow"></i>
-                                    <ul class="menu-subnav">
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/apps/chat/private.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">خصوصی</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/apps/chat/group.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">گروه</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/apps/chat/popup.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">پاپ آپ</span></a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="menu-item  menu-item-submenu" aria-haspopup="true"
-                                data-menu-toggle="hover"><a href="javascript:;" class="menu-link menu-toggle"><i
-                                        class="menu-bullet menu-bullet-line"><span></span></i><span
-                                        class="menu-text">انجام دادن</span><i class="menu-arrow"></i></a>
-                                <div class="menu-submenu "><i class="menu-arrow"></i>
-                                    <ul class="menu-subnav">
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/apps/todo/tasks.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">وظایف</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/apps/todo/docs.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">اسناد</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/apps/todo/files.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">پرونده ها</span></a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="menu-item  menu-item-submenu" aria-haspopup="true"
-                                data-menu-toggle="hover"><a href="javascript:;" class="menu-link menu-toggle"><i
-                                        class="menu-bullet menu-bullet-line"><span></span></i><span
-                                        class="menu-text">تحصیلات</span><i class="menu-arrow"></i></a>
-                                <div class="menu-submenu "><i class="menu-arrow"></i>
-                                    <ul class="menu-subnav">
-                                        <li class="menu-item  menu-item-submenu" aria-haspopup="true"
-                                            data-menu-toggle="hover"><a href="javascript:;"
-                                                                        class="menu-link menu-toggle"><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">مدرسه</span><i class="menu-arrow"></i></a>
-                                            <div class="menu-submenu "><i class="menu-arrow"></i>
-                                                <ul class="menu-subnav">
-                                                    <li class="menu-item " aria-haspopup="true"><a
-                                                            href="custom/apps/education/school/dashboard.html"
-                                                            class="menu-link "><i
-                                                                class="menu-bullet menu-bullet-line"><span></span></i><span
-                                                                class="menu-text">داشبورد</span></a></li>
-                                                    <li class="menu-item " aria-haspopup="true"><a
-                                                            href="custom/apps/education/school/statistics.html"
-                                                            class="menu-link "><i
-                                                                class="menu-bullet menu-bullet-line"><span></span></i><span
-                                                                class="menu-text">آمار</span></a></li>
-                                                    <li class="menu-item " aria-haspopup="true"><a
-                                                            href="custom/apps/education/school/calendar.html"
-                                                            class="menu-link "><i
-                                                                class="menu-bullet menu-bullet-line"><span></span></i><span
-                                                                class="menu-text">تقویم</span></a></li>
-                                                    <li class="menu-item " aria-haspopup="true"><a
-                                                            href="custom/apps/education/school/library.html"
-                                                            class="menu-link "><i
-                                                                class="menu-bullet menu-bullet-line"><span></span></i><span
-                                                                class="menu-text">کتابخانه</span></a></li>
-                                                    <li class="menu-item " aria-haspopup="true"><a
-                                                            href="custom/apps/education/school/teachers.html"
-                                                            class="menu-link "><i
-                                                                class="menu-bullet menu-bullet-line"><span></span></i><span
-                                                                class="menu-text">معلمان</span></a></li>
-                                                    <li class="menu-item " aria-haspopup="true"><a
-                                                            href="custom/apps/education/school/students.html"
-                                                            class="menu-link "><i
-                                                                class="menu-bullet menu-bullet-line"><span></span></i><span
-                                                                class="menu-text">دانش آموزان</span></a></li>
-                                                </ul>
-                                            </div>
-                                        </li>
-                                        <li class="menu-item  menu-item-submenu" aria-haspopup="true"
-                                            data-menu-toggle="hover"><a href="javascript:;"
-                                                                        class="menu-link menu-toggle"><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">دانشجو</span><i
-                                                    class="menu-arrow"></i></a>
-                                            <div class="menu-submenu "><i class="menu-arrow"></i>
-                                                <ul class="menu-subnav">
-                                                    <li class="menu-item " aria-haspopup="true"><a
-                                                            href="custom/apps/education/student/dashboard.html"
-                                                            class="menu-link "><i
-                                                                class="menu-bullet menu-bullet-line"><span></span></i><span
-                                                                class="menu-text">داشبورد</span></a></li>
-                                                    <li class="menu-item " aria-haspopup="true"><a
-                                                            href="custom/apps/education/student/profile.html"
-                                                            class="menu-link "><i
-                                                                class="menu-bullet menu-bullet-line"><span></span></i><span
-                                                                class="menu-text">پروفایل</span></a></li>
-                                                    <li class="menu-item " aria-haspopup="true"><a
-                                                            href="custom/apps/education/student/calendar.html"
-                                                            class="menu-link "><i
-                                                                class="menu-bullet menu-bullet-line"><span></span></i><span
-                                                                class="menu-text">تقویم</span></a></li>
-                                                    <li class="menu-item " aria-haspopup="true"><a
-                                                            href="custom/apps/education/student/classmates.html"
-                                                            class="menu-link "><i
-                                                                class="menu-bullet menu-bullet-line"><span></span></i><span
-                                                                class="menu-text">کلاس های من</span></a></li>
-                                                </ul>
-                                            </div>
-                                        </li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/apps/education/class/dashboard.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">کلاس</span></a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="menu-item " aria-haspopup="true"><a href="custom/apps/inbox.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-line"><span></span></i><span
-                                        class="menu-text">صندوق ورودی</span><span class="menu-label"><span
-                                            class="label label-danger label-inline">جدید</span></span></a></li>
-                        </ul>
+<div id="kt_aside" class="aside" data-kt-drawer="true" data-kt-drawer-name="aside"
+     data-kt-drawer-activate="{default: true, lg: false}" data-kt-drawer-overlay="true"
+     data-kt-drawer-width="{default:'200px', '300px': '250px'}" data-kt-drawer-direction="start"
+     data-kt-drawer-toggle="#kt_aside_mobile_toggle">
+    <!--begin::Aside Toolbarl-->
+    <div class="aside-toolbar flex-column-auto" id="kt_aside_toolbar">
+        <!--begin::Aside user-->
+        <!--begin::User-->
+        <div class="aside-user d-flex align-items-sm-center justify-content-center py-5">
+            <!--begin::Symbol-->
+            <div class="symbol symbol-50px">
+                <img src="assets/media/avatars/300-1.jpg" alt=""/>
+            </div>
+            <!--end::Symbol-->
+            <!--begin::Wrapper-->
+            <div class="aside-user-info flex-row-fluid flex-wrap ms-5">
+                <!--begin::Section-->
+                <div class="d-flex">
+                    <!--begin::Info-->
+                    <div class="flex-grow-1 me-2">
+                        <!--begin::Username-->
+                        <a href="#" class="text-white text-hover-primary fs-6 fw-bold">Paul Melone</a>
+                        <!--end::Username-->
+                        <!--begin::Description-->
+                        <span class="text-gray-600 fw-bold d-block fs-8 mb-1">Python Dev</span>
+                        <!--end::Description-->
+                        <!--begin::Label-->
+                        <div class="d-flex align-items-center text-success fs-9">
+                            <span class="bullet bullet-dot bg-success me-1"></span>online
+                        </div>
+                        <!--end::Label-->
                     </div>
-                </li>
-                <li class="menu-item  menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a
-                        href="javascript:;" class="menu-link menu-toggle"><span class="svg-icon menu-icon"><!--begin::Svg Icon | path:assets/media/svg/icons/Shopping/Barcode-read.svg--><svg
-                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect x="0" y="0" width="24" height="24"/>
-        <rect fill="#000000" opacity="0.3" x="4" y="4" width="8" height="16"/>
-        <path
-            d="M6,18 L9,18 C9.66666667,18.1143819 10,18.4477153 10,19 C10,19.5522847 9.66666667,19.8856181 9,20 L4,20 L4,15 C4,14.3333333 4.33333333,14 5,14 C5.66666667,14 6,14.3333333 6,15 L6,18 Z M18,18 L18,15 C18.1143819,14.3333333 18.4477153,14 19,14 C19.5522847,14 19.8856181,14.3333333 20,15 L20,20 L15,20 C14.3333333,20 14,19.6666667 14,19 C14,18.3333333 14.3333333,18 15,18 L18,18 Z M18,6 L15,6 C14.3333333,5.88561808 14,5.55228475 14,5 C14,4.44771525 14.3333333,4.11438192 15,4 L20,4 L20,9 C20,9.66666667 19.6666667,10 19,10 C18.3333333,10 18,9.66666667 18,9 L18,6 Z M6,6 L6,9 C5.88561808,9.66666667 5.55228475,10 5,10 C4.44771525,10 4.11438192,9.66666667 4,9 L4,4 L9,4 C9.66666667,4 10,4.33333333 10,5 C10,5.66666667 9.66666667,6 9,6 L6,6 Z"
-            fill="#000000" fill-rule="nonzero"/>
-    </g>
-</svg><!--end::Svg Icon--></span><span class="menu-text">صفحات</span><i class="menu-arrow"></i></a>
-                    <div class="menu-submenu "><i class="menu-arrow"></i>
-                        <ul class="menu-subnav">
-                            <li class="menu-item  menu-item-parent" aria-haspopup="true"><span
-                                    class="menu-link"><span class="menu-text">صفحات</span></span></li>
-                            <li class="menu-item  menu-item-submenu" aria-haspopup="true"
-                                data-menu-toggle="hover"><a href="javascript:;" class="menu-link menu-toggle"><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">لاگین</span><i class="menu-arrow"></i></a>
-                                <div class="menu-submenu "><i class="menu-arrow"></i>
-                                    <ul class="menu-subnav">
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/pages/login/login-1.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">لاگین 1</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/pages/login/login-2.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">لاگین 2</span></a></li>
-                                        <li class="menu-item  menu-item-submenu" aria-haspopup="true"
-                                            data-menu-toggle="hover"><a href="javascript:;"
-                                                                        class="menu-link menu-toggle"><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">لاگین 3</span><span
-                                                    class="menu-label"><span
-                                                        class="label label-inline label-info">ویزارد</span></span><i
-                                                    class="menu-arrow"></i></a>
-                                            <div class="menu-submenu "><i class="menu-arrow"></i>
-                                                <ul class="menu-subnav">
-                                                    <li class="menu-item " aria-haspopup="true"><a
-                                                            href="custom/pages/login/login-3/signup.html"
-                                                            class="menu-link "><i
-                                                                class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                                class="menu-text">ثبت نام</span></a></li>
-                                                    <li class="menu-item " aria-haspopup="true"><a
-                                                            href="custom/pages/login/login-3/signin.html"
-                                                            class="menu-link "><i
-                                                                class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                                class="menu-text">ورود</span></a></li>
-                                                    <li class="menu-item " aria-haspopup="true"><a
-                                                            href="custom/pages/login/login-3/forgot.html"
-                                                            class="menu-link "><i
-                                                                class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                                class="menu-text">رمز عبور را فراموش کرده اید</span></a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </li>
-                                        <li class="menu-item  menu-item-submenu" aria-haspopup="true"
-                                            data-menu-toggle="hover"><a href="javascript:;"
-                                                                        class="menu-link menu-toggle"><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">لاگین 4</span><span
-                                                    class="menu-label"><span
-                                                        class="label label-inline label-info">ویزارد</span></span><i
-                                                    class="menu-arrow"></i></a>
-                                            <div class="menu-submenu "><i class="menu-arrow"></i>
-                                                <ul class="menu-subnav">
-                                                    <li class="menu-item " aria-haspopup="true"><a
-                                                            href="custom/pages/login/login-4/signup.html"
-                                                            class="menu-link "><i
-                                                                class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                                class="menu-text">ثبت نام</span></a></li>
-                                                    <li class="menu-item " aria-haspopup="true"><a
-                                                            href="custom/pages/login/login-4/signin.html"
-                                                            class="menu-link "><i
-                                                                class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                                class="menu-text">ورود</span></a></li>
-                                                    <li class="menu-item " aria-haspopup="true"><a
-                                                            href="custom/pages/login/login-4/forgot.html"
-                                                            class="menu-link "><i
-                                                                class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                                class="menu-text">رمز عبور را فراموش کرده اید</span></a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </li>
-                                        <li class="menu-item  menu-item-submenu" aria-haspopup="true"
-                                            data-menu-toggle="hover"><a href="javascript:;"
-                                                                        class="menu-link menu-toggle"><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">کلاسیک</span><i
-                                                    class="menu-arrow"></i></a>
-                                            <div class="menu-submenu "><i class="menu-arrow"></i>
-                                                <ul class="menu-subnav">
-                                                    <li class="menu-item " aria-haspopup="true"><a
-                                                            href="custom/pages/login/classic/login-1.html"
-                                                            class="menu-link "><i
-                                                                class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                                class="menu-text">لاگین 1</span></a></li>
-                                                    <li class="menu-item " aria-haspopup="true"><a
-                                                            href="custom/pages/login/classic/login-2.html"
-                                                            class="menu-link "><i
-                                                                class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                                class="menu-text">لاگین 2</span></a></li>
-                                                    <li class="menu-item " aria-haspopup="true"><a
-                                                            href="custom/pages/login/classic/login-3.html"
-                                                            class="menu-link "><i
-                                                                class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                                class="menu-text">لاگین 3</span></a></li>
-                                                    <li class="menu-item " aria-haspopup="true"><a
-                                                            href="custom/pages/login/classic/login-4.html"
-                                                            class="menu-link "><i
-                                                                class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                                class="menu-text">لاگین 4</span></a></li>
-                                                    <li class="menu-item " aria-haspopup="true"><a
-                                                            href="custom/pages/login/classic/login-5.html"
-                                                            class="menu-link "><i
-                                                                class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                                class="menu-text">لاگین 5</span></a></li>
-                                                    <li class="menu-item " aria-haspopup="true"><a
-                                                            href="custom/pages/login/classic/login-6.html"
-                                                            class="menu-link "><i
-                                                                class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                                class="menu-text">لاگین 6</span></a></li>
-                                                </ul>
-                                            </div>
-                                        </li>
-                                    </ul>
+                    <!--end::Info-->
+                    <!--begin::User menu-->
+                    <div class="me-n2">
+                        <!--begin::Action-->
+                        <a href="#" class="btn btn-icon btn-sm btn-active-color-primary mt-n2"
+                           data-kt-menu-trigger="click" data-kt-menu-placement="bottom-start"
+                           data-kt-menu-overflow="true">
+                            <!--begin::Svg Icon | path: icons/duotune/coding/cod001.svg-->
+                            <span class="svg-icon svg-icon-muted svg-icon-1">
+												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                     viewBox="0 0 24 24" fill="none">
+													<path opacity="0.3"
+                                                          d="M22.1 11.5V12.6C22.1 13.2 21.7 13.6 21.2 13.7L19.9 13.9C19.7 14.7 19.4 15.5 18.9 16.2L19.7 17.2999C20 17.6999 20 18.3999 19.6 18.7999L18.8 19.6C18.4 20 17.8 20 17.3 19.7L16.2 18.9C15.5 19.3 14.7 19.7 13.9 19.9L13.7 21.2C13.6 21.7 13.1 22.1 12.6 22.1H11.5C10.9 22.1 10.5 21.7 10.4 21.2L10.2 19.9C9.4 19.7 8.6 19.4 7.9 18.9L6.8 19.7C6.4 20 5.7 20 5.3 19.6L4.5 18.7999C4.1 18.3999 4.1 17.7999 4.4 17.2999L5.2 16.2C4.8 15.5 4.4 14.7 4.2 13.9L2.9 13.7C2.4 13.6 2 13.1 2 12.6V11.5C2 10.9 2.4 10.5 2.9 10.4L4.2 10.2C4.4 9.39995 4.7 8.60002 5.2 7.90002L4.4 6.79993C4.1 6.39993 4.1 5.69993 4.5 5.29993L5.3 4.5C5.7 4.1 6.3 4.10002 6.8 4.40002L7.9 5.19995C8.6 4.79995 9.4 4.39995 10.2 4.19995L10.4 2.90002C10.5 2.40002 11 2 11.5 2H12.6C13.2 2 13.6 2.40002 13.7 2.90002L13.9 4.19995C14.7 4.39995 15.5 4.69995 16.2 5.19995L17.3 4.40002C17.7 4.10002 18.4 4.1 18.8 4.5L19.6 5.29993C20 5.69993 20 6.29993 19.7 6.79993L18.9 7.90002C19.3 8.60002 19.7 9.39995 19.9 10.2L21.2 10.4C21.7 10.5 22.1 11 22.1 11.5ZM12.1 8.59998C10.2 8.59998 8.6 10.2 8.6 12.1C8.6 14 10.2 15.6 12.1 15.6C14 15.6 15.6 14 15.6 12.1C15.6 10.2 14 8.59998 12.1 8.59998Z"
+                                                          fill="black"/>
+													<path
+                                                        d="M17.1 12.1C17.1 14.9 14.9 17.1 12.1 17.1C9.30001 17.1 7.10001 14.9 7.10001 12.1C7.10001 9.29998 9.30001 7.09998 12.1 7.09998C14.9 7.09998 17.1 9.29998 17.1 12.1ZM12.1 10.1C11 10.1 10.1 11 10.1 12.1C10.1 13.2 11 14.1 12.1 14.1C13.2 14.1 14.1 13.2 14.1 12.1C14.1 11 13.2 10.1 12.1 10.1Z"
+                                                        fill="black"/>
+												</svg>
+											</span>
+                            <!--end::Svg Icon-->
+                        </a>
+                        <!--begin::User account menu-->
+                        <div
+                            class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg menu-state-primary fw-bold py-4 fs-6 w-275px"
+                            data-kt-menu="true">
+                            <!--begin::Menu item-->
+                            <div class="menu-item px-3">
+                                <div class="menu-content d-flex align-items-center px-3">
+                                    <!--begin::Avatar-->
+                                    <div class="symbol symbol-50px me-5">
+                                        <img alt="Logo" src="assets/media/avatars/300-1.jpg"/>
+                                    </div>
+                                    <!--end::Avatar-->
+                                    <!--begin::Username-->
+                                    <div class="d-flex flex-column">
+                                        <div class="fw-bolder d-flex align-items-center fs-5">Max Smith
+                                            <span
+                                                class="badge badge-light-success fw-bolder fs-8 px-2 py-1 ms-2">Pro</span>
+                                        </div>
+                                        <a href="#" class="fw-bold text-muted text-hover-primary fs-7">max@kt.com</a>
+                                    </div>
+                                    <!--end::Username-->
                                 </div>
-                            </li>
-                            <li class="menu-item  menu-item-submenu" aria-haspopup="true"
-                                data-menu-toggle="hover"><a href="javascript:;" class="menu-link menu-toggle"><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">ویزارد</span><i class="menu-arrow"></i></a>
-                                <div class="menu-submenu "><i class="menu-arrow"></i>
-                                    <ul class="menu-subnav">
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/pages/wizard/wizard-1.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">ویزارد 1</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/pages/wizard/wizard-2.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">ویزارد 2</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/pages/wizard/wizard-3.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">ویزارد 3</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/pages/wizard/wizard-4.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">ویزارد 4</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/pages/wizard/wizard-5.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">ویزارد 5</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/pages/wizard/wizard-6.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">ویزارد 6</span></a></li>
-                                    </ul>
+                            </div>
+                            <!--end::Menu item-->
+                            <!--begin::Menu separator-->
+                            <div class="separator my-2"></div>
+                            <!--end::Menu separator-->
+                            <!--begin::Menu item-->
+                            <div class="menu-item px-5">
+                                <a href="../../demo8/dist/account/overview.html" class="menu-link px-5">My Profile</a>
+                            </div>
+                            <!--end::Menu item-->
+                            <!--begin::Menu item-->
+                            <div class="menu-item px-5">
+                                <a href="../../demo8/dist/apps/projects/list.html" class="menu-link px-5">
+                                    <span class="menu-text">My Projects</span>
+                                    <span class="menu-badge">
+														<span
+                                                            class="badge badge-light-danger badge-circle fw-bolder fs-7">3</span>
+													</span>
+                                </a>
+                            </div>
+                            <!--end::Menu item-->
+                            <!--begin::Menu item-->
+                            <div class="menu-item px-5" data-kt-menu-trigger="hover"
+                                 data-kt-menu-placement="right-start">
+                                <a href="#" class="menu-link px-5">
+                                    <span class="menu-title">My Subscription</span>
+                                    <span class="menu-arrow"></span>
+                                </a>
+                                <!--begin::Menu sub-->
+                                <div class="menu-sub menu-sub-dropdown w-175px py-4">
+                                    <!--begin::Menu item-->
+                                    <div class="menu-item px-3">
+                                        <a href="../../demo8/dist/account/referrals.html" class="menu-link px-5">Referrals</a>
+                                    </div>
+                                    <!--end::Menu item-->
+                                    <!--begin::Menu item-->
+                                    <div class="menu-item px-3">
+                                        <a href="../../demo8/dist/account/billing.html"
+                                           class="menu-link px-5">Billing</a>
+                                    </div>
+                                    <!--end::Menu item-->
+                                    <!--begin::Menu item-->
+                                    <div class="menu-item px-3">
+                                        <a href="../../demo8/dist/account/statements.html" class="menu-link px-5">Payments</a>
+                                    </div>
+                                    <!--end::Menu item-->
+                                    <!--begin::Menu item-->
+                                    <div class="menu-item px-3">
+                                        <a href="../../demo8/dist/account/statements.html"
+                                           class="menu-link d-flex flex-stack px-5">Statements
+                                            <i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip"
+                                               title="View your statements"></i></a>
+                                    </div>
+                                    <!--end::Menu item-->
+                                    <!--begin::Menu separator-->
+                                    <div class="separator my-2"></div>
+                                    <!--end::Menu separator-->
+                                    <!--begin::Menu item-->
+                                    <div class="menu-item px-3">
+                                        <div class="menu-content px-3">
+                                            <label class="form-check form-switch form-check-custom form-check-solid">
+                                                <input class="form-check-input w-30px h-20px" type="checkbox" value="1"
+                                                       checked="checked" name="notifications"/>
+                                                <span class="form-check-label text-muted fs-7">Notifications</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <!--end::Menu item-->
                                 </div>
-                            </li>
-                            <li class="menu-item  menu-item-submenu" aria-haspopup="true"
-                                data-menu-toggle="hover"><a href="javascript:;" class="menu-link menu-toggle"><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">جداول قیمت گذاری</span><i class="menu-arrow"></i></a>
-                                <div class="menu-submenu "><i class="menu-arrow"></i>
-                                    <ul class="menu-subnav">
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/pages/pricing/pricing-1.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">جداول قیمت گذاری 1</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/pages/pricing/pricing-2.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">جداول قیمت گذاری 2</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/pages/pricing/pricing-3.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">جداول قیمت گذاری 3</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/pages/pricing/pricing-4.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">جداول قیمت گذاری 4</span></a></li>
-                                    </ul>
+                                <!--end::Menu sub-->
+                            </div>
+                            <!--end::Menu item-->
+                            <!--begin::Menu item-->
+                            <div class="menu-item px-5">
+                                <a href="../../demo8/dist/account/statements.html" class="menu-link px-5">My
+                                    Statements</a>
+                            </div>
+                            <!--end::Menu item-->
+                            <!--begin::Menu separator-->
+                            <div class="separator my-2"></div>
+                            <!--end::Menu separator-->
+                            <!--begin::Menu item-->
+                            <div class="menu-item px-5" data-kt-menu-trigger="hover"
+                                 data-kt-menu-placement="right-start">
+                                <a href="#" class="menu-link px-5">
+													<span class="menu-title position-relative">Language
+													<span
+                                                        class="fs-8 rounded bg-light px-3 py-2 position-absolute translate-middle-y top-50 end-0">English
+													<img class="w-15px h-15px rounded-1 ms-2"
+                                                         src="assets/media/flags/united-states.svg"
+                                                         alt=""/></span></span>
+                                </a>
+                                <!--begin::Menu sub-->
+                                <div class="menu-sub menu-sub-dropdown w-175px py-4">
+                                    <!--begin::Menu item-->
+                                    <div class="menu-item px-3">
+                                        <a href="../../demo8/dist/account/settings.html"
+                                           class="menu-link d-flex px-5 active">
+														<span class="symbol symbol-20px me-4">
+															<img class="rounded-1"
+                                                                 src="assets/media/flags/united-states.svg" alt=""/>
+														</span>English</a>
+                                    </div>
+                                    <!--end::Menu item-->
+                                    <!--begin::Menu item-->
+                                    <div class="menu-item px-3">
+                                        <a href="../../demo8/dist/account/settings.html" class="menu-link d-flex px-5">
+														<span class="symbol symbol-20px me-4">
+															<img class="rounded-1" src="assets/media/flags/spain.svg"
+                                                                 alt=""/>
+														</span>Spanish</a>
+                                    </div>
+                                    <!--end::Menu item-->
+                                    <!--begin::Menu item-->
+                                    <div class="menu-item px-3">
+                                        <a href="../../demo8/dist/account/settings.html" class="menu-link d-flex px-5">
+														<span class="symbol symbol-20px me-4">
+															<img class="rounded-1" src="assets/media/flags/germany.svg"
+                                                                 alt=""/>
+														</span>German</a>
+                                    </div>
+                                    <!--end::Menu item-->
+                                    <!--begin::Menu item-->
+                                    <div class="menu-item px-3">
+                                        <a href="../../demo8/dist/account/settings.html" class="menu-link d-flex px-5">
+														<span class="symbol symbol-20px me-4">
+															<img class="rounded-1" src="assets/media/flags/japan.svg"
+                                                                 alt=""/>
+														</span>Japanese</a>
+                                    </div>
+                                    <!--end::Menu item-->
+                                    <!--begin::Menu item-->
+                                    <div class="menu-item px-3">
+                                        <a href="../../demo8/dist/account/settings.html" class="menu-link d-flex px-5">
+														<span class="symbol symbol-20px me-4">
+															<img class="rounded-1" src="assets/media/flags/france.svg"
+                                                                 alt=""/>
+														</span>French</a>
+                                    </div>
+                                    <!--end::Menu item-->
                                 </div>
-                            </li>
-                            <li class="menu-item  menu-item-submenu" aria-haspopup="true"
-                                data-menu-toggle="hover"><a href="javascript:;" class="menu-link menu-toggle"><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">فاکتور</span><i class="menu-arrow"></i></a>
-                                <div class="menu-submenu "><i class="menu-arrow"></i>
-                                    <ul class="menu-subnav">
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/pages/invoices/invoice-1.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">فاکتور 1</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/pages/invoices/invoice-2.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">فاکتور 2</span></a></li>
-                                    </ul>
+                                <!--end::Menu sub-->
+                            </div>
+                            <!--end::Menu item-->
+                            <!--begin::Menu item-->
+                            <div class="menu-item px-5 my-1">
+                                <a href="../../demo8/dist/account/settings.html" class="menu-link px-5">Account
+                                    Settings</a>
+                            </div>
+                            <!--end::Menu item-->
+                            <!--begin::Menu item-->
+                            <div class="menu-item px-5">
+                                <a href="../../demo8/dist/authentication/flows/basic/sign-in.html"
+                                   class="menu-link px-5">Sign Out</a>
+                            </div>
+                            <!--end::Menu item-->
+                            <!--begin::Menu separator-->
+                            <div class="separator my-2"></div>
+                            <!--end::Menu separator-->
+                            <!--begin::Menu item-->
+                            <div class="menu-item px-5">
+                                <div class="menu-content px-5">
+                                    <label
+                                        class="form-check form-switch form-check-custom form-check-solid pulse pulse-success"
+                                        for="kt_user_menu_dark_mode_toggle">
+                                        <input class="form-check-input w-30px h-20px" type="checkbox" value="1"
+                                               name="mode" id="kt_user_menu_dark_mode_toggle"
+                                               data-kt-url="../../demo8/dist/index.html"/>
+                                        <span class="pulse-ring ms-n1"></span>
+                                        <span class="form-check-label text-gray-600 fs-7">Dark Mode</span>
+                                    </label>
                                 </div>
-                            </li>
-                            <li class="menu-item  menu-item-submenu" aria-haspopup="true"
-                                data-menu-toggle="hover"><a href="javascript:;" class="menu-link menu-toggle"><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">خطا</span><i class="menu-arrow"></i></a>
-                                <div class="menu-submenu "><i class="menu-arrow"></i>
-                                    <ul class="menu-subnav">
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/pages/error/error-1.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">خطا 1</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/pages/error/error-2.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">خطا 2</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/pages/error/error-3.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">خطا 3</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/pages/error/error-4.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">خطا 4</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/pages/error/error-5.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">خطا 5</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="custom/pages/error/error-6.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">خطا 6</span></a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                        </ul>
+                            </div>
+                            <!--end::Menu item-->
+                        </div>
+                        <!--end::User account menu-->
+                        <!--end::Action-->
                     </div>
-                </li>
-                <li class="menu-section ">
-                    <h4 class="menu-text">چیدمان</h4>
-                    <i class="menu-icon ki ki-bold-more-hor icon-md"></i>
-                </li>
-                <li class="menu-item  menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a
-                        href="javascript:;" class="menu-link menu-toggle"><span class="svg-icon menu-icon"><!--begin::Svg Icon | path:assets/media/svg/icons/desgin/Bucket.svg--><svg
-                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect x="0" y="0" width="24" height="24"/>
-        <path
-            d="M5,5 L5,15 C5,15.5948613 5.25970314,16.1290656 5.6719139,16.4954176 C5.71978107,16.5379595 5.76682388,16.5788906 5.81365532,16.6178662 C5.82524933,16.6294602 15,7.45470952 15,7.45470952 C15,6.9962515 15,6.17801499 15,5 L5,5 Z M5,3 L15,3 C16.1045695,3 17,3.8954305 17,5 L17,15 C17,17.209139 15.209139,19 13,19 L7,19 C4.790861,19 3,17.209139 3,15 L3,5 C3,3.8954305 3.8954305,3 5,3 Z"
-            fill="#000000" fill-rule="nonzero"
-            transform="translate(10.000000, 11.000000) rotate(-315.000000) translate(-10.000000, -11.000000) "/>
-        <path
-            d="M20,22 C21.6568542,22 23,20.6568542 23,19 C23,17.8954305 22,16.2287638 20,14 C18,16.2287638 17,17.8954305 17,19 C17,20.6568542 18.3431458,22 20,22 Z"
-            fill="#000000" opacity="0.3"/>
-    </g>
-</svg><!--end::Svg Icon--></span><span class="menu-text">تم ها</span><i class="menu-arrow"></i></a>
-                    <div class="menu-submenu "><i class="menu-arrow"></i>
-                        <ul class="menu-subnav">
-                            <li class="menu-item  menu-item-parent" aria-haspopup="true"><span
-                                    class="menu-link"><span class="menu-text">تم ها</span></span></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="layout/themes/aside-light.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">ساید بار روشن</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="layout/themes/header-dark.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">هدر تیره</span></a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="menu-item  menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a
-                        href="javascript:;" class="menu-link menu-toggle"><span class="svg-icon menu-icon"><!--begin::Svg Icon | path:assets/media/svg/icons/کد/Compiling.svg--><svg
-                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect x="0" y="0" width="24" height="24"/>
-        <path
-            d="M2.56066017,10.6819805 L4.68198052,8.56066017 C5.26776695,7.97487373 6.21751442,7.97487373 6.80330086,8.56066017 L8.9246212,10.6819805 C9.51040764,11.267767 9.51040764,12.2175144 8.9246212,12.8033009 L6.80330086,14.9246212 C6.21751442,15.5104076 5.26776695,15.5104076 4.68198052,14.9246212 L2.56066017,12.8033009 C1.97487373,12.2175144 1.97487373,11.267767 2.56066017,10.6819805 Z M14.5606602,10.6819805 L16.6819805,8.56066017 C17.267767,7.97487373 18.2175144,7.97487373 18.8033009,8.56066017 L20.9246212,10.6819805 C21.5104076,11.267767 21.5104076,12.2175144 20.9246212,12.8033009 L18.8033009,14.9246212 C18.2175144,15.5104076 17.267767,15.5104076 16.6819805,14.9246212 L14.5606602,12.8033009 C13.9748737,12.2175144 13.9748737,11.267767 14.5606602,10.6819805 Z"
-            fill="#000000" opacity="0.3"/>
-        <path
-            d="M8.56066017,16.6819805 L10.6819805,14.5606602 C11.267767,13.9748737 12.2175144,13.9748737 12.8033009,14.5606602 L14.9246212,16.6819805 C15.5104076,17.267767 15.5104076,18.2175144 14.9246212,18.8033009 L12.8033009,20.9246212 C12.2175144,21.5104076 11.267767,21.5104076 10.6819805,20.9246212 L8.56066017,18.8033009 C7.97487373,18.2175144 7.97487373,17.267767 8.56066017,16.6819805 Z M8.56066017,4.68198052 L10.6819805,2.56066017 C11.267767,1.97487373 12.2175144,1.97487373 12.8033009,2.56066017 L14.9246212,4.68198052 C15.5104076,5.26776695 15.5104076,6.21751442 14.9246212,6.80330086 L12.8033009,8.9246212 C12.2175144,9.51040764 11.267767,9.51040764 10.6819805,8.9246212 L8.56066017,6.80330086 C7.97487373,6.21751442 7.97487373,5.26776695 8.56066017,4.68198052 Z"
-            fill="#000000"/>
-    </g>
-</svg><!--end::Svg Icon--></span><span class="menu-text">زیر هدرها</span><i class="menu-arrow"></i></a>
-                    <div class="menu-submenu "><i class="menu-arrow"></i>
-                        <ul class="menu-subnav">
-                            <li class="menu-item  menu-item-parent" aria-haspopup="true"><span
-                                    class="menu-link"><span class="menu-text">زیر هدرها</span></span></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="layout/subheader/toolbar.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">نوار ابزار</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="layout/subheader/actions.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">دکمه های عملیاتی</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="layout/subheader/tabbed.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">تب های ناوبری</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="layout/subheader/classic.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">کلاسیک</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="layout/subheader/none.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">هیچ </span></a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="menu-item  menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a
-                        href="javascript:;" class="menu-link menu-toggle"><span class="svg-icon menu-icon"><!--begin::Svg Icon | path:assets/media/svg/icons/عمومی/تنظیمات-1.svg--><svg
-                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect x="0" y="0" width="24" height="24"/>
-        <path
-            d="M7,3 L17,3 C19.209139,3 21,4.790861 21,7 C21,9.209139 19.209139,11 17,11 L7,11 C4.790861,11 3,9.209139 3,7 C3,4.790861 4.790861,3 7,3 Z M7,9 C8.1045695,9 9,8.1045695 9,7 C9,5.8954305 8.1045695,5 7,5 C5.8954305,5 5,5.8954305 5,7 C5,8.1045695 5.8954305,9 7,9 Z"
-            fill="#000000"/>
-        <path
-            d="M7,13 L17,13 C19.209139,13 21,14.790861 21,17 C21,19.209139 19.209139,21 17,21 L7,21 C4.790861,21 3,19.209139 3,17 C3,14.790861 4.790861,13 7,13 Z M17,19 C18.1045695,19 19,18.1045695 19,17 C19,15.8954305 18.1045695,15 17,15 C15.8954305,15 15,15.8954305 15,17 C15,18.1045695 15.8954305,19 17,19 Z"
-            fill="#000000" opacity="0.3"/>
-    </g>
-</svg><!--end::Svg Icon--></span><span class="menu-text">عمومی</span><i class="menu-arrow"></i></a>
-                    <div class="menu-submenu "><i class="menu-arrow"></i>
-                        <ul class="menu-subnav">
-                            <li class="menu-item  menu-item-parent" aria-haspopup="true"><span
-                                    class="menu-link"><span class="menu-text">عمومی</span></span></li>
-                            <li class="menu-item " aria-haspopup="true"><a
-                                    href="layout/general/fluid-content.html" class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">محتوای سیال</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a
-                                    href="layout/general/minimized-aside.html" class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">کمینه کردن سایدبار</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="layout/general/no-aside.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">بدون ساید بار</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="layout/general/empty-page.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">صفحه خالی</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a
-                                    href="layout/general/fixed-footer.html" class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">فوتر ثابت</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a
-                                    href="layout/general/no-header-menu.html" class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">بدون هدر منو</span></a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="menu-item " aria-haspopup="true"><a target="_blank"
-                                                               href="https://preview.keenthemes.com/metronic/preview/demo1/builder.html"
-                                                               class="menu-link "><span
-                            class="svg-icon menu-icon"><!--begin::Svg Icon | path:assets/media/svg/icons/home/کتابخانه.svg--><svg
-                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect x="0" y="0" width="24" height="24"/>
-        <path
-            d="M5,3 L6,3 C6.55228475,3 7,3.44771525 7,4 L7,20 C7,20.5522847 6.55228475,21 6,21 L5,21 C4.44771525,21 4,20.5522847 4,20 L4,4 C4,3.44771525 4.44771525,3 5,3 Z M10,3 L11,3 C11.5522847,3 12,3.44771525 12,4 L12,20 C12,20.5522847 11.5522847,21 11,21 L10,21 C9.44771525,21 9,20.5522847 9,20 L9,4 C9,3.44771525 9.44771525,3 10,3 Z"
-            fill="#000000"/>
-        <rect fill="#000000" opacity="0.3"
-              transform="translate(17.825568, 11.945519) rotate(-19.000000) translate(-17.825568, -11.945519) "
-              x="16.3255682" y="2.94551858" width="3" height="18" rx="1"/>
-    </g>
-</svg><!--end::Svg Icon--></span><span class="menu-text">سازنده</span></a></li>
-                <li class="menu-section ">
-                    <h4 class="menu-text">کراد</h4>
-                    <i class="menu-icon ki ki-bold-more-hor icon-md"></i>
-                </li>
-                <li class="menu-item  menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a
-                        href="javascript:;" class="menu-link menu-toggle"><span class="svg-icon menu-icon"><!--begin::Svg Icon | path:assets/media/svg/icons/desgin/PenAndRuller.svg--><svg
-                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect x="0" y="0" width="24" height="24"/>
-        <path
-            d="M3,16 L5,16 C5.55228475,16 6,15.5522847 6,15 C6,14.4477153 5.55228475,14 5,14 L3,14 L3,12 L5,12 C5.55228475,12 6,11.5522847 6,11 C6,10.4477153 5.55228475,10 5,10 L3,10 L3,8 L5,8 C5.55228475,8 6,7.55228475 6,7 C6,6.44771525 5.55228475,6 5,6 L3,6 L3,4 C3,3.44771525 3.44771525,3 4,3 L10,3 C10.5522847,3 11,3.44771525 11,4 L11,19 C11,19.5522847 10.5522847,20 10,20 L4,20 C3.44771525,20 3,19.5522847 3,19 L3,16 Z"
-            fill="#000000" opacity="0.3"/>
-        <path
-            d="M16,3 L19,3 C20.1045695,3 21,3.8954305 21,5 L21,15.2485298 C21,15.7329761 20.8241635,16.200956 20.5051534,16.565539 L17.8762883,19.5699562 C17.6944473,19.7777745 17.378566,19.7988332 17.1707477,19.6169922 C17.1540423,19.602375 17.1383289,19.5866616 17.1237117,19.5699562 L14.4948466,16.565539 C14.1758365,16.200956 14,15.7329761 14,15.2485298 L14,5 C14,3.8954305 14.8954305,3 16,3 Z"
-            fill="#000000"/>
-    </g>
-</svg><!--end::Svg Icon--></span><span class="menu-text">فرم ها</span><i class="menu-arrow"></i></a>
-                    <div class="menu-submenu "><i class="menu-arrow"></i>
-                        <ul class="menu-subnav">
-                            <li class="menu-item  menu-item-parent" aria-haspopup="true"><span
-                                    class="menu-link"><span class="menu-text">فرم ها</span></span></li>
-                            <li class="menu-item  menu-item-submenu" aria-haspopup="true"
-                                data-menu-toggle="hover"><a href="javascript:;" class="menu-link menu-toggle"><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">کنترل های فرم</span><i class="menu-arrow"></i></a>
-                                <div class="menu-submenu "><i class="menu-arrow"></i>
-                                    <ul class="menu-subnav">
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/forms/controls/base.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">اینپوت های پایه</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/forms/controls/input-group.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">اینپوت گروپ</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/forms/controls/checkbox.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">چک باکس</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/forms/controls/radio.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">رادیو</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/forms/controls/switch.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">سوئیچ</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/forms/controls/option.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">گزینه های مگا</span></a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="menu-item  menu-item-submenu" aria-haspopup="true"
-                                data-menu-toggle="hover"><a href="javascript:;" class="menu-link menu-toggle"><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">ابزارکهای فرم</span><i class="menu-arrow"></i></a>
-                                <div class="menu-submenu "><i class="menu-arrow"></i>
-                                    <ul class="menu-subnav">
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/forms/widgets/bootstrap-datetimepicker.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">انتخابگر تاریخ و زمان</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/forms/widgets/bootstrap-datepicker.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">انتخابگر تاریخ</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/forms/widgets/bootstrap-timepicker.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">انتخاب گر زمان</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/forms/widgets/bootstrap-daterangepicker.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">انتخابگر رنج تاریخ</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/forms/widgets/tagify.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">مشخص کردن</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/forms/widgets/bootstrap-touchspin.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">تاچ اسپین</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/forms/widgets/bootstrap-maxlength.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">بیشترین طول</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/forms/widgets/bootstrap-switch.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">سوئیچ</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/forms/widgets/bootstrap-multipleselectsplitter.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">جداکننده چندگانه</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/forms/widgets/bootstrap-select.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">انتخابگر بوت استرپ</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/forms/widgets/select2.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">انتخابگر2</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/forms/widgets/typeahead.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">تایپ هد</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/forms/widgets/nouislider.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">noUiSlider</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/forms/widgets/form-repeater.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">تکرار فرم</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/forms/widgets/ion-range-slider.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">اسلایدر Ion</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/forms/widgets/input-mask.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">اینپوت ماسک</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/forms/widgets/autosize.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">اندازه اتوماتیک</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/forms/widgets/clipboard.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">کلیپ بورد</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/forms/widgets/recaptcha.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">گوگل ریکپچا</span></a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="menu-item  menu-item-submenu" aria-haspopup="true"
-                                data-menu-toggle="hover"><a href="javascript:;" class="menu-link menu-toggle"><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">ویرایشگر متن</span><i class="menu-arrow"></i></a>
-                                <div class="menu-submenu "><i class="menu-arrow"></i>
-                                    <ul class="menu-subnav">
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/forms/editors/tinymce.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">TinyMCE</span></a></li>
-                                        <li class="menu-item  menu-item-submenu" aria-haspopup="true"
-                                            data-menu-toggle="hover"><a href="javascript:;"
-                                                                        class="menu-link menu-toggle"><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">CKEditor</span><i class="menu-arrow"></i></a>
-                                            <div class="menu-submenu "><i class="menu-arrow"></i>
-                                                <ul class="menu-subnav">
-                                                    <li class="menu-item " aria-haspopup="true"><a
-                                                            href="crud/forms/editors/ckeditor-classic.html"
-                                                            class="menu-link "><i
-                                                                class="menu-bullet menu-bullet-line"><span></span></i><span
-                                                                class="menu-text">CKEditor کلاسیک</span></a>
-                                                    </li>
-                                                    <li class="menu-item " aria-haspopup="true"><a
-                                                            href="crud/forms/editors/ckeditor-inline.html"
-                                                            class="menu-link "><i
-                                                                class="menu-bullet menu-bullet-line"><span></span></i><span
-                                                                class="menu-text">CKEditor Inline</span></a>
-                                                    </li>
-                                                    <li class="menu-item " aria-haspopup="true"><a
-                                                            href="crud/forms/editors/ckeditor-balloon.html"
-                                                            class="menu-link "><i
-                                                                class="menu-bullet menu-bullet-line"><span></span></i><span
-                                                                class="menu-text">بالون CKEditor</span></a></li>
-                                                    <li class="menu-item " aria-haspopup="true"><a
-                                                            href="crud/forms/editors/ckeditor-balloon-block.html"
-                                                            class="menu-link "><i
-                                                                class="menu-bullet menu-bullet-line"><span></span></i><span
-                                                                class="menu-text">بالون بلاک CKEditor</span></a>
-                                                    </li>
-                                                    <li class="menu-item " aria-haspopup="true"><a
-                                                            href="crud/forms/editors/ckeditor-document.html"
-                                                            class="menu-link "><i
-                                                                class="menu-bullet menu-bullet-line"><span></span></i><span
-                                                                class="menu-text">سند CKEditor</span></a></li>
-                                                </ul>
-                                            </div>
-                                        </li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/forms/editors/quill.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">ویرایشگر متن Quill</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/forms/editors/summernote.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">WYSIWYG Summer</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/forms/editors/bootstrap-markdown.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">ویرایشگر مارک دان</span></a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="menu-item  menu-item-submenu" aria-haspopup="true"
-                                data-menu-toggle="hover"><a href="javascript:;" class="menu-link menu-toggle"><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">چیدمان فرم ها</span><i class="menu-arrow"></i></a>
-                                <div class="menu-submenu "><i class="menu-arrow"></i>
-                                    <ul class="menu-subnav">
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/forms/layouts/default-forms.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">فرم های پیش فرض</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/forms/layouts/multi-column-forms.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">فرم های چند ستونی</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/forms/layouts/action-bars.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">نوار ابزار پایه</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/forms/layouts/sticky-action-bar.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">نوار ابزار چسبنده</span></a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="menu-item  menu-item-submenu" aria-haspopup="true"
-                                data-menu-toggle="hover"><a href="javascript:;" class="menu-link menu-toggle"><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">اعتبار سنجی فرم</span><i class="menu-arrow"></i></a>
-                                <div class="menu-submenu "><i class="menu-arrow"></i>
-                                    <ul class="menu-subnav">
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/forms/validation/states.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text"> اعتبارسنجی</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/forms/validation/form-controls.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">کنترل های فرم</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/forms/validation/form-widgets.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">ابزارکهای فرم</span></a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="menu-item  menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a
-                        href="javascript:;" class="menu-link menu-toggle"><span class="svg-icon menu-icon"><!--begin::Svg Icon | path:assets/media/svg/icons/layout/layout-left-panel-2.svg--><svg
-                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect x="0" y="0" width="24" height="24"/>
-        <path
-            d="M10,4 L21,4 C21.5522847,4 22,4.44771525 22,5 L22,7 C22,7.55228475 21.5522847,8 21,8 L10,8 C9.44771525,8 9,7.55228475 9,7 L9,5 C9,4.44771525 9.44771525,4 10,4 Z M10,10 L21,10 C21.5522847,10 22,10.4477153 22,11 L22,13 C22,13.5522847 21.5522847,14 21,14 L10,14 C9.44771525,14 9,13.5522847 9,13 L9,11 C9,10.4477153 9.44771525,10 10,10 Z M10,16 L21,16 C21.5522847,16 22,16.4477153 22,17 L22,19 C22,19.5522847 21.5522847,20 21,20 L10,20 C9.44771525,20 9,19.5522847 9,19 L9,17 C9,16.4477153 9.44771525,16 10,16 Z"
-            fill="#000000"/>
-        <rect fill="#000000" opacity="0.3" x="2" y="4" width="5" height="16" rx="1"/>
-    </g>
-</svg><!--end::Svg Icon--></span><span class="menu-text">جدول داده ها</span><i class="menu-arrow"></i></a>
-                    <div class="menu-submenu "><i class="menu-arrow"></i>
-                        <ul class="menu-subnav">
-                            <li class="menu-item  menu-item-parent" aria-haspopup="true"><span
-                                    class="menu-link"><span class="menu-text">جدول داده ها</span></span></li>
-                            <li class="menu-item  menu-item-submenu" aria-haspopup="true"
-                                data-menu-toggle="hover"><a href="javascript:;" class="menu-link menu-toggle"><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">پایه</span><i class="menu-arrow"></i></a>
-                                <div class="menu-submenu "><i class="menu-arrow"></i>
-                                    <ul class="menu-subnav">
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/ktdatatable/base/data-local.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">داده محلی</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/ktdatatable/base/data-json.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">داده های جیسون</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/ktdatatable/base/data-ajax.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">داده های آژاکس</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/ktdatatable/base/html-table.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">جدول  جی اس</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/ktdatatable/base/local-sort.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">مرتب سازی محلی</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/ktdatatable/base/translation.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">ترجمه</span></a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="menu-item  menu-item-submenu" aria-haspopup="true"
-                                data-menu-toggle="hover"><a href="javascript:;" class="menu-link menu-toggle"><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">پیشرفته</span><i class="menu-arrow"></i></a>
-                                <div class="menu-submenu "><i class="menu-arrow"></i>
-                                    <ul class="menu-subnav">
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/ktdatatable/advanced/record-selection.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">انتخاب رکوردر</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/ktdatatable/advanced/row-details.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">جزئیات سطر</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/ktdatatable/advanced/modal.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">نمونه مودال</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/ktdatatable/advanced/column-rendering.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">رندرینگ ستون</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/ktdatatable/advanced/column-width.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">عرض ستون</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/ktdatatable/advanced/vertical.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">پیمایش عمودی</span></a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="menu-item  menu-item-submenu" aria-haspopup="true"
-                                data-menu-toggle="hover"><a href="javascript:;" class="menu-link menu-toggle"><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">جدول داده های کوچک</span><i
-                                        class="menu-arrow"></i></a>
-                                <div class="menu-submenu "><i class="menu-arrow"></i>
-                                    <ul class="menu-subnav">
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/ktdatatable/child/data-local.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">داده محلی</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/ktdatatable/child/data-ajax.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">داده های از راه دور</span></a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="menu-item  menu-item-submenu" aria-haspopup="true"
-                                data-menu-toggle="hover"><a href="javascript:;" class="menu-link menu-toggle"><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">API</span><i class="menu-arrow"></i></a>
-                                <div class="menu-submenu "><i class="menu-arrow"></i>
-                                    <ul class="menu-subnav">
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/ktdatatable/api/methods.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">روشهای API</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/ktdatatable/api/events.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">رویدادها</span></a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="menu-item  menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a
-                        href="javascript:;" class="menu-link menu-toggle"><span class="svg-icon menu-icon"><!--begin::Svg Icon | path:assets/media/svg/icons/چیدمان/چیدمان-horizontal.svg--><svg
-                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect x="0" y="0" width="24" height="24"/>
-        <rect fill="#000000" opacity="0.3" x="4" y="5" width="16" height="6" rx="1.5"/>
-        <rect fill="#000000" x="4" y="13" width="16" height="6" rx="1.5"/>
-    </g>
-</svg><!--end::Svg Icon--></span><span class="menu-text">جدول داده ها</span><i class="menu-arrow"></i></a>
-                    <div class="menu-submenu "><i class="menu-arrow"></i>
-                        <ul class="menu-subnav">
-                            <li class="menu-item  menu-item-parent" aria-haspopup="true"><span
-                                    class="menu-link"><span class="menu-text">جدول داده ها</span></span></li>
-                            <li class="menu-item  menu-item-submenu" aria-haspopup="true"
-                                data-menu-toggle="hover"><a href="javascript:;" class="menu-link menu-toggle"><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">پایه ای</span><i class="menu-arrow"></i></a>
-                                <div class="menu-submenu "><i class="menu-arrow"></i>
-                                    <ul class="menu-subnav">
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/datatables/basic/basic.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">جداول پایه ای</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/datatables/basic/scrollable.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">جداول قابل پیمایش</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/datatables/basic/headers.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">هدرهای پیچیده</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/datatables/basic/paginations.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">گزینه های صفحه بندی</span></a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="menu-item  menu-item-submenu" aria-haspopup="true"
-                                data-menu-toggle="hover"><a href="javascript:;" class="menu-link menu-toggle"><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">پیشرفته</span><i class="menu-arrow"></i></a>
-                                <div class="menu-submenu "><i class="menu-arrow"></i>
-                                    <ul class="menu-subnav">
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/datatables/advanced/column-rendering.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">رندرینگ ستون</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/datatables/advanced/multiple-controls.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">کنترل های چندگانه</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/datatables/advanced/column-visibility.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">قابلیت مشاهده ستون</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/datatables/advanced/row-callback.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">کال بک سطر</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/datatables/advanced/row-grouping.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">سطرهای گروه بندی</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/datatables/advanced/footer-callback.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">کال بک فوتر</span></a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="menu-item  menu-item-submenu" aria-haspopup="true"
-                                data-menu-toggle="hover"><a href="javascript:;" class="menu-link menu-toggle"><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">منابع اطلاعات</span><i class="menu-arrow"></i></a>
-                                <div class="menu-submenu "><i class="menu-arrow"></i>
-                                    <ul class="menu-subnav">
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/datatables/data-sources/html.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text"> جی اس</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/datatables/data-sources/javascript.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">جاوا اسکریپت</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/datatables/data-sources/ajax-client-side.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">اژکس کلاینت ساید</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/datatables/data-sources/ajax-server-side.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">اژکس سرور ساید</span></a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="menu-item  menu-item-submenu" aria-haspopup="true"
-                                data-menu-toggle="hover"><a href="javascript:;" class="menu-link menu-toggle"><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">جستجو گزینه ها</span><i class="menu-arrow"></i></a>
-                                <div class="menu-submenu "><i class="menu-arrow"></i>
-                                    <ul class="menu-subnav">
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/datatables/search-options/column-search.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">ستون جستجو</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/datatables/search-options/advanced-search.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">پیشرفته جستجو</span></a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="menu-item  menu-item-submenu" aria-haspopup="true"
-                                data-menu-toggle="hover"><a href="javascript:;" class="menu-link menu-toggle"><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">برنامه های افزودنی</span><i
-                                        class="menu-arrow"></i></a>
-                                <div class="menu-submenu "><i class="menu-arrow"></i>
-                                    <ul class="menu-subnav">
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/datatables/extensions/buttons.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">دکمه ها</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/datatables/extensions/colreorder.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">ستون رکوردر</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/datatables/extensions/keytable.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">جدول کلید</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/datatables/extensions/responsive.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">ریسپانسیو</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/datatables/extensions/rowgroup.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">گروبندی سطر</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/datatables/extensions/rowreorder.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">سطر رکوردر</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/datatables/extensions/scroller.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">پیمایشگر</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="crud/datatables/extensions/select.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">انتخاب</span></a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="menu-item  menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a
-                        href="javascript:;" class="menu-link menu-toggle"><span class="svg-icon menu-icon"><!--begin::Svg Icon | path:assets/media/svg/icons/پرونده ها/بارگذاری.svg--><svg
-                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect x="0" y="0" width="24" height="24"/>
-        <path
-            d="M2,13 C2,12.5 2.5,12 3,12 C3.5,12 4,12.5 4,13 C4,13.3333333 4,15 4,18 C4,19.1045695 4.8954305,20 6,20 L18,20 C19.1045695,20 20,19.1045695 20,18 L20,13 C20,12.4477153 20.4477153,12 21,12 C21.5522847,12 22,12.4477153 22,13 L22,18 C22,20.209139 20.209139,22 18,22 L6,22 C3.790861,22 2,20.209139 2,18 C2,15 2,13.3333333 2,13 Z"
-            fill="#000000" fill-rule="nonzero" opacity="0.3"/>
-        <rect fill="#000000" opacity="0.3" x="11" y="2" width="2" height="14" rx="1"/>
-        <path
-            d="M12.0362375,3.37797611 L7.70710678,7.70710678 C7.31658249,8.09763107 6.68341751,8.09763107 6.29289322,7.70710678 C5.90236893,7.31658249 5.90236893,6.68341751 6.29289322,6.29289322 L11.2928932,1.29289322 C11.6689749,0.916811528 12.2736364,0.900910387 12.6689647,1.25670585 L17.6689647,5.75670585 C18.0794748,6.12616487 18.1127532,6.75845471 17.7432941,7.16896473 C17.3738351,7.57947475 16.7415453,7.61275317 16.3310353,7.24329415 L12.0362375,3.37797611 Z"
-            fill="#000000" fill-rule="nonzero"/>
-    </g>
-</svg><!--end::Svg Icon--></span><span class="menu-text">فایل بارگذاری</span><i class="menu-arrow"></i></a>
-                    <div class="menu-submenu "><i class="menu-arrow"></i>
-                        <ul class="menu-subnav">
-                            <li class="menu-item " aria-haspopup="true"><a
-                                    href="crud/file-upload/image-input.html" class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">اینپوت عکس</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a
-                                    href="crud/file-upload/dropzonejs.html" class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">دراپ زون</span><span class="menu-label"><span
-                                            class="label label-danger label-inline">جدید</span></span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="crud/file-upload/uppy.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">یوپی</span></a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="menu-section ">
-                    <h4 class="menu-text">امکانات</h4>
-                    <i class="menu-icon ki ki-bold-more-hor icon-md"></i>
-                </li>
-                <li class="menu-item  menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a
-                        href="javascript:;" class="menu-link menu-toggle"><span class="svg-icon menu-icon"><!--begin::Svg Icon | path:assets/media/svg/icons/Shopping/Box2.svg--><svg
-                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect x="0" y="0" width="24" height="24"/>
-        <path
-            d="M4,9.67471899 L10.880262,13.6470401 C10.9543486,13.689814 11.0320333,13.7207107 11.1111111,13.740321 L11.1111111,21.4444444 L4.49070127,17.526473 C4.18655139,17.3464765 4,17.0193034 4,16.6658832 L4,9.67471899 Z M20,9.56911707 L20,16.6658832 C20,17.0193034 19.8134486,17.3464765 19.5092987,17.526473 L12.8888889,21.4444444 L12.8888889,13.6728275 C12.9050191,13.6647696 12.9210067,13.6561758 12.9368301,13.6470401 L20,9.56911707 Z"
-            fill="#000000"/>
-        <path
-            d="M4.21611835,7.74669402 C4.30015839,7.64056877 4.40623188,7.55087574 4.5299008,7.48500698 L11.5299008,3.75665466 C11.8237589,3.60013944 12.1762411,3.60013944 12.4700992,3.75665466 L19.4700992,7.48500698 C19.5654307,7.53578262 19.6503066,7.60071528 19.7226939,7.67641889 L12.0479413,12.1074394 C11.9974761,12.1365754 11.9509488,12.1699127 11.9085461,12.2067543 C11.8661433,12.1699127 11.819616,12.1365754 11.7691509,12.1074394 L4.21611835,7.74669402 Z"
-            fill="#000000" opacity="0.3"/>
-    </g>
-</svg><!--end::Svg Icon--></span><span class="menu-text">بوت استرپ</span><i class="menu-arrow"></i></a>
-                    <div class="menu-submenu "><i class="menu-arrow"></i>
-                        <ul class="menu-subnav">
-                            <li class="menu-item  menu-item-parent" aria-haspopup="true"><span
-                                    class="menu-link"><span class="menu-text">بوت استرپ</span></span></li>
-                            <li class="menu-item " aria-haspopup="true"><a
-                                    href="features/bootstrap/typography.html" class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">تایپوگرافی</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a
-                                    href="features/bootstrap/buttons.html" class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">دکمه ها</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a
-                                    href="features/bootstrap/button-group.html" class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">دکمه گروه</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a
-                                    href="features/bootstrap/dropdown.html" class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">دراپ دان</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="features/bootstrap/navs.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">ناوبری ها</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="features/bootstrap/tables.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">جداول</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a
-                                    href="features/bootstrap/progress.html" class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">پیشرفت</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="features/bootstrap/modal.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">مودال</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="features/bootstrap/alerts.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">هشدارها</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a
-                                    href="features/bootstrap/popover.html" class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">پاپ آور</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a
-                                    href="features/bootstrap/tooltip.html" class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">تولتیپ</span></a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="menu-item  menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a
-                        href="javascript:;" class="menu-link menu-toggle"><span class="svg-icon menu-icon"><!--begin::Svg Icon | path:assets/media/svg/icons/پرونده ها/Pictures1.svg--><svg
-                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect x="0" y="0" width="24" height="24"/>
-        <path
-            d="M3.5,21 L20.5,21 C21.3284271,21 22,20.3284271 22,19.5 L22,8.5 C22,7.67157288 21.3284271,7 20.5,7 L10,7 L7.43933983,4.43933983 C7.15803526,4.15803526 6.77650439,4 6.37867966,4 L3.5,4 C2.67157288,4 2,4.67157288 2,5.5 L2,19.5 C2,20.3284271 2.67157288,21 3.5,21 Z"
-            fill="#000000" opacity="0.3"/>
-        <polygon fill="#000000" opacity="0.3" points="4 19 10 11 16 19"/>
-        <polygon fill="#000000" points="11 19 15 14 19 19"/>
-        <path
-            d="M18,12 C18.8284271,12 19.5,11.3284271 19.5,10.5 C19.5,9.67157288 18.8284271,9 18,9 C17.1715729,9 16.5,9.67157288 16.5,10.5 C16.5,11.3284271 17.1715729,12 18,12 Z"
-            fill="#000000" opacity="0.3"/>
-    </g>
-</svg><!--end::Svg Icon--></span><span class="menu-text">سفارشی</span><i class="menu-arrow"></i></a>
-                    <div class="menu-submenu "><i class="menu-arrow"></i>
-                        <ul class="menu-subnav">
-                            <li class="menu-item  menu-item-parent" aria-haspopup="true"><span
-                                    class="menu-link"><span class="menu-text">سفارشی</span></span></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="features/custom/utilities.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">ابزارها</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="features/custom/label.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">برچسب ها</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="features/custom/pulse.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">ضربان</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="features/custom/line-tabs.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">تب های خطی</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a
-                                    href="features/custom/advance-navs.html" class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">ناوبری های پیشرفته</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="features/custom/timeline.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">تایم لاین</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a
-                                    href="features/custom/pagination.html" class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">صفحه بندی</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="features/custom/symbol.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">سیمبل</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="features/custom/overlay.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">اورلی</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="features/custom/spinners.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">اسپینرها</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="features/custom/iconbox.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">جعبه آیکون</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="features/custom/callout.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">کال اوت</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="features/custom/ribbons.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">ریبون</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a
-                                    href="features/custom/accordions.html" class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">آکاردئونها</span></a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="menu-item  menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a
-                        href="javascript:;" class="menu-link menu-toggle"><span class="svg-icon menu-icon"><!--begin::Svg Icon | path:assets/media/svg/icons/layout/layout-arrange.svg--><svg
-                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect x="0" y="0" width="24" height="24"/>
-        <path
-            d="M5.5,4 L9.5,4 C10.3284271,4 11,4.67157288 11,5.5 L11,6.5 C11,7.32842712 10.3284271,8 9.5,8 L5.5,8 C4.67157288,8 4,7.32842712 4,6.5 L4,5.5 C4,4.67157288 4.67157288,4 5.5,4 Z M14.5,16 L18.5,16 C19.3284271,16 20,16.6715729 20,17.5 L20,18.5 C20,19.3284271 19.3284271,20 18.5,20 L14.5,20 C13.6715729,20 13,19.3284271 13,18.5 L13,17.5 C13,16.6715729 13.6715729,16 14.5,16 Z"
-            fill="#000000"/>
-        <path
-            d="M5.5,10 L9.5,10 C10.3284271,10 11,10.6715729 11,11.5 L11,18.5 C11,19.3284271 10.3284271,20 9.5,20 L5.5,20 C4.67157288,20 4,19.3284271 4,18.5 L4,11.5 C4,10.6715729 4.67157288,10 5.5,10 Z M14.5,4 L18.5,4 C19.3284271,4 20,4.67157288 20,5.5 L20,12.5 C20,13.3284271 19.3284271,14 18.5,14 L14.5,14 C13.6715729,14 13,13.3284271 13,12.5 L13,5.5 C13,4.67157288 13.6715729,4 14.5,4 Z"
-            fill="#000000" opacity="0.3"/>
-    </g>
-</svg><!--end::Svg Icon--></span><span class="menu-text">کارت</span><i class="menu-arrow"></i></a>
-                    <div class="menu-submenu "><i class="menu-arrow"></i>
-                        <ul class="menu-subnav">
-                            <li class="menu-item  menu-item-parent" aria-haspopup="true"><span
-                                    class="menu-link"><span class="menu-text">کارت</span></span></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="features/cards/general.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">کارت عمومی</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="features/cards/stacked.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">کارت متراکم</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="features/cards/tabbed.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">کارت تب بندی شده</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="features/cards/draggable.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">کارت با قابلیت درگ</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="features/cards/tools.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">ابزارهای کارت</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="features/cards/sticky.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">کارت چسبنده</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="features/cards/stretched.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">کارت کشیده</span></a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="menu-item  menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a
-                        href="javascript:;" class="menu-link menu-toggle"><span class="svg-icon menu-icon"><!--begin::Svg Icon | path:assets/media/svg/icons/Devices/Diagnostics.svg--><svg
-                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect x="0" y="0" width="24" height="24"/>
-        <rect fill="#000000" opacity="0.3" x="2" y="3" width="20" height="18" rx="2"/>
-        <path
-            d="M9.9486833,13.3162278 C9.81256925,13.7245699 9.43043041,14 9,14 L5,14 C4.44771525,14 4,13.5522847 4,13 C4,12.4477153 4.44771525,12 5,12 L8.27924078,12 L10.0513167,6.68377223 C10.367686,5.73466443 11.7274983,5.78688777 11.9701425,6.75746437 L13.8145063,14.1349195 L14.6055728,12.5527864 C14.7749648,12.2140024 15.1212279,12 15.5,12 L19,12 C19.5522847,12 20,12.4477153 20,13 C20,13.5522847 19.5522847,14 19,14 L16.118034,14 L14.3944272,17.4472136 C13.9792313,18.2776054 12.7550291,18.143222 12.5298575,17.2425356 L10.8627389,10.5740611 L9.9486833,13.3162278 Z"
-            fill="#000000" fill-rule="nonzero"/>
-        <circle fill="#000000" opacity="0.3" cx="19" cy="6" r="1"/>
-    </g>
-</svg><!--end::Svg Icon--></span><span class="menu-text">ابزارک ها</span><i class="menu-arrow"></i></a>
-                    <div class="menu-submenu "><i class="menu-arrow"></i>
-                        <ul class="menu-subnav">
-                            <li class="menu-item  menu-item-parent" aria-haspopup="true"><span
-                                    class="menu-link"><span class="menu-text">ابزارک ها</span></span></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="features/widgets/lists.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">لیست ها</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="features/widgets/stats.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">آمار</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="features/widgets/charts.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">نمودار</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="features/widgets/mixed.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">ترکیبی</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="features/widgets/tiles.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">کاشی</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="features/widgets/engage.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">مشغول کردن</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a
-                                    href="features/widgets/base-tables.html" class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">جداول پایه</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a
-                                    href="features/widgets/advance-tables.html" class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">پیشرفت جداول</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="features/widgets/forms.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">فرم ها</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a
-                                    href="features/widgets/nav-panels.html" class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">ناوبری پنل</span></a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="menu-item  menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a
-                        href="javascript:;" class="menu-link menu-toggle"><span class="svg-icon menu-icon"><!--begin::Svg Icon | path:assets/media/svg/icons/عمومی/Attachment2.svg--><svg
-                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect x="0" y="0" width="24" height="24"/>
-        <path
-            d="M11.7573593,15.2426407 L8.75735931,15.2426407 C8.20507456,15.2426407 7.75735931,15.6903559 7.75735931,16.2426407 C7.75735931,16.7949254 8.20507456,17.2426407 8.75735931,17.2426407 L11.7573593,17.2426407 L11.7573593,18.2426407 C11.7573593,19.3472102 10.8619288,20.2426407 9.75735931,20.2426407 L5.75735931,20.2426407 C4.65278981,20.2426407 3.75735931,19.3472102 3.75735931,18.2426407 L3.75735931,14.2426407 C3.75735931,13.1380712 4.65278981,12.2426407 5.75735931,12.2426407 L9.75735931,12.2426407 C10.8619288,12.2426407 11.7573593,13.1380712 11.7573593,14.2426407 L11.7573593,15.2426407 Z"
-            fill="#000000" opacity="0.3"
-            transform="translate(7.757359, 16.242641) rotate(-45.000000) translate(-7.757359, -16.242641) "/>
-        <path
-            d="M12.2426407,8.75735931 L15.2426407,8.75735931 C15.7949254,8.75735931 16.2426407,8.30964406 16.2426407,7.75735931 C16.2426407,7.20507456 15.7949254,6.75735931 15.2426407,6.75735931 L12.2426407,6.75735931 L12.2426407,5.75735931 C12.2426407,4.65278981 13.1380712,3.75735931 14.2426407,3.75735931 L18.2426407,3.75735931 C19.3472102,3.75735931 20.2426407,4.65278981 20.2426407,5.75735931 L20.2426407,9.75735931 C20.2426407,10.8619288 19.3472102,11.7573593 18.2426407,11.7573593 L14.2426407,11.7573593 C13.1380712,11.7573593 12.2426407,10.8619288 12.2426407,9.75735931 L12.2426407,8.75735931 Z"
-            fill="#000000"
-            transform="translate(16.242641, 7.757359) rotate(-45.000000) translate(-16.242641, -7.757359) "/>
-        <path
-            d="M5.89339828,3.42893219 C6.44568303,3.42893219 6.89339828,3.87664744 6.89339828,4.42893219 L6.89339828,6.42893219 C6.89339828,6.98121694 6.44568303,7.42893219 5.89339828,7.42893219 C5.34111353,7.42893219 4.89339828,6.98121694 4.89339828,6.42893219 L4.89339828,4.42893219 C4.89339828,3.87664744 5.34111353,3.42893219 5.89339828,3.42893219 Z M11.4289322,5.13603897 C11.8194565,5.52656326 11.8194565,6.15972824 11.4289322,6.55025253 L10.0147186,7.96446609 C9.62419433,8.35499039 8.99102936,8.35499039 8.60050506,7.96446609 C8.20998077,7.5739418 8.20998077,6.94077682 8.60050506,6.55025253 L10.0147186,5.13603897 C10.4052429,4.74551468 11.0384079,4.74551468 11.4289322,5.13603897 Z M0.600505063,5.13603897 C0.991029355,4.74551468 1.62419433,4.74551468 2.01471863,5.13603897 L3.42893219,6.55025253 C3.81945648,6.94077682 3.81945648,7.5739418 3.42893219,7.96446609 C3.0384079,8.35499039 2.40524292,8.35499039 2.01471863,7.96446609 L0.600505063,6.55025253 C0.209980772,6.15972824 0.209980772,5.52656326 0.600505063,5.13603897 Z"
-            fill="#000000" opacity="0.3"
-            transform="translate(6.014719, 5.843146) rotate(-45.000000) translate(-6.014719, -5.843146) "/>
-        <path
-            d="M17.9142136,15.4497475 C18.4664983,15.4497475 18.9142136,15.8974627 18.9142136,16.4497475 L18.9142136,18.4497475 C18.9142136,19.0020322 18.4664983,19.4497475 17.9142136,19.4497475 C17.3619288,19.4497475 16.9142136,19.0020322 16.9142136,18.4497475 L16.9142136,16.4497475 C16.9142136,15.8974627 17.3619288,15.4497475 17.9142136,15.4497475 Z M23.4497475,17.1568542 C23.8402718,17.5473785 23.8402718,18.1805435 23.4497475,18.5710678 L22.0355339,19.9852814 C21.6450096,20.3758057 21.0118446,20.3758057 20.6213203,19.9852814 C20.2307961,19.5947571 20.2307961,18.9615921 20.6213203,18.5710678 L22.0355339,17.1568542 C22.4260582,16.76633 23.0592232,16.76633 23.4497475,17.1568542 Z M12.6213203,17.1568542 C13.0118446,16.76633 13.6450096,16.76633 14.0355339,17.1568542 L15.4497475,18.5710678 C15.8402718,18.9615921 15.8402718,19.5947571 15.4497475,19.9852814 C15.0592232,20.3758057 14.4260582,20.3758057 14.0355339,19.9852814 L12.6213203,18.5710678 C12.2307961,18.1805435 12.2307961,17.5473785 12.6213203,17.1568542 Z"
-            fill="#000000" opacity="0.3"
-            transform="translate(18.035534, 17.863961) scale(1, -1) rotate(45.000000) translate(-18.035534, -17.863961) "/>
-    </g>
-</svg><!--end::Svg Icon--></span><span class="menu-text">آیکون</span><i class="menu-arrow"></i></a>
-                    <div class="menu-submenu "><i class="menu-arrow"></i>
-                        <ul class="menu-subnav">
-                            <li class="menu-item " aria-haspopup="true"><a href="features/icons/svg.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">SVG آیکون</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a
-                                    href="features/icons/custom-icons.html" class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">سفارشی آیکون</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="features/icons/flaticon.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">Flaticon</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a
-                                    href="features/icons/fontawesome5.html" class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">Fontawesome 5</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a
-                                    href="features/icons/lineawesome.html" class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">Fontawesome</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="features/icons/socicons.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">Socicons</span></a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="menu-item  menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a
-                        href="javascript:;" class="menu-link menu-toggle"><span class="svg-icon menu-icon"><!--begin::Svg Icon | path:assets/media/svg/icons/design/select.svg--><svg
-                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <polygon points="0 0 24 0 24 24 0 24"/>
-        <path
-            d="M18.5,8 C17.1192881,8 16,6.88071187 16,5.5 C16,4.11928813 17.1192881,3 18.5,3 C19.8807119,3 21,4.11928813 21,5.5 C21,6.88071187 19.8807119,8 18.5,8 Z M18.5,21 C17.1192881,21 16,19.8807119 16,18.5 C16,17.1192881 17.1192881,16 18.5,16 C19.8807119,16 21,17.1192881 21,18.5 C21,19.8807119 19.8807119,21 18.5,21 Z M5.5,21 C4.11928813,21 3,19.8807119 3,18.5 C3,17.1192881 4.11928813,16 5.5,16 C6.88071187,16 8,17.1192881 8,18.5 C8,19.8807119 6.88071187,21 5.5,21 Z"
-            fill="#000000" opacity="0.3"/>
-        <path
-            d="M5.5,8 C4.11928813,8 3,6.88071187 3,5.5 C3,4.11928813 4.11928813,3 5.5,3 C6.88071187,3 8,4.11928813 8,5.5 C8,6.88071187 6.88071187,8 5.5,8 Z M11,4 L13,4 C13.5522847,4 14,4.44771525 14,5 C14,5.55228475 13.5522847,6 13,6 L11,6 C10.4477153,6 10,5.55228475 10,5 C10,4.44771525 10.4477153,4 11,4 Z M11,18 L13,18 C13.5522847,18 14,18.4477153 14,19 C14,19.5522847 13.5522847,20 13,20 L11,20 C10.4477153,20 10,19.5522847 10,19 C10,18.4477153 10.4477153,18 11,18 Z M5,10 C5.55228475,10 6,10.4477153 6,11 L6,13 C6,13.5522847 5.55228475,14 5,14 C4.44771525,14 4,13.5522847 4,13 L4,11 C4,10.4477153 4.44771525,10 5,10 Z M19,10 C19.5522847,10 20,10.4477153 20,11 L20,13 C20,13.5522847 19.5522847,14 19,14 C18.4477153,14 18,13.5522847 18,13 L18,11 C18,10.4477153 18.4477153,10 19,10 Z"
-            fill="#000000"/>
-    </g>
-</svg><!--end::Svg Icon--></span><span class="menu-text">تقویم</span><i class="menu-arrow"></i></a>
-                    <div class="menu-submenu "><i class="menu-arrow"></i>
-                        <ul class="menu-subnav">
-                            <li class="menu-item  menu-item-parent" aria-haspopup="true"><span
-                                    class="menu-link"><span class="menu-text">تقویم</span></span></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="features/calendar/basic.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">تقویه پایه</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a
-                                    href="features/calendar/list-view.html" class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">نمایش لیست ها</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="features/calendar/google.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">گوگل تقویم</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a
-                                    href="features/calendar/external-events.html" class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">اکسترنال رویدادها</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a
-                                    href="features/calendar/background-events.html" class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">بک گراند رویدادها</span></a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="menu-item  menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a
-                        href="javascript:;" class="menu-link menu-toggle"><span class="svg-icon menu-icon"><!--begin::Svg Icon | path:assets/media/svg/icons/Media/Equalizer.svg--><svg
-                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect x="0" y="0" width="24" height="24"/>
-        <rect fill="#000000" opacity="0.3" x="13" y="4" width="3" height="16" rx="1.5"/>
-        <rect fill="#000000" x="8" y="9" width="3" height="11" rx="1.5"/>
-        <rect fill="#000000" x="18" y="11" width="3" height="9" rx="1.5"/>
-        <rect fill="#000000" x="3" y="13" width="3" height="7" rx="1.5"/>
-    </g>
-</svg><!--end::Svg Icon--></span><span class="menu-text">نمودار</span><i class="menu-arrow"></i></a>
-                    <div class="menu-submenu "><i class="menu-arrow"></i>
-                        <ul class="menu-subnav">
-                            <li class="menu-item  menu-item-parent" aria-haspopup="true"><span
-                                    class="menu-link"><span class="menu-text">نمودار</span></span></li>
-                            <li class="menu-item " aria-haspopup="true"><a
-                                    href="features/charts/apexcharts.html" class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">ایپکس چارت</span></a></li>
-                            <li class="menu-item  menu-item-submenu" aria-haspopup="true"
-                                data-menu-toggle="hover"><a href="javascript:;" class="menu-link menu-toggle"><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">چارت am</span><i class="menu-arrow"></i></a>
-                                <div class="menu-submenu "><i class="menu-arrow"></i>
-                                    <ul class="menu-subnav">
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="features/charts/amcharts/charts.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">نمودار چارت am</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="features/charts/amcharts/stock-charts.html"
-                                                class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">نمودار استوک چارت am</span></a></li>
-                                        <li class="menu-item " aria-haspopup="true"><a
-                                                href="features/charts/amcharts/maps.html" class="menu-link "><i
-                                                    class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                                    class="menu-text">نمودار مپ am</span></a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="menu-item " aria-haspopup="true"><a
-                                    href="features/charts/flotcharts.html" class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">Flot نمودار</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a
-                                    href="features/charts/google-charts.html" class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">گوگل نمودار</span></a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="menu-item  menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a
-                        href="javascript:;" class="menu-link menu-toggle"><span class="svg-icon menu-icon"><!--begin::Svg Icon | path:assets/media/svg/icons/home/Book-open.svg--><svg
-                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect x="0" y="0" width="24" height="24"/>
-        <path
-            d="M13.6855025,18.7082217 C15.9113859,17.8189707 18.682885,17.2495635 22,17 C22,16.9325178 22,13.1012863 22,5.50630526 L21.9999762,5.50630526 C21.9999762,5.23017604 21.7761292,5.00632908 21.5,5.00632908 C21.4957817,5.00632908 21.4915635,5.00638247 21.4873465,5.00648922 C18.658231,5.07811173 15.8291155,5.74261533 13,7 C13,7.04449645 13,10.79246 13,18.2438906 L12.9999854,18.2438906 C12.9999854,18.520041 13.2238496,18.7439052 13.5,18.7439052 C13.5635398,18.7439052 13.6264972,18.7317946 13.6855025,18.7082217 Z"
-            fill="#000000"/>
-        <path
-            d="M10.3144829,18.7082217 C8.08859955,17.8189707 5.31710038,17.2495635 1.99998542,17 C1.99998542,16.9325178 1.99998542,13.1012863 1.99998542,5.50630526 L2.00000925,5.50630526 C2.00000925,5.23017604 2.22385621,5.00632908 2.49998542,5.00632908 C2.50420375,5.00632908 2.5084219,5.00638247 2.51263888,5.00648922 C5.34175439,5.07811173 8.17086991,5.74261533 10.9999854,7 C10.9999854,7.04449645 10.9999854,10.79246 10.9999854,18.2438906 L11,18.2438906 C11,18.520041 10.7761358,18.7439052 10.4999854,18.7439052 C10.4364457,18.7439052 10.3734882,18.7317946 10.3144829,18.7082217 Z"
-            fill="#000000" opacity="0.3"/>
-    </g>
-</svg><!--end::Svg Icon--></span><span class="menu-text">نقشه ها</span><i class="menu-arrow"></i></a>
-                    <div class="menu-submenu "><i class="menu-arrow"></i>
-                        <ul class="menu-subnav">
-                            <li class="menu-item  menu-item-parent" aria-haspopup="true"><span
-                                    class="menu-link"><span class="menu-text">نقشه ها</span></span></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="features/maps/google-maps.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">گوگل نقشه ها</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="features/maps/leaflet.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">Leaflet</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a href="features/maps/jqvmap.html"
-                                                                           class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">JQVMap</span></a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="menu-item  menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a
-                        href="javascript:;" class="menu-link menu-toggle"><span class="svg-icon menu-icon"><!--begin::Svg Icon | path:assets/media/svg/icons/home/Mirror.svg--><svg
-                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect x="0" y="0" width="24" height="24"/>
-        <path
-            d="M13,17.0484323 L13,18 L14,18 C15.1045695,18 16,18.8954305 16,20 L8,20 C8,18.8954305 8.8954305,18 10,18 L11,18 L11,17.0482312 C6.89844817,16.5925472 3.58685702,13.3691811 3.07555009,9.22038742 C3.00799634,8.67224972 3.3975866,8.17313318 3.94572429,8.10557943 C4.49386199,8.03802567 4.99297853,8.42761593 5.06053229,8.97575363 C5.4896663,12.4577884 8.46049164,15.1035129 12.0008191,15.1035129 C15.577644,15.1035129 18.5681939,12.4043008 18.9524872,8.87772126 C19.0123158,8.32868667 19.505897,7.93210686 20.0549316,7.99193546 C20.6039661,8.05176407 21.000546,8.54534521 20.9407173,9.09437981 C20.4824216,13.3000638 17.1471597,16.5885839 13,17.0484323 Z"
-            fill="#000000" fill-rule="nonzero"/>
-        <path
-            d="M12,14 C8.6862915,14 6,11.3137085 6,8 C6,4.6862915 8.6862915,2 12,2 C15.3137085,2 18,4.6862915 18,8 C18,11.3137085 15.3137085,14 12,14 Z M8.81595773,7.80077353 C8.79067542,7.43921955 8.47708263,7.16661749 8.11552864,7.19189981 C7.75397465,7.21718213 7.4813726,7.53077492 7.50665492,7.89232891 C7.62279197,9.55316612 8.39667037,10.8635466 9.79502238,11.7671393 C10.099435,11.9638458 10.5056723,11.8765328 10.7023788,11.5721203 C10.8990854,11.2677077 10.8117724,10.8614704 10.5073598,10.6647638 C9.4559885,9.98538454 8.90327706,9.04949813 8.81595773,7.80077353 Z"
-            fill="#000000" opacity="0.3"/>
-    </g>
-</svg><!--end::Svg Icon--></span><span class="menu-text">متفرقه</span><i class="menu-arrow"></i></a>
-                    <div class="menu-submenu "><i class="menu-arrow"></i>
-                        <ul class="menu-subnav">
-                            <li class="menu-item  menu-item-parent" aria-haspopup="true"><span
-                                    class="menu-link"><span class="menu-text">متفرقه</span></span></li>
-                            <li class="menu-item " aria-haspopup="true"><a
-                                    href="features/miscellaneous/kanban-board.html" class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">کانبان برد</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a
-                                    href="features/miscellaneous/sticky-panels.html" class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">پنل چسبنده</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a
-                                    href="features/miscellaneous/blockui.html" class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">رابط کاربری بلاک</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a
-                                    href="features/miscellaneous/perfect-scrollbar.html" class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">اسکرول بار</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a
-                                    href="features/miscellaneous/treeview.html" class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">نمای درختی</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a
-                                    href="features/miscellaneous/bootstrap-notify.html" class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">بوت استرپ نوتیفی</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a
-                                    href="features/miscellaneous/toastr.html" class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">توئستر</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a
-                                    href="features/miscellaneous/sweetalert2.html" class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">سوئیت آلارت</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a
-                                    href="features/miscellaneous/dual-listbox.html" class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">لیست دوگانه</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a
-                                    href="features/miscellaneous/session-timeout.html" class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">تایم اوت سشن</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a
-                                    href="features/miscellaneous/idle-timer.html" class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">تایمر</span></a></li>
-                            <li class="menu-item " aria-haspopup="true"><a
-                                    href="features/miscellaneous/cropper.html" class="menu-link "><i
-                                        class="menu-bullet menu-bullet-dot"><span></span></i><span
-                                        class="menu-text">کراپر</span></a></li>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-            <!--end::Menu Nav-->
+                    <!--end::User menu-->
+                </div>
+                <!--end::Section-->
+            </div>
+            <!--end::Wrapper-->
         </div>
-        <!--end::Menu Container-->
+        <!--end::User-->
+        <!--begin::Aside search-->
+        <div class="aside-search py-5">
+            <!--begin::Search-->
+            <div id="kt_header_search" class="d-flex align-items-center w-100" data-kt-search-keypress="true"
+                 data-kt-search-min-length="2" data-kt-search-enter="enter" data-kt-search-layout="menu"
+                 data-kt-search-responsive="false" data-kt-menu-trigger="auto" data-kt-menu-permanent="true"
+                 data-kt-menu-placement="bottom-start">
+                <!--begin::Form-->
+                <form data-kt-search-element="form" class="w-100 position-relative" autocomplete="off">
+                    <!--begin::Hidden input(Added to disable form autocomplete)-->
+                    <input type="hidden"/>
+                    <!--end::Hidden input-->
+                    <!--begin::Icon-->
+                    <!--begin::Svg Icon | path: icons/duotune/general/gen021.svg-->
+                    <span class="svg-icon svg-icon-2 search-icon position-absolute top-50 translate-middle-y ms-4">
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                             viewBox="0 0 24 24" fill="none">
+											<rect opacity="0.5" x="17.0365" y="15.1223" width="8.15546" height="2"
+                                                  rx="1" transform="rotate(45 17.0365 15.1223)" fill="black"/>
+											<path
+                                                d="M11 19C6.55556 19 3 15.4444 3 11C3 6.55556 6.55556 3 11 3C15.4444 3 19 6.55556 19 11C19 15.4444 15.4444 19 11 19ZM11 5C7.53333 5 5 7.53333 5 11C5 14.4667 7.53333 17 11 17C14.4667 17 17 14.4667 17 11C17 7.53333 14.4667 5 11 5Z"
+                                                fill="black"/>
+										</svg>
+									</span>
+                    <!--end::Svg Icon-->
+                    <!--end::Icon-->
+                    <!--begin::Input-->
+                    <input type="text" class="search-input form-control ps-13 fs-7 h-40px" name="search" value=""
+                           placeholder="Quick Search" data-kt-search-element="input"/>
+                    <!--end::Input-->
+                    <!--begin::Spinner-->
+                    <span class="position-absolute top-50 end-0 translate-middle-y lh-0 d-none me-5"
+                          data-kt-search-element="spinner">
+										<span class="spinner-border h-15px w-15px align-middle text-gray-400"></span>
+									</span>
+                    <!--end::Spinner-->
+                    <!--begin::Reset-->
+                    <span
+                        class="btn btn-flush btn-active-color-primary position-absolute top-50 end-0 translate-middle-y lh-0 d-none me-4"
+                        data-kt-search-element="clear">
+										<!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
+										<span class="svg-icon svg-icon-2 svg-icon-lg-1 me-0">
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                 viewBox="0 0 24 24" fill="none">
+												<rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1"
+                                                      transform="rotate(-45 6 17.3137)" fill="black"/>
+												<rect x="7.41422" y="6" width="16" height="2" rx="1"
+                                                      transform="rotate(45 7.41422 6)" fill="black"/>
+											</svg>
+										</span>
+                        <!--end::Svg Icon-->
+									</span>
+                    <!--end::Reset-->
+                </form>
+                <!--end::Form-->
+                <!--begin::Menu-->
+                <div data-kt-search-element="content"
+                     class="menu menu-sub menu-sub-dropdown w-300px w-md-350px py-7 px-7 overflow-hidden">
+                    <!--begin::Wrapper-->
+                    <div data-kt-search-element="wrapper">
+                        <!--begin::Recently viewed-->
+                        <div data-kt-search-element="results" class="d-none">
+                            <!--begin::Items-->
+                            <div class="scroll-y mh-200px mh-lg-350px">
+                                <!--begin::Category title-->
+                                <h3 class="fs-5 text-muted m-0 pb-5" data-kt-search-element="category-title">Users</h3>
+                                <!--end::Category title-->
+                                <!--begin::Item-->
+                                <a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
+                                    <!--begin::Symbol-->
+                                    <div class="symbol symbol-40px me-4">
+                                        <img src="assets/media/avatars/300-6.jpg" alt=""/>
+                                    </div>
+                                    <!--end::Symbol-->
+                                    <!--begin::Title-->
+                                    <div class="d-flex flex-column justify-content-start fw-bold">
+                                        <span class="fs-6 fw-bold">Karina Clark</span>
+                                        <span class="fs-7 fw-bold text-muted">Marketing Manager</span>
+                                    </div>
+                                    <!--end::Title-->
+                                </a>
+                                <!--end::Item-->
+                                <!--begin::Item-->
+                                <a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
+                                    <!--begin::Symbol-->
+                                    <div class="symbol symbol-40px me-4">
+                                        <img src="assets/media/avatars/300-2.jpg" alt=""/>
+                                    </div>
+                                    <!--end::Symbol-->
+                                    <!--begin::Title-->
+                                    <div class="d-flex flex-column justify-content-start fw-bold">
+                                        <span class="fs-6 fw-bold">Olivia Bold</span>
+                                        <span class="fs-7 fw-bold text-muted">Software Engineer</span>
+                                    </div>
+                                    <!--end::Title-->
+                                </a>
+                                <!--end::Item-->
+                                <!--begin::Item-->
+                                <a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
+                                    <!--begin::Symbol-->
+                                    <div class="symbol symbol-40px me-4">
+                                        <img src="assets/media/avatars/300-9.jpg" alt=""/>
+                                    </div>
+                                    <!--end::Symbol-->
+                                    <!--begin::Title-->
+                                    <div class="d-flex flex-column justify-content-start fw-bold">
+                                        <span class="fs-6 fw-bold">Ana Clark</span>
+                                        <span class="fs-7 fw-bold text-muted">UI/UX Designer</span>
+                                    </div>
+                                    <!--end::Title-->
+                                </a>
+                                <!--end::Item-->
+                                <!--begin::Item-->
+                                <a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
+                                    <!--begin::Symbol-->
+                                    <div class="symbol symbol-40px me-4">
+                                        <img src="assets/media/avatars/300-14.jpg" alt=""/>
+                                    </div>
+                                    <!--end::Symbol-->
+                                    <!--begin::Title-->
+                                    <div class="d-flex flex-column justify-content-start fw-bold">
+                                        <span class="fs-6 fw-bold">Nick Pitola</span>
+                                        <span class="fs-7 fw-bold text-muted">Art Director</span>
+                                    </div>
+                                    <!--end::Title-->
+                                </a>
+                                <!--end::Item-->
+                                <!--begin::Item-->
+                                <a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
+                                    <!--begin::Symbol-->
+                                    <div class="symbol symbol-40px me-4">
+                                        <img src="assets/media/avatars/300-11.jpg" alt=""/>
+                                    </div>
+                                    <!--end::Symbol-->
+                                    <!--begin::Title-->
+                                    <div class="d-flex flex-column justify-content-start fw-bold">
+                                        <span class="fs-6 fw-bold">Edward Kulnic</span>
+                                        <span class="fs-7 fw-bold text-muted">System Administrator</span>
+                                    </div>
+                                    <!--end::Title-->
+                                </a>
+                                <!--end::Item-->
+                                <!--begin::Category title-->
+                                <h3 class="fs-5 text-muted m-0 pt-5 pb-5" data-kt-search-element="category-title">
+                                    Customers</h3>
+                                <!--end::Category title-->
+                                <!--begin::Item-->
+                                <a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
+                                    <!--begin::Symbol-->
+                                    <div class="symbol symbol-40px me-4">
+														<span class="symbol-label bg-light">
+															<img class="w-20px h-20px"
+                                                                 src="assets/media/svg/brand-logos/volicity-9.svg"
+                                                                 alt=""/>
+														</span>
+                                    </div>
+                                    <!--end::Symbol-->
+                                    <!--begin::Title-->
+                                    <div class="d-flex flex-column justify-content-start fw-bold">
+                                        <span class="fs-6 fw-bold">Company Rbranding</span>
+                                        <span class="fs-7 fw-bold text-muted">UI Design</span>
+                                    </div>
+                                    <!--end::Title-->
+                                </a>
+                                <!--end::Item-->
+                                <!--begin::Item-->
+                                <a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
+                                    <!--begin::Symbol-->
+                                    <div class="symbol symbol-40px me-4">
+														<span class="symbol-label bg-light">
+															<img class="w-20px h-20px"
+                                                                 src="assets/media/svg/brand-logos/tvit.svg" alt=""/>
+														</span>
+                                    </div>
+                                    <!--end::Symbol-->
+                                    <!--begin::Title-->
+                                    <div class="d-flex flex-column justify-content-start fw-bold">
+                                        <span class="fs-6 fw-bold">Company Re-branding</span>
+                                        <span class="fs-7 fw-bold text-muted">Web Development</span>
+                                    </div>
+                                    <!--end::Title-->
+                                </a>
+                                <!--end::Item-->
+                                <!--begin::Item-->
+                                <a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
+                                    <!--begin::Symbol-->
+                                    <div class="symbol symbol-40px me-4">
+														<span class="symbol-label bg-light">
+															<img class="w-20px h-20px"
+                                                                 src="assets/media/svg/misc/infography.svg" alt=""/>
+														</span>
+                                    </div>
+                                    <!--end::Symbol-->
+                                    <!--begin::Title-->
+                                    <div class="d-flex flex-column justify-content-start fw-bold">
+                                        <span class="fs-6 fw-bold">Business Analytics App</span>
+                                        <span class="fs-7 fw-bold text-muted">Administration</span>
+                                    </div>
+                                    <!--end::Title-->
+                                </a>
+                                <!--end::Item-->
+                                <!--begin::Item-->
+                                <a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
+                                    <!--begin::Symbol-->
+                                    <div class="symbol symbol-40px me-4">
+														<span class="symbol-label bg-light">
+															<img class="w-20px h-20px"
+                                                                 src="assets/media/svg/brand-logos/leaf.svg" alt=""/>
+														</span>
+                                    </div>
+                                    <!--end::Symbol-->
+                                    <!--begin::Title-->
+                                    <div class="d-flex flex-column justify-content-start fw-bold">
+                                        <span class="fs-6 fw-bold">EcoLeaf App Launch</span>
+                                        <span class="fs-7 fw-bold text-muted">Marketing</span>
+                                    </div>
+                                    <!--end::Title-->
+                                </a>
+                                <!--end::Item-->
+                                <!--begin::Item-->
+                                <a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
+                                    <!--begin::Symbol-->
+                                    <div class="symbol symbol-40px me-4">
+														<span class="symbol-label bg-light">
+															<img class="w-20px h-20px"
+                                                                 src="assets/media/svg/brand-logos/tower.svg" alt=""/>
+														</span>
+                                    </div>
+                                    <!--end::Symbol-->
+                                    <!--begin::Title-->
+                                    <div class="d-flex flex-column justify-content-start fw-bold">
+                                        <span class="fs-6 fw-bold">Tower Group Website</span>
+                                        <span class="fs-7 fw-bold text-muted">Google Adwords</span>
+                                    </div>
+                                    <!--end::Title-->
+                                </a>
+                                <!--end::Item-->
+                                <!--begin::Category title-->
+                                <h3 class="fs-5 text-muted m-0 pt-5 pb-5" data-kt-search-element="category-title">
+                                    Projects</h3>
+                                <!--end::Category title-->
+                                <!--begin::Item-->
+                                <a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
+                                    <!--begin::Symbol-->
+                                    <div class="symbol symbol-40px me-4">
+														<span class="symbol-label bg-light">
+															<!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
+															<span class="svg-icon svg-icon-2 svg-icon-primary">
+																<svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                     height="24" viewBox="0 0 24 24" fill="none">
+																	<path opacity="0.3"
+                                                                          d="M19 22H5C4.4 22 4 21.6 4 21V3C4 2.4 4.4 2 5 2H14L20 8V21C20 21.6 19.6 22 19 22ZM12.5 18C12.5 17.4 12.6 17.5 12 17.5H8.5C7.9 17.5 8 17.4 8 18C8 18.6 7.9 18.5 8.5 18.5L12 18C12.6 18 12.5 18.6 12.5 18ZM16.5 13C16.5 12.4 16.6 12.5 16 12.5H8.5C7.9 12.5 8 12.4 8 13C8 13.6 7.9 13.5 8.5 13.5H15.5C16.1 13.5 16.5 13.6 16.5 13ZM12.5 8C12.5 7.4 12.6 7.5 12 7.5H8C7.4 7.5 7.5 7.4 7.5 8C7.5 8.6 7.4 8.5 8 8.5H12C12.6 8.5 12.5 8.6 12.5 8Z"
+                                                                          fill="black"/>
+																	<rect x="7" y="17" width="6" height="2" rx="1"
+                                                                          fill="black"/>
+																	<rect x="7" y="12" width="10" height="2" rx="1"
+                                                                          fill="black"/>
+																	<rect x="7" y="7" width="6" height="2" rx="1"
+                                                                          fill="black"/>
+																	<path d="M15 8H20L14 2V7C14 7.6 14.4 8 15 8Z"
+                                                                          fill="black"/>
+																</svg>
+															</span>
+                                                            <!--end::Svg Icon-->
+														</span>
+                                    </div>
+                                    <!--end::Symbol-->
+                                    <!--begin::Title-->
+                                    <div class="d-flex flex-column">
+                                        <span class="fs-6 fw-bold">Si-Fi Project by AU Themes</span>
+                                        <span class="fs-7 fw-bold text-muted">#45670</span>
+                                    </div>
+                                    <!--end::Title-->
+                                </a>
+                                <!--end::Item-->
+                                <!--begin::Item-->
+                                <a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
+                                    <!--begin::Symbol-->
+                                    <div class="symbol symbol-40px me-4">
+														<span class="symbol-label bg-light">
+															<!--begin::Svg Icon | path: icons/duotune/general/gen032.svg-->
+															<span class="svg-icon svg-icon-2 svg-icon-primary">
+																<svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                     height="24" viewBox="0 0 24 24" fill="none">
+																	<rect x="8" y="9" width="3" height="10" rx="1.5"
+                                                                          fill="black"/>
+																	<rect opacity="0.5" x="13" y="5" width="3"
+                                                                          height="14" rx="1.5" fill="black"/>
+																	<rect x="18" y="11" width="3" height="8" rx="1.5"
+                                                                          fill="black"/>
+																	<rect x="3" y="13" width="3" height="6" rx="1.5"
+                                                                          fill="black"/>
+																</svg>
+															</span>
+                                                            <!--end::Svg Icon-->
+														</span>
+                                    </div>
+                                    <!--end::Symbol-->
+                                    <!--begin::Title-->
+                                    <div class="d-flex flex-column">
+                                        <span class="fs-6 fw-bold">Shopix Mobile App Planning</span>
+                                        <span class="fs-7 fw-bold text-muted">#45690</span>
+                                    </div>
+                                    <!--end::Title-->
+                                </a>
+                                <!--end::Item-->
+                                <!--begin::Item-->
+                                <a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
+                                    <!--begin::Symbol-->
+                                    <div class="symbol symbol-40px me-4">
+														<span class="symbol-label bg-light">
+															<!--begin::Svg Icon | path: icons/duotune/communication/com012.svg-->
+															<span class="svg-icon svg-icon-2 svg-icon-primary">
+																<svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                     height="24" viewBox="0 0 24 24" fill="none">
+																	<path opacity="0.3"
+                                                                          d="M20 3H4C2.89543 3 2 3.89543 2 5V16C2 17.1046 2.89543 18 4 18H4.5C5.05228 18 5.5 18.4477 5.5 19V21.5052C5.5 22.1441 6.21212 22.5253 6.74376 22.1708L11.4885 19.0077C12.4741 18.3506 13.6321 18 14.8167 18H20C21.1046 18 22 17.1046 22 16V5C22 3.89543 21.1046 3 20 3Z"
+                                                                          fill="black"/>
+																	<rect x="6" y="12" width="7" height="2" rx="1"
+                                                                          fill="black"/>
+																	<rect x="6" y="7" width="12" height="2" rx="1"
+                                                                          fill="black"/>
+																</svg>
+															</span>
+                                                            <!--end::Svg Icon-->
+														</span>
+                                    </div>
+                                    <!--end::Symbol-->
+                                    <!--begin::Title-->
+                                    <div class="d-flex flex-column">
+                                        <span class="fs-6 fw-bold">Finance Monitoring SAAS Discussion</span>
+                                        <span class="fs-7 fw-bold text-muted">#21090</span>
+                                    </div>
+                                    <!--end::Title-->
+                                </a>
+                                <!--end::Item-->
+                                <!--begin::Item-->
+                                <a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
+                                    <!--begin::Symbol-->
+                                    <div class="symbol symbol-40px me-4">
+														<span class="symbol-label bg-light">
+															<!--begin::Svg Icon | path: icons/duotune/communication/com006.svg-->
+															<span class="svg-icon svg-icon-2 svg-icon-primary">
+																<svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                     height="24" viewBox="0 0 24 24" fill="none">
+																	<path opacity="0.3"
+                                                                          d="M22 12C22 17.5 17.5 22 12 22C6.5 22 2 17.5 2 12C2 6.5 6.5 2 12 2C17.5 2 22 6.5 22 12ZM12 7C10.3 7 9 8.3 9 10C9 11.7 10.3 13 12 13C13.7 13 15 11.7 15 10C15 8.3 13.7 7 12 7Z"
+                                                                          fill="black"/>
+																	<path
+                                                                        d="M12 22C14.6 22 17 21 18.7 19.4C17.9 16.9 15.2 15 12 15C8.8 15 6.09999 16.9 5.29999 19.4C6.99999 21 9.4 22 12 22Z"
+                                                                        fill="black"/>
+																</svg>
+															</span>
+                                                            <!--end::Svg Icon-->
+														</span>
+                                    </div>
+                                    <!--end::Symbol-->
+                                    <!--begin::Title-->
+                                    <div class="d-flex flex-column">
+                                        <span class="fs-6 fw-bold">Dashboard Analitics Launch</span>
+                                        <span class="fs-7 fw-bold text-muted">#34560</span>
+                                    </div>
+                                    <!--end::Title-->
+                                </a>
+                                <!--end::Item-->
+                            </div>
+                            <!--end::Items-->
+                        </div>
+                        <!--end::Recently viewed-->
+                        <!--begin::Recently viewed-->
+                        <div class="" data-kt-search-element="main">
+                            <!--begin::Heading-->
+                            <div class="d-flex flex-stack fw-bold mb-4">
+                                <!--begin::Label-->
+                                <span class="text-muted fs-6 me-2">Recently Searched:</span>
+                                <!--end::Label-->
+                                <!--begin::Toolbar-->
+                                <div class="d-flex" data-kt-search-element="toolbar">
+                                    <!--begin::Preferences toggle-->
+                                    <div data-kt-search-element="preferences-show"
+                                         class="btn btn-icon w-20px btn-sm btn-active-color-primary me-2 data-bs-toggle="
+                                         title="Show search preferences">
+                                        <!--begin::Svg Icon | path: icons/duotune/coding/cod001.svg-->
+                                        <span class="svg-icon svg-icon-1">
+															<svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                 height="24" viewBox="0 0 24 24" fill="none">
+																<path opacity="0.3"
+                                                                      d="M22.1 11.5V12.6C22.1 13.2 21.7 13.6 21.2 13.7L19.9 13.9C19.7 14.7 19.4 15.5 18.9 16.2L19.7 17.2999C20 17.6999 20 18.3999 19.6 18.7999L18.8 19.6C18.4 20 17.8 20 17.3 19.7L16.2 18.9C15.5 19.3 14.7 19.7 13.9 19.9L13.7 21.2C13.6 21.7 13.1 22.1 12.6 22.1H11.5C10.9 22.1 10.5 21.7 10.4 21.2L10.2 19.9C9.4 19.7 8.6 19.4 7.9 18.9L6.8 19.7C6.4 20 5.7 20 5.3 19.6L4.5 18.7999C4.1 18.3999 4.1 17.7999 4.4 17.2999L5.2 16.2C4.8 15.5 4.4 14.7 4.2 13.9L2.9 13.7C2.4 13.6 2 13.1 2 12.6V11.5C2 10.9 2.4 10.5 2.9 10.4L4.2 10.2C4.4 9.39995 4.7 8.60002 5.2 7.90002L4.4 6.79993C4.1 6.39993 4.1 5.69993 4.5 5.29993L5.3 4.5C5.7 4.1 6.3 4.10002 6.8 4.40002L7.9 5.19995C8.6 4.79995 9.4 4.39995 10.2 4.19995L10.4 2.90002C10.5 2.40002 11 2 11.5 2H12.6C13.2 2 13.6 2.40002 13.7 2.90002L13.9 4.19995C14.7 4.39995 15.5 4.69995 16.2 5.19995L17.3 4.40002C17.7 4.10002 18.4 4.1 18.8 4.5L19.6 5.29993C20 5.69993 20 6.29993 19.7 6.79993L18.9 7.90002C19.3 8.60002 19.7 9.39995 19.9 10.2L21.2 10.4C21.7 10.5 22.1 11 22.1 11.5ZM12.1 8.59998C10.2 8.59998 8.6 10.2 8.6 12.1C8.6 14 10.2 15.6 12.1 15.6C14 15.6 15.6 14 15.6 12.1C15.6 10.2 14 8.59998 12.1 8.59998Z"
+                                                                      fill="black"/>
+																<path
+                                                                    d="M17.1 12.1C17.1 14.9 14.9 17.1 12.1 17.1C9.30001 17.1 7.10001 14.9 7.10001 12.1C7.10001 9.29998 9.30001 7.09998 12.1 7.09998C14.9 7.09998 17.1 9.29998 17.1 12.1ZM12.1 10.1C11 10.1 10.1 11 10.1 12.1C10.1 13.2 11 14.1 12.1 14.1C13.2 14.1 14.1 13.2 14.1 12.1C14.1 11 13.2 10.1 12.1 10.1Z"
+                                                                    fill="black"/>
+															</svg>
+														</span>
+                                        <!--end::Svg Icon-->
+                                    </div>
+                                    <!--end::Preferences toggle-->
+                                    <!--begin::Advanced search toggle-->
+                                    <div data-kt-search-element="advanced-options-form-show"
+                                         class="btn btn-icon w-20px btn-sm btn-active-color-primary me-n1"
+                                         data-bs-toggle="tooltip" title="Show more search options">
+                                        <!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
+                                        <span class="svg-icon svg-icon-2">
+															<svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                 height="24" viewBox="0 0 24 24" fill="none">
+																<path
+                                                                    d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z"
+                                                                    fill="black"/>
+															</svg>
+														</span>
+                                        <!--end::Svg Icon-->
+                                    </div>
+                                    <!--end::Advanced search toggle-->
+                                </div>
+                                <!--end::Toolbar-->
+                            </div>
+                            <!--end::Heading-->
+                            <!--begin::Items-->
+                            <div class="scroll-y mh-200px mh-lg-325px">
+                                <!--begin::Item-->
+                                <div class="d-flex align-items-center mb-5">
+                                    <!--begin::Symbol-->
+                                    <div class="symbol symbol-40px me-4">
+														<span class="symbol-label bg-light">
+															<!--begin::Svg Icon | path: icons/duotune/electronics/elc004.svg-->
+															<span class="svg-icon svg-icon-2 svg-icon-primary">
+																<svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                     height="24" viewBox="0 0 24 24" fill="none">
+																	<path
+                                                                        d="M2 16C2 16.6 2.4 17 3 17H21C21.6 17 22 16.6 22 16V15H2V16Z"
+                                                                        fill="black"/>
+																	<path opacity="0.3"
+                                                                          d="M21 3H3C2.4 3 2 3.4 2 4V15H22V4C22 3.4 21.6 3 21 3Z"
+                                                                          fill="black"/>
+																	<path opacity="0.3" d="M15 17H9V20H15V17Z"
+                                                                          fill="black"/>
+																</svg>
+															</span>
+                                                            <!--end::Svg Icon-->
+														</span>
+                                    </div>
+                                    <!--end::Symbol-->
+                                    <!--begin::Title-->
+                                    <div class="d-flex flex-column">
+                                        <a href="#" class="fs-6 text-gray-800 text-hover-primary fw-bold">BoomApp by
+                                            Keenthemes</a>
+                                        <span class="fs-7 text-muted fw-bold">#45789</span>
+                                    </div>
+                                    <!--end::Title-->
+                                </div>
+                                <!--end::Item-->
+                                <!--begin::Item-->
+                                <div class="d-flex align-items-center mb-5">
+                                    <!--begin::Symbol-->
+                                    <div class="symbol symbol-40px me-4">
+														<span class="symbol-label bg-light">
+															<!--begin::Svg Icon | path: icons/duotune/graphs/gra001.svg-->
+															<span class="svg-icon svg-icon-2 svg-icon-primary">
+																<svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                     height="24" viewBox="0 0 24 24" fill="none">
+																	<path opacity="0.3"
+                                                                          d="M14 3V21H10V3C10 2.4 10.4 2 11 2H13C13.6 2 14 2.4 14 3ZM7 14H5C4.4 14 4 14.4 4 15V21H8V15C8 14.4 7.6 14 7 14Z"
+                                                                          fill="black"/>
+																	<path
+                                                                        d="M21 20H20V8C20 7.4 19.6 7 19 7H17C16.4 7 16 7.4 16 8V20H3C2.4 20 2 20.4 2 21C2 21.6 2.4 22 3 22H21C21.6 22 22 21.6 22 21C22 20.4 21.6 20 21 20Z"
+                                                                        fill="black"/>
+																</svg>
+															</span>
+                                                            <!--end::Svg Icon-->
+														</span>
+                                    </div>
+                                    <!--end::Symbol-->
+                                    <!--begin::Title-->
+                                    <div class="d-flex flex-column">
+                                        <a href="#" class="fs-6 text-gray-800 text-hover-primary fw-bold">"Kept API
+                                            Project Meeting</a>
+                                        <span class="fs-7 text-muted fw-bold">#84050</span>
+                                    </div>
+                                    <!--end::Title-->
+                                </div>
+                                <!--end::Item-->
+                                <!--begin::Item-->
+                                <div class="d-flex align-items-center mb-5">
+                                    <!--begin::Symbol-->
+                                    <div class="symbol symbol-40px me-4">
+														<span class="symbol-label bg-light">
+															<!--begin::Svg Icon | path: icons/duotune/graphs/gra006.svg-->
+															<span class="svg-icon svg-icon-2 svg-icon-primary">
+																<svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                     height="24" viewBox="0 0 24 24" fill="none">
+																	<path
+                                                                        d="M13 5.91517C15.8 6.41517 18 8.81519 18 11.8152C18 12.5152 17.9 13.2152 17.6 13.9152L20.1 15.3152C20.6 15.6152 21.4 15.4152 21.6 14.8152C21.9 13.9152 22.1 12.9152 22.1 11.8152C22.1 7.01519 18.8 3.11521 14.3 2.01521C13.7 1.91521 13.1 2.31521 13.1 3.01521V5.91517H13Z"
+                                                                        fill="black"/>
+																	<path opacity="0.3"
+                                                                          d="M19.1 17.0152C19.7 17.3152 19.8 18.1152 19.3 18.5152C17.5 20.5152 14.9 21.7152 12 21.7152C9.1 21.7152 6.50001 20.5152 4.70001 18.5152C4.30001 18.0152 4.39999 17.3152 4.89999 17.0152L7.39999 15.6152C8.49999 16.9152 10.2 17.8152 12 17.8152C13.8 17.8152 15.5 17.0152 16.6 15.6152L19.1 17.0152ZM6.39999 13.9151C6.19999 13.2151 6 12.5152 6 11.8152C6 8.81517 8.2 6.41515 11 5.91515V3.01519C11 2.41519 10.4 1.91519 9.79999 2.01519C5.29999 3.01519 2 7.01517 2 11.8152C2 12.8152 2.2 13.8152 2.5 14.8152C2.7 15.4152 3.4 15.7152 4 15.3152L6.39999 13.9151Z"
+                                                                          fill="black"/>
+																</svg>
+															</span>
+                                                            <!--end::Svg Icon-->
+														</span>
+                                    </div>
+                                    <!--end::Symbol-->
+                                    <!--begin::Title-->
+                                    <div class="d-flex flex-column">
+                                        <a href="#" class="fs-6 text-gray-800 text-hover-primary fw-bold">"KPI
+                                            Monitoring App Launch</a>
+                                        <span class="fs-7 text-muted fw-bold">#84250</span>
+                                    </div>
+                                    <!--end::Title-->
+                                </div>
+                                <!--end::Item-->
+                                <!--begin::Item-->
+                                <div class="d-flex align-items-center mb-5">
+                                    <!--begin::Symbol-->
+                                    <div class="symbol symbol-40px me-4">
+														<span class="symbol-label bg-light">
+															<!--begin::Svg Icon | path: icons/duotune/graphs/gra002.svg-->
+															<span class="svg-icon svg-icon-2 svg-icon-primary">
+																<svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                     height="24" viewBox="0 0 24 24" fill="none">
+																	<path opacity="0.3" d="M20 8L12.5 5L5 14V19H20V8Z"
+                                                                          fill="black"/>
+																	<path
+                                                                        d="M21 18H6V3C6 2.4 5.6 2 5 2C4.4 2 4 2.4 4 3V18H3C2.4 18 2 18.4 2 19C2 19.6 2.4 20 3 20H4V21C4 21.6 4.4 22 5 22C5.6 22 6 21.6 6 21V20H21C21.6 20 22 19.6 22 19C22 18.4 21.6 18 21 18Z"
+                                                                        fill="black"/>
+																</svg>
+															</span>
+                                                            <!--end::Svg Icon-->
+														</span>
+                                    </div>
+                                    <!--end::Symbol-->
+                                    <!--begin::Title-->
+                                    <div class="d-flex flex-column">
+                                        <a href="#" class="fs-6 text-gray-800 text-hover-primary fw-bold">Project
+                                            Reference FAQ</a>
+                                        <span class="fs-7 text-muted fw-bold">#67945</span>
+                                    </div>
+                                    <!--end::Title-->
+                                </div>
+                                <!--end::Item-->
+                                <!--begin::Item-->
+                                <div class="d-flex align-items-center mb-5">
+                                    <!--begin::Symbol-->
+                                    <div class="symbol symbol-40px me-4">
+														<span class="symbol-label bg-light">
+															<!--begin::Svg Icon | path: icons/duotune/communication/com010.svg-->
+															<span class="svg-icon svg-icon-2 svg-icon-primary">
+																<svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                     height="24" viewBox="0 0 24 24" fill="none">
+																	<path
+                                                                        d="M6 8.725C6 8.125 6.4 7.725 7 7.725H14L18 11.725V12.925L22 9.725L12.6 2.225C12.2 1.925 11.7 1.925 11.4 2.225L2 9.725L6 12.925V8.725Z"
+                                                                        fill="black"/>
+																	<path opacity="0.3"
+                                                                          d="M22 9.72498V20.725C22 21.325 21.6 21.725 21 21.725H3C2.4 21.725 2 21.325 2 20.725V9.72498L11.4 17.225C11.8 17.525 12.3 17.525 12.6 17.225L22 9.72498ZM15 11.725H18L14 7.72498V10.725C14 11.325 14.4 11.725 15 11.725Z"
+                                                                          fill="black"/>
+																</svg>
+															</span>
+                                                            <!--end::Svg Icon-->
+														</span>
+                                    </div>
+                                    <!--end::Symbol-->
+                                    <!--begin::Title-->
+                                    <div class="d-flex flex-column">
+                                        <a href="#" class="fs-6 text-gray-800 text-hover-primary fw-bold">"FitPro App
+                                            Development</a>
+                                        <span class="fs-7 text-muted fw-bold">#84250</span>
+                                    </div>
+                                    <!--end::Title-->
+                                </div>
+                                <!--end::Item-->
+                                <!--begin::Item-->
+                                <div class="d-flex align-items-center mb-5">
+                                    <!--begin::Symbol-->
+                                    <div class="symbol symbol-40px me-4">
+														<span class="symbol-label bg-light">
+															<!--begin::Svg Icon | path: icons/duotune/finance/fin001.svg-->
+															<span class="svg-icon svg-icon-2 svg-icon-primary">
+																<svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                     height="24" viewBox="0 0 24 24" fill="none">
+																	<path
+                                                                        d="M20 19.725V18.725C20 18.125 19.6 17.725 19 17.725H5C4.4 17.725 4 18.125 4 18.725V19.725H3C2.4 19.725 2 20.125 2 20.725V21.725H22V20.725C22 20.125 21.6 19.725 21 19.725H20Z"
+                                                                        fill="black"/>
+																	<path opacity="0.3"
+                                                                          d="M22 6.725V7.725C22 8.325 21.6 8.725 21 8.725H18C18.6 8.725 19 9.125 19 9.725C19 10.325 18.6 10.725 18 10.725V15.725C18.6 15.725 19 16.125 19 16.725V17.725H15V16.725C15 16.125 15.4 15.725 16 15.725V10.725C15.4 10.725 15 10.325 15 9.725C15 9.125 15.4 8.725 16 8.725H13C13.6 8.725 14 9.125 14 9.725C14 10.325 13.6 10.725 13 10.725V15.725C13.6 15.725 14 16.125 14 16.725V17.725H10V16.725C10 16.125 10.4 15.725 11 15.725V10.725C10.4 10.725 10 10.325 10 9.725C10 9.125 10.4 8.725 11 8.725H8C8.6 8.725 9 9.125 9 9.725C9 10.325 8.6 10.725 8 10.725V15.725C8.6 15.725 9 16.125 9 16.725V17.725H5V16.725C5 16.125 5.4 15.725 6 15.725V10.725C5.4 10.725 5 10.325 5 9.725C5 9.125 5.4 8.725 6 8.725H3C2.4 8.725 2 8.325 2 7.725V6.725L11 2.225C11.6 1.925 12.4 1.925 13.1 2.225L22 6.725ZM12 3.725C11.2 3.725 10.5 4.425 10.5 5.225C10.5 6.025 11.2 6.725 12 6.725C12.8 6.725 13.5 6.025 13.5 5.225C13.5 4.425 12.8 3.725 12 3.725Z"
+                                                                          fill="black"/>
+																</svg>
+															</span>
+                                                            <!--end::Svg Icon-->
+														</span>
+                                    </div>
+                                    <!--end::Symbol-->
+                                    <!--begin::Title-->
+                                    <div class="d-flex flex-column">
+                                        <a href="#" class="fs-6 text-gray-800 text-hover-primary fw-bold">Shopix Mobile
+                                            App</a>
+                                        <span class="fs-7 text-muted fw-bold">#45690</span>
+                                    </div>
+                                    <!--end::Title-->
+                                </div>
+                                <!--end::Item-->
+                                <!--begin::Item-->
+                                <div class="d-flex align-items-center mb-5">
+                                    <!--begin::Symbol-->
+                                    <div class="symbol symbol-40px me-4">
+														<span class="symbol-label bg-light">
+															<!--begin::Svg Icon | path: icons/duotune/graphs/gra002.svg-->
+															<span class="svg-icon svg-icon-2 svg-icon-primary">
+																<svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                     height="24" viewBox="0 0 24 24" fill="none">
+																	<path opacity="0.3" d="M20 8L12.5 5L5 14V19H20V8Z"
+                                                                          fill="black"/>
+																	<path
+                                                                        d="M21 18H6V3C6 2.4 5.6 2 5 2C4.4 2 4 2.4 4 3V18H3C2.4 18 2 18.4 2 19C2 19.6 2.4 20 3 20H4V21C4 21.6 4.4 22 5 22C5.6 22 6 21.6 6 21V20H21C21.6 20 22 19.6 22 19C22 18.4 21.6 18 21 18Z"
+                                                                        fill="black"/>
+																</svg>
+															</span>
+                                                            <!--end::Svg Icon-->
+														</span>
+                                    </div>
+                                    <!--end::Symbol-->
+                                    <!--begin::Title-->
+                                    <div class="d-flex flex-column">
+                                        <a href="#" class="fs-6 text-gray-800 text-hover-primary fw-bold">"Landing UI
+                                            Design" Launch</a>
+                                        <span class="fs-7 text-muted fw-bold">#24005</span>
+                                    </div>
+                                    <!--end::Title-->
+                                </div>
+                                <!--end::Item-->
+                            </div>
+                            <!--end::Items-->
+                        </div>
+                        <!--end::Recently viewed-->
+                        <!--begin::Empty-->
+                        <div data-kt-search-element="empty" class="text-center d-none">
+                            <!--begin::Icon-->
+                            <div class="pt-10 pb-10">
+                                <!--begin::Svg Icon | path: icons/duotune/files/fil024.svg-->
+                                <span class="svg-icon svg-icon-4x opacity-50">
+													<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                         viewBox="0 0 24 24" fill="none">
+														<path opacity="0.3"
+                                                              d="M14 2H6C4.89543 2 4 2.89543 4 4V20C4 21.1046 4.89543 22 6 22H18C19.1046 22 20 21.1046 20 20V8L14 2Z"
+                                                              fill="black"/>
+														<path d="M20 8L14 2V6C14 7.10457 14.8954 8 16 8H20Z"
+                                                              fill="black"/>
+														<rect x="13.6993" y="13.6656" width="4.42828" height="1.73089"
+                                                              rx="0.865447" transform="rotate(45 13.6993 13.6656)"
+                                                              fill="black"/>
+														<path
+                                                            d="M15 12C15 14.2 13.2 16 11 16C8.8 16 7 14.2 7 12C7 9.8 8.8 8 11 8C13.2 8 15 9.8 15 12ZM11 9.6C9.68 9.6 8.6 10.68 8.6 12C8.6 13.32 9.68 14.4 11 14.4C12.32 14.4 13.4 13.32 13.4 12C13.4 10.68 12.32 9.6 11 9.6Z"
+                                                            fill="black"/>
+													</svg>
+												</span>
+                                <!--end::Svg Icon-->
+                            </div>
+                            <!--end::Icon-->
+                            <!--begin::Message-->
+                            <div class="pb-15 fw-bold">
+                                <h3 class="text-gray-600 fs-5 mb-2">No result found</h3>
+                                <div class="text-muted fs-7">Please try again with a different query</div>
+                            </div>
+                            <!--end::Message-->
+                        </div>
+                        <!--end::Empty-->
+                    </div>
+                    <!--end::Wrapper-->
+                    <!--begin::Preferences-->
+                    <form data-kt-search-element="advanced-options-form" class="pt-1 d-none">
+                        <!--begin::Heading-->
+                        <h3 class="fw-bold text-dark mb-7">Advanced Search</h3>
+                        <!--end::Heading-->
+                        <!--begin::Input group-->
+                        <div class="mb-5">
+                            <input type="text" class="form-control form-control-sm form-control-solid"
+                                   placeholder="Contains the word" name="query"/>
+                        </div>
+                        <!--end::Input group-->
+                        <!--begin::Input group-->
+                        <div class="mb-5">
+                            <!--begin::Radio group-->
+                            <div class="nav-group nav-group-fluid">
+                                <!--begin::Option-->
+                                <label>
+                                    <input type="radio" class="btn-check" name="type" value="has" checked="checked"/>
+                                    <span class="btn btn-sm btn-color-muted btn-active btn-active-primary">All</span>
+                                </label>
+                                <!--end::Option-->
+                                <!--begin::Option-->
+                                <label>
+                                    <input type="radio" class="btn-check" name="type" value="users"/>
+                                    <span
+                                        class="btn btn-sm btn-color-muted btn-active btn-active-primary px-4">Users</span>
+                                </label>
+                                <!--end::Option-->
+                                <!--begin::Option-->
+                                <label>
+                                    <input type="radio" class="btn-check" name="type" value="orders"/>
+                                    <span
+                                        class="btn btn-sm btn-color-muted btn-active btn-active-primary px-4">Orders</span>
+                                </label>
+                                <!--end::Option-->
+                                <!--begin::Option-->
+                                <label>
+                                    <input type="radio" class="btn-check" name="type" value="projects"/>
+                                    <span
+                                        class="btn btn-sm btn-color-muted btn-active btn-active-primary px-4">Projects</span>
+                                </label>
+                                <!--end::Option-->
+                            </div>
+                            <!--end::Radio group-->
+                        </div>
+                        <!--end::Input group-->
+                        <!--begin::Input group-->
+                        <div class="mb-5">
+                            <input type="text" name="assignedto" class="form-control form-control-sm form-control-solid"
+                                   placeholder="Assigned to" value=""/>
+                        </div>
+                        <!--end::Input group-->
+                        <!--begin::Input group-->
+                        <div class="mb-5">
+                            <input type="text" name="collaborators"
+                                   class="form-control form-control-sm form-control-solid" placeholder="Collaborators"
+                                   value=""/>
+                        </div>
+                        <!--end::Input group-->
+                        <!--begin::Input group-->
+                        <div class="mb-5">
+                            <!--begin::Radio group-->
+                            <div class="nav-group nav-group-fluid">
+                                <!--begin::Option-->
+                                <label>
+                                    <input type="radio" class="btn-check" name="attachment" value="has"
+                                           checked="checked"/>
+                                    <span class="btn btn-sm btn-color-muted btn-active btn-active-primary">Has attachment</span>
+                                </label>
+                                <!--end::Option-->
+                                <!--begin::Option-->
+                                <label>
+                                    <input type="radio" class="btn-check" name="attachment" value="any"/>
+                                    <span
+                                        class="btn btn-sm btn-color-muted btn-active btn-active-primary px-4">Any</span>
+                                </label>
+                                <!--end::Option-->
+                            </div>
+                            <!--end::Radio group-->
+                        </div>
+                        <!--end::Input group-->
+                        <!--begin::Input group-->
+                        <div class="mb-5">
+                            <select name="timezone" aria-label="Select a Timezone" data-control="select2"
+                                    data-placeholder="date_period" class="form-select form-select-sm form-select-solid">
+                                <option value="next">Within the next</option>
+                                <option value="last">Within the last</option>
+                                <option value="between">Between</option>
+                                <option value="on">On</option>
+                            </select>
+                        </div>
+                        <!--end::Input group-->
+                        <!--begin::Input group-->
+                        <div class="row mb-8">
+                            <!--begin::Col-->
+                            <div class="col-6">
+                                <input type="number" name="date_number"
+                                       class="form-control form-control-sm form-control-solid" placeholder="Lenght"
+                                       value=""/>
+                            </div>
+                            <!--end::Col-->
+                            <!--begin::Col-->
+                            <div class="col-6">
+                                <select name="date_typer" aria-label="Select a Timezone" data-control="select2"
+                                        data-placeholder="Period" class="form-select form-select-sm form-select-solid">
+                                    <option value="days">Days</option>
+                                    <option value="weeks">Weeks</option>
+                                    <option value="months">Months</option>
+                                    <option value="years">Years</option>
+                                </select>
+                            </div>
+                            <!--end::Col-->
+                        </div>
+                        <!--end::Input group-->
+                        <!--begin::Actions-->
+                        <div class="d-flex justify-content-end">
+                            <button type="reset" class="btn btn-sm btn-light fw-bolder btn-active-light-primary me-2"
+                                    data-kt-search-element="advanced-options-form-cancel">Cancel
+                            </button>
+                            <a href="../../demo8/dist/pages/search/horizontal.html"
+                               class="btn btn-sm fw-bolder btn-primary"
+                               data-kt-search-element="advanced-options-form-search">Search</a>
+                        </div>
+                        <!--end::Actions-->
+                    </form>
+                    <!--end::Preferences-->
+                    <!--begin::Preferences-->
+                    <form data-kt-search-element="preferences" class="pt-1 d-none">
+                        <!--begin::Heading-->
+                        <h3 class="fw-bold text-dark mb-7">Search Preferences</h3>
+                        <!--end::Heading-->
+                        <!--begin::Input group-->
+                        <div class="pb-4 border-bottom">
+                            <label
+                                class="form-check form-switch form-switch-sm form-check-custom form-check-solid flex-stack">
+                                <span class="form-check-label text-gray-700 fs-6 fw-bold ms-0 me-2">Projects</span>
+                                <input class="form-check-input" type="checkbox" value="1" checked="checked"/>
+                            </label>
+                        </div>
+                        <!--end::Input group-->
+                        <!--begin::Input group-->
+                        <div class="py-4 border-bottom">
+                            <label
+                                class="form-check form-switch form-switch-sm form-check-custom form-check-solid flex-stack">
+                                <span class="form-check-label text-gray-700 fs-6 fw-bold ms-0 me-2">Targets</span>
+                                <input class="form-check-input" type="checkbox" value="1" checked="checked"/>
+                            </label>
+                        </div>
+                        <!--end::Input group-->
+                        <!--begin::Input group-->
+                        <div class="py-4 border-bottom">
+                            <label
+                                class="form-check form-switch form-switch-sm form-check-custom form-check-solid flex-stack">
+                                <span
+                                    class="form-check-label text-gray-700 fs-6 fw-bold ms-0 me-2">Affiliate Programs</span>
+                                <input class="form-check-input" type="checkbox" value="1"/>
+                            </label>
+                        </div>
+                        <!--end::Input group-->
+                        <!--begin::Input group-->
+                        <div class="py-4 border-bottom">
+                            <label
+                                class="form-check form-switch form-switch-sm form-check-custom form-check-solid flex-stack">
+                                <span class="form-check-label text-gray-700 fs-6 fw-bold ms-0 me-2">Referrals</span>
+                                <input class="form-check-input" type="checkbox" value="1" checked="checked"/>
+                            </label>
+                        </div>
+                        <!--end::Input group-->
+                        <!--begin::Input group-->
+                        <div class="py-4 border-bottom">
+                            <label
+                                class="form-check form-switch form-switch-sm form-check-custom form-check-solid flex-stack">
+                                <span class="form-check-label text-gray-700 fs-6 fw-bold ms-0 me-2">Users</span>
+                                <input class="form-check-input" type="checkbox" value="1"/>
+                            </label>
+                        </div>
+                        <!--end::Input group-->
+                        <!--begin::Actions-->
+                        <div class="d-flex justify-content-end pt-7">
+                            <button type="reset" class="btn btn-sm btn-light fw-bolder btn-active-light-primary me-2"
+                                    data-kt-search-element="preferences-dismiss">Cancel
+                            </button>
+                            <button type="submit" class="btn btn-sm fw-bolder btn-primary">Save Changes</button>
+                        </div>
+                        <!--end::Actions-->
+                    </form>
+                    <!--end::Preferences-->
+                </div>
+                <!--end::Menu-->
+            </div>
+            <!--end::Search-->
+        </div>
+        <!--end::Aside search-->
+        <!--end::Aside user-->
     </div>
-    <!--end::Aside Menu-->
+    <!--end::Aside Toolbarl-->
+    <!--begin::Aside menu-->
+    <div class="aside-menu flex-column-fluid">
+        <!--begin::Aside Menu-->
+        <div class="hover-scroll-overlay-y px-2 my-5 my-lg-5" id="kt_aside_menu_wrapper" data-kt-scroll="true"
+             data-kt-scroll-height="auto"
+             data-kt-scroll-dependencies="{default: '#kt_aside_toolbar, #kt_aside_footer', lg: '#kt_header, #kt_aside_toolbar, #kt_aside_footer'}"
+             data-kt-scroll-wrappers="#kt_aside_menu" data-kt-scroll-offset="5px">
+            <!--begin::Menu-->
+            <div
+                class="menu menu-column menu-title-gray-800 menu-state-title-primary menu-state-icon-primary menu-state-bullet-primary menu-arrow-gray-500"
+                id="#kt_aside_menu" data-kt-menu="true">
+                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+									<span class="menu-link">
+										<span class="menu-icon">
+											<!--begin::Svg Icon | path: icons/duotune/general/gen025.svg-->
+											<span class="svg-icon svg-icon-2">
+												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                     viewBox="0 0 24 24" fill="none">
+													<rect x="2" y="2" width="9" height="9" rx="2" fill="black"/>
+													<rect opacity="0.3" x="13" y="2" width="9" height="9" rx="2"
+                                                          fill="black"/>
+													<rect opacity="0.3" x="13" y="13" width="9" height="9" rx="2"
+                                                          fill="black"/>
+													<rect opacity="0.3" x="2" y="13" width="9" height="9" rx="2"
+                                                          fill="black"/>
+												</svg>
+											</span>
+                                            <!--end::Svg Icon-->
+										</span>
+										<span class="menu-title">Dashboards</span>
+										<span class="menu-arrow"></span>
+									</span>
+                    <div class="menu-sub menu-sub-accordion menu-active-bg">
+                        <div class="menu-item">
+                            <a class="menu-link active" href="../../demo8/dist/index.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Multipurpose</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/dashboards/ecommerce.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">eCommerce</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/dashboards/store-analytics.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Store Analytics</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/dashboards/logistics.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Logistics</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/dashboards/delivery.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Delivery</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/dashboards/marketing.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Marketing</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/dashboards/social.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Social</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/landing.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Landing</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-content pt-8 pb-2">
+                        <span class="menu-section text-muted text-uppercase fs-8 ls-1">Crafted</span>
+                    </div>
+                </div>
+                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+									<span class="menu-link">
+										<span class="menu-icon">
+											<!--begin::Svg Icon | path: icons/duotune/ecommerce/ecm007.svg-->
+											<span class="svg-icon svg-icon-2">
+												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                     viewBox="0 0 24 24" fill="none">
+													<path
+                                                        d="M21 9V11C21 11.6 20.6 12 20 12H14V8H20C20.6 8 21 8.4 21 9ZM10 8H4C3.4 8 3 8.4 3 9V11C3 11.6 3.4 12 4 12H10V8Z"
+                                                        fill="black"/>
+													<path
+                                                        d="M15 2C13.3 2 12 3.3 12 5V8H15C16.7 8 18 6.7 18 5C18 3.3 16.7 2 15 2Z"
+                                                        fill="black"/>
+													<path opacity="0.3"
+                                                          d="M9 2C10.7 2 12 3.3 12 5V8H9C7.3 8 6 6.7 6 5C6 3.3 7.3 2 9 2ZM4 12V21C4 21.6 4.4 22 5 22H10V12H4ZM20 12V21C20 21.6 19.6 22 19 22H14V12H20Z"
+                                                          fill="black"/>
+												</svg>
+											</span>
+                                            <!--end::Svg Icon-->
+										</span>
+										<span class="menu-title">Pages</span>
+										<span class="menu-arrow"></span>
+									</span>
+                    <div class="menu-sub menu-sub-accordion menu-active-bg">
+                        <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+											<span class="menu-link">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+												<span class="menu-title">User Profile</span>
+												<span class="menu-arrow"></span>
+											</span>
+                            <div class="menu-sub menu-sub-accordion menu-active-bg">
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/pages/user-profile/overview.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Overview</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/pages/user-profile/projects.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Projects</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/pages/user-profile/campaigns.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Campaigns</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/pages/user-profile/documents.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Documents</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/pages/user-profile/followers.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Followers</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/pages/user-profile/activity.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Activity</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+											<span class="menu-link">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+												<span class="menu-title">Blog</span>
+												<span class="menu-arrow"></span>
+											</span>
+                            <div class="menu-sub menu-sub-accordion menu-active-bg">
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/pages/blog/home.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Blog Home</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/pages/blog/post.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Blog Post</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+											<span class="menu-link">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+												<span class="menu-title">Pricing</span>
+												<span class="menu-arrow"></span>
+											</span>
+                            <div class="menu-sub menu-sub-accordion menu-active-bg">
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/pages/pricing/pricing-1.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Pricing 1</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/pages/pricing/pricing-2.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Pricing 2</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+											<span class="menu-link">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+												<span class="menu-title">Careers</span>
+												<span class="menu-arrow"></span>
+											</span>
+                            <div class="menu-sub menu-sub-accordion menu-active-bg">
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/pages/careers/list.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Careers List</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/pages/careers/apply.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Careers Apply</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+											<span class="menu-link">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+												<span class="menu-title">FAQ</span>
+												<span class="menu-arrow"></span>
+											</span>
+                            <div class="menu-sub menu-sub-accordion menu-active-bg">
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/pages/faq/classic.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Classic</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/pages/faq/extended.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Extended</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/pages/about.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">About Us</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/pages/contact.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Contact Us</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/pages/team.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Our Team</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/pages/licenses.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Licenses</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/pages/sitemap.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Sitemap</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+									<span class="menu-link">
+										<span class="menu-icon">
+											<!--begin::Svg Icon | path: icons/duotune/communication/com013.svg-->
+											<span class="svg-icon svg-icon-2">
+												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                     viewBox="0 0 24 24" fill="none">
+													<path
+                                                        d="M6.28548 15.0861C7.34369 13.1814 9.35142 12 11.5304 12H12.4696C14.6486 12 16.6563 13.1814 17.7145 15.0861L19.3493 18.0287C20.0899 19.3618 19.1259 21 17.601 21H6.39903C4.87406 21 3.91012 19.3618 4.65071 18.0287L6.28548 15.0861Z"
+                                                        fill="black"/>
+													<rect opacity="0.3" x="8" y="3" width="8" height="8" rx="4"
+                                                          fill="black"/>
+												</svg>
+											</span>
+                                            <!--end::Svg Icon-->
+										</span>
+										<span class="menu-title">Account</span>
+										<span class="menu-arrow"></span>
+									</span>
+                    <div class="menu-sub menu-sub-accordion menu-active-bg">
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/account/overview.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Overview</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/account/settings.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Settings</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/account/security.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Security</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/account/billing.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Billing</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/account/statements.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Statements</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/account/referrals.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Referrals</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/account/api-keys.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">API Keys</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/account/logs.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Logs</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+									<span class="menu-link">
+										<span class="menu-icon">
+											<!--begin::Svg Icon | path: icons/duotune/technology/teh004.svg-->
+											<span class="svg-icon svg-icon-2">
+												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                     viewBox="0 0 24 24" fill="none">
+													<path opacity="0.3"
+                                                          d="M21 10.7192H3C2.4 10.7192 2 11.1192 2 11.7192C2 12.3192 2.4 12.7192 3 12.7192H6V14.7192C6 18.0192 8.7 20.7192 12 20.7192C15.3 20.7192 18 18.0192 18 14.7192V12.7192H21C21.6 12.7192 22 12.3192 22 11.7192C22 11.1192 21.6 10.7192 21 10.7192Z"
+                                                          fill="black"/>
+													<path
+                                                        d="M11.6 21.9192C11.4 21.9192 11.2 21.8192 11 21.7192C10.6 21.4192 10.5 20.7191 10.8 20.3191C11.7 19.1191 12.3 17.8191 12.7 16.3191C12.8 15.8191 13.4 15.4192 13.9 15.6192C14.4 15.7192 14.8 16.3191 14.6 16.8191C14.2 18.5191 13.4 20.1192 12.4 21.5192C12.2 21.7192 11.9 21.9192 11.6 21.9192ZM8.7 19.7192C10.2 18.1192 11 15.9192 11 13.7192V8.71917C11 8.11917 11.4 7.71917 12 7.71917C12.6 7.71917 13 8.11917 13 8.71917V13.0192C13 13.6192 13.4 14.0192 14 14.0192C14.6 14.0192 15 13.6192 15 13.0192V8.71917C15 7.01917 13.7 5.71917 12 5.71917C10.3 5.71917 9 7.01917 9 8.71917V13.7192C9 15.4192 8.4 17.1191 7.2 18.3191C6.8 18.7191 6.9 19.3192 7.3 19.7192C7.5 19.9192 7.7 20.0192 8 20.0192C8.3 20.0192 8.5 19.9192 8.7 19.7192ZM6 16.7192C6.5 16.7192 7 16.2192 7 15.7192V8.71917C7 8.11917 7.1 7.51918 7.3 6.91918C7.5 6.41918 7.2 5.8192 6.7 5.6192C6.2 5.4192 5.59999 5.71917 5.39999 6.21917C5.09999 7.01917 5 7.81917 5 8.71917V15.7192V15.8191C5 16.3191 5.5 16.7192 6 16.7192ZM9 4.71917C9.5 4.31917 10.1 4.11918 10.7 3.91918C11.2 3.81918 11.5 3.21917 11.4 2.71917C11.3 2.21917 10.7 1.91916 10.2 2.01916C9.4 2.21916 8.59999 2.6192 7.89999 3.1192C7.49999 3.4192 7.4 4.11916 7.7 4.51916C7.9 4.81916 8.2 4.91918 8.5 4.91918C8.6 4.91918 8.8 4.81917 9 4.71917ZM18.2 18.9192C18.7 17.2192 19 15.5192 19 13.7192V8.71917C19 5.71917 17.1 3.1192 14.3 2.1192C13.8 1.9192 13.2 2.21917 13 2.71917C12.8 3.21917 13.1 3.81916 13.6 4.01916C15.6 4.71916 17 6.61917 17 8.71917V13.7192C17 15.3192 16.8 16.8191 16.3 18.3191C16.1 18.8191 16.4 19.4192 16.9 19.6192C17 19.6192 17.1 19.6192 17.2 19.6192C17.7 19.6192 18 19.3192 18.2 18.9192Z"
+                                                        fill="black"/>
+												</svg>
+											</span>
+                                            <!--end::Svg Icon-->
+										</span>
+										<span class="menu-title">Authentication</span>
+										<span class="menu-arrow"></span>
+									</span>
+                    <div class="menu-sub menu-sub-accordion menu-active-bg">
+                        <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+											<span class="menu-link">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+												<span class="menu-title">Basic Layout</span>
+												<span class="menu-arrow"></span>
+											</span>
+                            <div class="menu-sub menu-sub-accordion menu-active-bg">
+                                <div class="menu-item">
+                                    <a class="menu-link"
+                                       href="../../demo8/dist/authentication/layouts/basic/sign-in.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Sign-in</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link"
+                                       href="../../demo8/dist/authentication/layouts/basic/sign-up.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Sign-up</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link"
+                                       href="../../demo8/dist/authentication/layouts/basic/two-steps.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Two-steps</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link"
+                                       href="../../demo8/dist/authentication/layouts/basic/password-reset.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Password Reset</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link"
+                                       href="../../demo8/dist/authentication/layouts/basic/new-password.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">New Password</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+											<span class="menu-link">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+												<span class="menu-title">Aside Layout</span>
+												<span class="menu-arrow"></span>
+											</span>
+                            <div class="menu-sub menu-sub-accordion menu-active-bg">
+                                <div class="menu-item">
+                                    <a class="menu-link"
+                                       href="../../demo8/dist/authentication/layouts/aside/sign-in.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Sign-in</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link"
+                                       href="../../demo8/dist/authentication/layouts/aside/sign-up.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Sign-up</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link"
+                                       href="../../demo8/dist/authentication/layouts/aside/two-steps.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Two-steps</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link"
+                                       href="../../demo8/dist/authentication/layouts/aside/password-reset.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Password Reset</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link"
+                                       href="../../demo8/dist/authentication/layouts/aside/new-password.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">New Password</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+											<span class="menu-link">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+												<span class="menu-title">Dark Layout</span>
+												<span class="menu-arrow"></span>
+											</span>
+                            <div class="menu-sub menu-sub-accordion menu-active-bg">
+                                <div class="menu-item">
+                                    <a class="menu-link"
+                                       href="../../demo8/dist/authentication/layouts/dark/sign-in.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Sign-in</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link"
+                                       href="../../demo8/dist/authentication/layouts/dark/sign-up.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Sign-up</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link"
+                                       href="../../demo8/dist/authentication/layouts/dark/two-steps.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Two-steps</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link"
+                                       href="../../demo8/dist/authentication/layouts/dark/password-reset.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Password Reset</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link"
+                                       href="../../demo8/dist/authentication/layouts/dark/new-password.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">New Password</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link"
+                               href="../../demo8/dist/authentication/extended/multi-steps-sign-up.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Multi-steps Sign-up</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link"
+                               href="../../demo8/dist/authentication/extended/two-factor-authentication.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Two Factor Auth</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link"
+                               href="../../demo8/dist/authentication/extended/free-trial-sign-up.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Free Trial Sign-up</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/authentication/extended/coming-soon.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Coming Soon</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/authentication/general/welcome.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Welcome Message</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/authentication/general/verify-email.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Verify Email</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link"
+                               href="../../demo8/dist/authentication/general/password-confirmation.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Password Confirmation</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/authentication/general/deactivation.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Account Deactivation</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/authentication/general/error-404.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Error 404</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/authentication/general/error-500.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Error 500</span>
+                            </a>
+                        </div>
+                        <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+											<span class="menu-link">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+												<span class="menu-title">Email Templates</span>
+												<span class="menu-arrow"></span>
+											</span>
+                            <div class="menu-sub menu-sub-accordion menu-active-bg">
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/authentication/email/verify-email.html"
+                                       target="blank">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Verify Email</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/authentication/email/invitation.html"
+                                       target="blank">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Account Invitation</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link"
+                                       href="../../demo8/dist/authentication/email/password-reset.html" target="blank">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Password Reset</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link"
+                                       href="../../demo8/dist/authentication/email/password-change.html" target="blank">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Password Changed</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+									<span class="menu-link">
+										<span class="menu-icon">
+											<!--begin::Svg Icon | path: icons/duotune/art/art009.svg-->
+											<span class="svg-icon svg-icon-2">
+												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                     viewBox="0 0 24 24" fill="none">
+													<path opacity="0.3"
+                                                          d="M21 18.3V4H20H5C4.4 4 4 4.4 4 5V20C10.9 20 16.7 15.6 19 9.5V18.3C18.4 18.6 18 19.3 18 20C18 21.1 18.9 22 20 22C21.1 22 22 21.1 22 20C22 19.3 21.6 18.6 21 18.3Z"
+                                                          fill="black"/>
+													<path
+                                                        d="M22 4C22 2.9 21.1 2 20 2C18.9 2 18 2.9 18 4C18 4.7 18.4 5.29995 18.9 5.69995C18.1 12.6 12.6 18.2 5.70001 18.9C5.30001 18.4 4.7 18 4 18C2.9 18 2 18.9 2 20C2 21.1 2.9 22 4 22C4.8 22 5.39999 21.6 5.79999 20.9C13.8 20.1 20.1 13.7 20.9 5.80005C21.6 5.40005 22 4.8 22 4Z"
+                                                        fill="black"/>
+												</svg>
+											</span>
+                                            <!--end::Svg Icon-->
+										</span>
+										<span class="menu-title">Utilities</span>
+										<span class="menu-arrow"></span>
+									</span>
+                    <div class="menu-sub menu-sub-accordion menu-active-bg">
+                        <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+											<span class="menu-link">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+												<span class="menu-title">Modals</span>
+												<span class="menu-arrow"></span>
+											</span>
+                            <div class="menu-sub menu-sub-accordion menu-active-bg">
+                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+													<span class="menu-link">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+														<span class="menu-title">General</span>
+														<span class="menu-arrow"></span>
+													</span>
+                                    <div class="menu-sub menu-sub-accordion menu-active-bg">
+                                        <div class="menu-item">
+                                            <a class="menu-link"
+                                               href="../../demo8/dist/utilities/modals/general/invite-friends.html">
+																<span class="menu-bullet">
+																	<span class="bullet bullet-dot"></span>
+																</span>
+                                                <span class="menu-title">Invite Friends</span>
+                                            </a>
+                                        </div>
+                                        <div class="menu-item">
+                                            <a class="menu-link"
+                                               href="../../demo8/dist/utilities/modals/general/view-users.html">
+																<span class="menu-bullet">
+																	<span class="bullet bullet-dot"></span>
+																</span>
+                                                <span class="menu-title">View Users</span>
+                                            </a>
+                                        </div>
+                                        <div class="menu-item">
+                                            <a class="menu-link"
+                                               href="../../demo8/dist/utilities/modals/general/select-users.html">
+																<span class="menu-bullet">
+																	<span class="bullet bullet-dot"></span>
+																</span>
+                                                <span class="menu-title">Select Users</span>
+                                            </a>
+                                        </div>
+                                        <div class="menu-item">
+                                            <a class="menu-link"
+                                               href="../../demo8/dist/utilities/modals/general/upgrade-plan.html">
+																<span class="menu-bullet">
+																	<span class="bullet bullet-dot"></span>
+																</span>
+                                                <span class="menu-title">Upgrade Plan</span>
+                                            </a>
+                                        </div>
+                                        <div class="menu-item">
+                                            <a class="menu-link"
+                                               href="../../demo8/dist/utilities/modals/general/share-earn.html">
+																<span class="menu-bullet">
+																	<span class="bullet bullet-dot"></span>
+																</span>
+                                                <span class="menu-title">Share &amp; Earn</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+													<span class="menu-link">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+														<span class="menu-title">Forms</span>
+														<span class="menu-arrow"></span>
+													</span>
+                                    <div class="menu-sub menu-sub-accordion menu-active-bg">
+                                        <div class="menu-item">
+                                            <a class="menu-link"
+                                               href="../../demo8/dist/utilities/modals/forms/new-target.html">
+																<span class="menu-bullet">
+																	<span class="bullet bullet-dot"></span>
+																</span>
+                                                <span class="menu-title">New Target</span>
+                                            </a>
+                                        </div>
+                                        <div class="menu-item">
+                                            <a class="menu-link"
+                                               href="../../demo8/dist/utilities/modals/forms/new-card.html">
+																<span class="menu-bullet">
+																	<span class="bullet bullet-dot"></span>
+																</span>
+                                                <span class="menu-title">New Card</span>
+                                            </a>
+                                        </div>
+                                        <div class="menu-item">
+                                            <a class="menu-link"
+                                               href="../../demo8/dist/utilities/modals/forms/new-address.html">
+																<span class="menu-bullet">
+																	<span class="bullet bullet-dot"></span>
+																</span>
+                                                <span class="menu-title">New Address</span>
+                                            </a>
+                                        </div>
+                                        <div class="menu-item">
+                                            <a class="menu-link"
+                                               href="../../demo8/dist/utilities/modals/forms/create-api-key.html">
+																<span class="menu-bullet">
+																	<span class="bullet bullet-dot"></span>
+																</span>
+                                                <span class="menu-title">Create API Key</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+													<span class="menu-link">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+														<span class="menu-title">Wizards</span>
+														<span class="menu-arrow"></span>
+													</span>
+                                    <div class="menu-sub menu-sub-accordion menu-active-bg">
+                                        <div class="menu-item">
+                                            <a class="menu-link"
+                                               href="../../demo8/dist/utilities/modals/wizards/create-app.html">
+																<span class="menu-bullet">
+																	<span class="bullet bullet-dot"></span>
+																</span>
+                                                <span class="menu-title">Create App</span>
+                                            </a>
+                                        </div>
+                                        <div class="menu-item">
+                                            <a class="menu-link"
+                                               href="../../demo8/dist/utilities/modals/wizards/create-campaign.html">
+																<span class="menu-bullet">
+																	<span class="bullet bullet-dot"></span>
+																</span>
+                                                <span class="menu-title">Create Campaign</span>
+                                            </a>
+                                        </div>
+                                        <div class="menu-item">
+                                            <a class="menu-link"
+                                               href="../../demo8/dist/utilities/modals/wizards/create-account.html">
+																<span class="menu-bullet">
+																	<span class="bullet bullet-dot"></span>
+																</span>
+                                                <span class="menu-title">Create Business Acc</span>
+                                            </a>
+                                        </div>
+                                        <div class="menu-item">
+                                            <a class="menu-link"
+                                               href="../../demo8/dist/utilities/modals/wizards/create-project.html">
+																<span class="menu-bullet">
+																	<span class="bullet bullet-dot"></span>
+																</span>
+                                                <span class="menu-title">Create Project</span>
+                                            </a>
+                                        </div>
+                                        <div class="menu-item">
+                                            <a class="menu-link"
+                                               href="../../demo8/dist/utilities/modals/wizards/offer-a-deal.html">
+																<span class="menu-bullet">
+																	<span class="bullet bullet-dot"></span>
+																</span>
+                                                <span class="menu-title">Offer a Deal</span>
+                                            </a>
+                                        </div>
+                                        <div class="menu-item">
+                                            <a class="menu-link"
+                                               href="../../demo8/dist/utilities/modals/wizards/two-factor-authentication.html">
+																<span class="menu-bullet">
+																	<span class="bullet bullet-dot"></span>
+																</span>
+                                                <span class="menu-title">Two Factor Auth</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+													<span class="menu-link">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+														<span class="menu-title">Search</span>
+														<span class="menu-arrow"></span>
+													</span>
+                                    <div class="menu-sub menu-sub-accordion menu-active-bg">
+                                        <div class="menu-item">
+                                            <a class="menu-link"
+                                               href="../../demo8/dist/utilities/modals/search/users.html">
+																<span class="menu-bullet">
+																	<span class="bullet bullet-dot"></span>
+																</span>
+                                                <span class="menu-title">Users</span>
+                                            </a>
+                                        </div>
+                                        <div class="menu-item">
+                                            <a class="menu-link"
+                                               href="../../demo8/dist/utilities/modals/search/select-location.html">
+																<span class="menu-bullet">
+																	<span class="bullet bullet-dot"></span>
+																</span>
+                                                <span class="menu-title">Select Location</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+											<span class="menu-link">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+												<span class="menu-title">Search</span>
+												<span class="menu-arrow"></span>
+											</span>
+                            <div class="menu-sub menu-sub-accordion menu-active-bg">
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/utilities/search/horizontal.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Horizontal</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/utilities/search/vertical.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Vertical</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/utilities/search/users.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Users</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/utilities/search/select-location.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Location</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+											<span class="menu-link">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+												<span class="menu-title">Wizards</span>
+												<span class="menu-arrow"></span>
+											</span>
+                            <div class="menu-sub menu-sub-accordion menu-active-bg">
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/utilities/wizards/horizontal.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Horizontal</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/utilities/wizards/vertical.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Vertical</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link"
+                                       href="../../demo8/dist/utilities/wizards/two-factor-authentication.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Two Factor Auth</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/utilities/wizards/create-app.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Create App</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/utilities/wizards/create-campaign.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Create Campaign</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/utilities/wizards/create-account.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Create Account</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/utilities/wizards/create-project.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Create Project</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/utilities/wizards/offer-a-deal.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Offer a Deal</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+									<span class="menu-link">
+										<span class="menu-icon">
+											<!--begin::Svg Icon | path: icons/duotune/general/gen022.svg-->
+											<span class="svg-icon svg-icon-2">
+												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                     viewBox="0 0 24 24" fill="none">
+													<path
+                                                        d="M11.2929 2.70711C11.6834 2.31658 12.3166 2.31658 12.7071 2.70711L15.2929 5.29289C15.6834 5.68342 15.6834 6.31658 15.2929 6.70711L12.7071 9.29289C12.3166 9.68342 11.6834 9.68342 11.2929 9.29289L8.70711 6.70711C8.31658 6.31658 8.31658 5.68342 8.70711 5.29289L11.2929 2.70711Z"
+                                                        fill="black"/>
+													<path
+                                                        d="M11.2929 14.7071C11.6834 14.3166 12.3166 14.3166 12.7071 14.7071L15.2929 17.2929C15.6834 17.6834 15.6834 18.3166 15.2929 18.7071L12.7071 21.2929C12.3166 21.6834 11.6834 21.6834 11.2929 21.2929L8.70711 18.7071C8.31658 18.3166 8.31658 17.6834 8.70711 17.2929L11.2929 14.7071Z"
+                                                        fill="black"/>
+													<path opacity="0.3"
+                                                          d="M5.29289 8.70711C5.68342 8.31658 6.31658 8.31658 6.70711 8.70711L9.29289 11.2929C9.68342 11.6834 9.68342 12.3166 9.29289 12.7071L6.70711 15.2929C6.31658 15.6834 5.68342 15.6834 5.29289 15.2929L2.70711 12.7071C2.31658 12.3166 2.31658 11.6834 2.70711 11.2929L5.29289 8.70711Z"
+                                                          fill="black"/>
+													<path opacity="0.3"
+                                                          d="M17.2929 8.70711C17.6834 8.31658 18.3166 8.31658 18.7071 8.70711L21.2929 11.2929C21.6834 11.6834 21.6834 12.3166 21.2929 12.7071L18.7071 15.2929C18.3166 15.6834 17.6834 15.6834 17.2929 15.2929L14.7071 12.7071C14.3166 12.3166 14.3166 11.6834 14.7071 11.2929L17.2929 8.70711Z"
+                                                          fill="black"/>
+												</svg>
+											</span>
+                                            <!--end::Svg Icon-->
+										</span>
+										<span class="menu-title">Widgets</span>
+										<span class="menu-arrow"></span>
+									</span>
+                    <div class="menu-sub menu-sub-accordion menu-active-bg">
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/widgets/lists.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Lists</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/widgets/statistics.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Statistics</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/widgets/charts.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Charts</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/widgets/mixed.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Mixed</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/widgets/tables.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Tables</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/widgets/feeds.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Feeds</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-content pt-8 pb-2">
+                        <span class="menu-section text-muted text-uppercase fs-8 ls-1">Apps</span>
+                    </div>
+                </div>
+                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+									<span class="menu-link">
+										<span class="menu-icon">
+											<!--begin::Svg Icon | path: icons/duotune/general/gen002.svg-->
+											<span class="svg-icon svg-icon-2">
+												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                     viewBox="0 0 24 24" fill="none">
+													<path opacity="0.3"
+                                                          d="M4.05424 15.1982C8.34524 7.76818 13.5782 3.26318 20.9282 2.01418C21.0729 1.98837 21.2216 1.99789 21.3618 2.04193C21.502 2.08597 21.6294 2.16323 21.7333 2.26712C21.8372 2.37101 21.9144 2.49846 21.9585 2.63863C22.0025 2.7788 22.012 2.92754 21.9862 3.07218C20.7372 10.4222 16.2322 15.6552 8.80224 19.9462L4.05424 15.1982ZM3.81924 17.3372L2.63324 20.4482C2.58427 20.5765 2.5735 20.7163 2.6022 20.8507C2.63091 20.9851 2.69788 21.1082 2.79503 21.2054C2.89218 21.3025 3.01536 21.3695 3.14972 21.3982C3.28408 21.4269 3.42387 21.4161 3.55224 21.3672L6.66524 20.1802L3.81924 17.3372ZM16.5002 5.99818C16.2036 5.99818 15.9136 6.08615 15.6669 6.25097C15.4202 6.41579 15.228 6.65006 15.1144 6.92415C15.0009 7.19824 14.9712 7.49984 15.0291 7.79081C15.0869 8.08178 15.2298 8.34906 15.4396 8.55884C15.6494 8.76862 15.9166 8.91148 16.2076 8.96935C16.4986 9.02723 16.8002 8.99753 17.0743 8.884C17.3484 8.77046 17.5826 8.5782 17.7474 8.33153C17.9123 8.08486 18.0002 7.79485 18.0002 7.49818C18.0002 7.10035 17.8422 6.71882 17.5609 6.43752C17.2796 6.15621 16.8981 5.99818 16.5002 5.99818Z"
+                                                          fill="black"/>
+													<path
+                                                        d="M4.05423 15.1982L2.24723 13.3912C2.15505 13.299 2.08547 13.1867 2.04395 13.0632C2.00243 12.9396 1.9901 12.8081 2.00793 12.679C2.02575 12.5498 2.07325 12.4266 2.14669 12.3189C2.22013 12.2112 2.31752 12.1219 2.43123 12.0582L9.15323 8.28918C7.17353 10.3717 5.4607 12.6926 4.05423 15.1982ZM8.80023 19.9442L10.6072 21.7512C10.6994 21.8434 10.8117 21.9129 10.9352 21.9545C11.0588 21.996 11.1903 22.0083 11.3195 21.9905C11.4486 21.9727 11.5718 21.9252 11.6795 21.8517C11.7872 21.7783 11.8765 21.6809 11.9402 21.5672L15.7092 14.8442C13.6269 16.8245 11.3061 18.5377 8.80023 19.9442ZM7.04023 18.1832L12.5832 12.6402C12.7381 12.4759 12.8228 12.2577 12.8195 12.032C12.8161 11.8063 12.725 11.5907 12.5653 11.4311C12.4057 11.2714 12.1901 11.1803 11.9644 11.1769C11.7387 11.1736 11.5205 11.2583 11.3562 11.4132L5.81323 16.9562L7.04023 18.1832Z"
+                                                        fill="black"/>
+												</svg>
+											</span>
+                                            <!--end::Svg Icon-->
+										</span>
+										<span class="menu-title">Projects</span>
+										<span class="menu-arrow"></span>
+									</span>
+                    <div class="menu-sub menu-sub-accordion">
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/apps/projects/list.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">My Projects</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/apps/projects/project.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">View Project</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/apps/projects/targets.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Targets</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/apps/projects/budget.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Budget</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/apps/projects/users.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Users</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/apps/projects/files.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Files</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/apps/projects/activity.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Activity</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/apps/projects/settings.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Settings</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+									<span class="menu-link">
+										<span class="menu-icon">
+											<!--begin::Svg Icon | path: icons/duotune/ecommerce/ecm001.svg-->
+											<span class="svg-icon svg-icon-2">
+												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                     viewBox="0 0 24 24" fill="none">
+													<path opacity="0.3"
+                                                          d="M18.041 22.041C18.5932 22.041 19.041 21.5932 19.041 21.041C19.041 20.4887 18.5932 20.041 18.041 20.041C17.4887 20.041 17.041 20.4887 17.041 21.041C17.041 21.5932 17.4887 22.041 18.041 22.041Z"
+                                                          fill="black"/>
+													<path opacity="0.3"
+                                                          d="M6.04095 22.041C6.59324 22.041 7.04095 21.5932 7.04095 21.041C7.04095 20.4887 6.59324 20.041 6.04095 20.041C5.48867 20.041 5.04095 20.4887 5.04095 21.041C5.04095 21.5932 5.48867 22.041 6.04095 22.041Z"
+                                                          fill="black"/>
+													<path opacity="0.3"
+                                                          d="M7.04095 16.041L19.1409 15.1409C19.7409 15.1409 20.141 14.7409 20.341 14.1409L21.7409 8.34094C21.9409 7.64094 21.4409 7.04095 20.7409 7.04095H5.44095L7.04095 16.041Z"
+                                                          fill="black"/>
+													<path
+                                                        d="M19.041 20.041H5.04096C4.74096 20.041 4.34095 19.841 4.14095 19.541C3.94095 19.241 3.94095 18.841 4.14095 18.541L6.04096 14.841L4.14095 4.64095L2.54096 3.84096C2.04096 3.64096 1.84095 3.04097 2.14095 2.54097C2.34095 2.04097 2.94096 1.84095 3.44096 2.14095L5.44096 3.14095C5.74096 3.24095 5.94096 3.54096 5.94096 3.84096L7.94096 14.841C7.94096 15.041 7.94095 15.241 7.84095 15.441L6.54096 18.041H19.041C19.641 18.041 20.041 18.441 20.041 19.041C20.041 19.641 19.641 20.041 19.041 20.041Z"
+                                                        fill="black"/>
+												</svg>
+											</span>
+                                            <!--end::Svg Icon-->
+										</span>
+										<span class="menu-title">eCommerce</span>
+										<span class="menu-arrow"></span>
+									</span>
+                    <div class="menu-sub menu-sub-accordion">
+                        <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+											<span class="menu-link">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+												<span class="menu-title">Catalog</span>
+												<span class="menu-arrow"></span>
+											</span>
+                            <div class="menu-sub menu-sub-accordion">
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/apps/ecommerce/catalog/products.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Products</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/apps/ecommerce/catalog/categories.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Categories</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link"
+                                       href="../../demo8/dist/apps/ecommerce/catalog/add-product.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Add Product</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link"
+                                       href="../../demo8/dist/apps/ecommerce/catalog/edit-product.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Edit Product</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link"
+                                       href="../../demo8/dist/apps/ecommerce/catalog/add-category.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Add Category</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link"
+                                       href="../../demo8/dist/apps/ecommerce/catalog/edit-category.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Edit Category</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+											<span class="menu-link">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+												<span class="menu-title">Sales</span>
+												<span class="menu-arrow"></span>
+											</span>
+                            <div class="menu-sub menu-sub-accordion">
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/apps/ecommerce/sales/listing.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Orders Listing</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/apps/ecommerce/sales/details.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Order Details</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/apps/ecommerce/sales/add-order.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Add Order</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/apps/ecommerce/sales/edit-order.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Edit Order</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="#" title="Coming soon" data-bs-toggle="tooltip"
+                               data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Customers</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="#" title="Coming soon" data-bs-toggle="tooltip"
+                               data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Reports</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="#" title="Coming soon" data-bs-toggle="tooltip"
+                               data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Settings</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div data-kt-menu-trigger="click" class="menu-item menu-accordion mb-1">
+									<span class="menu-link">
+										<span class="menu-icon">
+											<!--begin::Svg Icon | path: icons/duotune/graphs/gra006.svg-->
+											<span class="svg-icon svg-icon-2">
+												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                     viewBox="0 0 24 24" fill="none">
+													<path
+                                                        d="M13 5.91517C15.8 6.41517 18 8.81519 18 11.8152C18 12.5152 17.9 13.2152 17.6 13.9152L20.1 15.3152C20.6 15.6152 21.4 15.4152 21.6 14.8152C21.9 13.9152 22.1 12.9152 22.1 11.8152C22.1 7.01519 18.8 3.11521 14.3 2.01521C13.7 1.91521 13.1 2.31521 13.1 3.01521V5.91517H13Z"
+                                                        fill="black"/>
+													<path opacity="0.3"
+                                                          d="M19.1 17.0152C19.7 17.3152 19.8 18.1152 19.3 18.5152C17.5 20.5152 14.9 21.7152 12 21.7152C9.1 21.7152 6.50001 20.5152 4.70001 18.5152C4.30001 18.0152 4.39999 17.3152 4.89999 17.0152L7.39999 15.6152C8.49999 16.9152 10.2 17.8152 12 17.8152C13.8 17.8152 15.5 17.0152 16.6 15.6152L19.1 17.0152ZM6.39999 13.9151C6.19999 13.2151 6 12.5152 6 11.8152C6 8.81517 8.2 6.41515 11 5.91515V3.01519C11 2.41519 10.4 1.91519 9.79999 2.01519C5.29999 3.01519 2 7.01517 2 11.8152C2 12.8152 2.2 13.8152 2.5 14.8152C2.7 15.4152 3.4 15.7152 4 15.3152L6.39999 13.9151Z"
+                                                          fill="black"/>
+												</svg>
+											</span>
+                                            <!--end::Svg Icon-->
+										</span>
+										<span class="menu-title">Support Center</span>
+										<span class="menu-arrow"></span>
+									</span>
+                    <div class="menu-sub menu-sub-accordion">
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/apps/support-center/overview.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Overview</span>
+                            </a>
+                        </div>
+                        <div data-kt-menu-trigger="click" class="menu-item menu-accordion mb-1">
+											<span class="menu-link">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+												<span class="menu-title">Tickets</span>
+												<span class="menu-arrow"></span>
+											</span>
+                            <div class="menu-sub menu-sub-accordion">
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/apps/support-center/tickets/list.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Tickets List</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/apps/support-center/tickets/view.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">View Ticket</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-kt-menu-trigger="click" class="menu-item menu-accordion mb-1">
+											<span class="menu-link">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+												<span class="menu-title">Tutorials</span>
+												<span class="menu-arrow"></span>
+											</span>
+                            <div class="menu-sub menu-sub-accordion">
+                                <div class="menu-item">
+                                    <a class="menu-link"
+                                       href="../../demo8/dist/apps/support-center/tutorials/list.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Tutorials List</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link"
+                                       href="../../demo8/dist/apps/support-center/tutorials/post.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Tutorial Post</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/apps/support-center/faq.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">FAQ</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/apps/support-center/licenses.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Licenses</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/apps/support-center/contact.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Contact Us</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div data-kt-menu-trigger="click" class="menu-item menu-accordion mb-1">
+									<span class="menu-link">
+										<span class="menu-icon">
+											<!--begin::Svg Icon | path: icons/duotune/general/gen051.svg-->
+											<span class="svg-icon svg-icon-2">
+												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                     viewBox="0 0 24 24" fill="none">
+													<path opacity="0.3"
+                                                          d="M20.5543 4.37824L12.1798 2.02473C12.0626 1.99176 11.9376 1.99176 11.8203 2.02473L3.44572 4.37824C3.18118 4.45258 3 4.6807 3 4.93945V13.569C3 14.6914 3.48509 15.8404 4.4417 16.984C5.17231 17.8575 6.18314 18.7345 7.446 19.5909C9.56752 21.0295 11.6566 21.912 11.7445 21.9488C11.8258 21.9829 11.9129 22 12.0001 22C12.0872 22 12.1744 21.983 12.2557 21.9488C12.3435 21.912 14.4326 21.0295 16.5541 19.5909C17.8169 18.7345 18.8277 17.8575 19.5584 16.984C20.515 15.8404 21 14.6914 21 13.569V4.93945C21 4.6807 20.8189 4.45258 20.5543 4.37824Z"
+                                                          fill="black"/>
+													<path
+                                                        d="M14.854 11.321C14.7568 11.2282 14.6388 11.1818 14.4998 11.1818H14.3333V10.2272C14.3333 9.61741 14.1041 9.09378 13.6458 8.65628C13.1875 8.21876 12.639 8 12 8C11.361 8 10.8124 8.21876 10.3541 8.65626C9.89574 9.09378 9.66663 9.61739 9.66663 10.2272V11.1818H9.49999C9.36115 11.1818 9.24306 11.2282 9.14583 11.321C9.0486 11.4138 9 11.5265 9 11.6591V14.5227C9 14.6553 9.04862 14.768 9.14583 14.8609C9.24306 14.9536 9.36115 15 9.49999 15H14.5C14.6389 15 14.7569 14.9536 14.8542 14.8609C14.9513 14.768 15 14.6553 15 14.5227V11.6591C15.0001 11.5265 14.9513 11.4138 14.854 11.321ZM13.3333 11.1818H10.6666V10.2272C10.6666 9.87594 10.7969 9.57597 11.0573 9.32743C11.3177 9.07886 11.6319 8.9546 12 8.9546C12.3681 8.9546 12.6823 9.07884 12.9427 9.32743C13.2031 9.57595 13.3333 9.87594 13.3333 10.2272V11.1818Z"
+                                                        fill="black"/>
+												</svg>
+											</span>
+                                            <!--end::Svg Icon-->
+										</span>
+										<span class="menu-title">User Management</span>
+										<span class="menu-arrow"></span>
+									</span>
+                    <div class="menu-sub menu-sub-accordion">
+                        <div data-kt-menu-trigger="click" class="menu-item menu-accordion mb-1">
+											<span class="menu-link">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+												<span class="menu-title">Users</span>
+												<span class="menu-arrow"></span>
+											</span>
+                            <div class="menu-sub menu-sub-accordion">
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/apps/user-management/users/list.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Users List</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/apps/user-management/users/view.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">View User</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+											<span class="menu-link">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+												<span class="menu-title">Roles</span>
+												<span class="menu-arrow"></span>
+											</span>
+                            <div class="menu-sub menu-sub-accordion">
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/apps/user-management/roles/list.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Roles List</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/apps/user-management/roles/view.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">View Role</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/apps/user-management/permissions.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Permissions</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+									<span class="menu-link">
+										<span class="menu-icon">
+											<!--begin::Svg Icon | path: icons/duotune/ecommerce/ecm002.svg-->
+											<span class="svg-icon svg-icon-2">
+												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                     viewBox="0 0 24 24" fill="none">
+													<path
+                                                        d="M21 10H13V11C13 11.6 12.6 12 12 12C11.4 12 11 11.6 11 11V10H3C2.4 10 2 10.4 2 11V13H22V11C22 10.4 21.6 10 21 10Z"
+                                                        fill="black"/>
+													<path opacity="0.3"
+                                                          d="M12 12C11.4 12 11 11.6 11 11V3C11 2.4 11.4 2 12 2C12.6 2 13 2.4 13 3V11C13 11.6 12.6 12 12 12Z"
+                                                          fill="black"/>
+													<path opacity="0.3"
+                                                          d="M18.1 21H5.9C5.4 21 4.9 20.6 4.8 20.1L3 13H21L19.2 20.1C19.1 20.6 18.6 21 18.1 21ZM13 18V15C13 14.4 12.6 14 12 14C11.4 14 11 14.4 11 15V18C11 18.6 11.4 19 12 19C12.6 19 13 18.6 13 18ZM17 18V15C17 14.4 16.6 14 16 14C15.4 14 15 14.4 15 15V18C15 18.6 15.4 19 16 19C16.6 19 17 18.6 17 18ZM9 18V15C9 14.4 8.6 14 8 14C7.4 14 7 14.4 7 15V18C7 18.6 7.4 19 8 19C8.6 19 9 18.6 9 18Z"
+                                                          fill="black"/>
+												</svg>
+											</span>
+                                            <!--end::Svg Icon-->
+										</span>
+										<span class="menu-title">Subscriptions</span>
+										<span class="menu-arrow"></span>
+									</span>
+                    <div class="menu-sub menu-sub-accordion">
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/apps/subscriptions/getting-started.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Getting Started</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/apps/subscriptions/list.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Subscription List</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/apps/subscriptions/add.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Add Subscription</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/apps/subscriptions/view.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">View Subscription</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+									<span class="menu-link">
+										<span class="menu-icon">
+											<!--begin::Svg Icon | path: icons/duotune/finance/fin006.svg-->
+											<span class="svg-icon svg-icon-2">
+												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                     viewBox="0 0 24 24" fill="none">
+													<path opacity="0.3"
+                                                          d="M20 15H4C2.9 15 2 14.1 2 13V7C2 6.4 2.4 6 3 6H21C21.6 6 22 6.4 22 7V13C22 14.1 21.1 15 20 15ZM13 12H11C10.5 12 10 12.4 10 13V16C10 16.5 10.4 17 11 17H13C13.6 17 14 16.6 14 16V13C14 12.4 13.6 12 13 12Z"
+                                                          fill="black"/>
+													<path
+                                                        d="M14 6V5H10V6H8V5C8 3.9 8.9 3 10 3H14C15.1 3 16 3.9 16 5V6H14ZM20 15H14V16C14 16.6 13.5 17 13 17H11C10.5 17 10 16.6 10 16V15H4C3.6 15 3.3 14.9 3 14.7V18C3 19.1 3.9 20 5 20H19C20.1 20 21 19.1 21 18V14.7C20.7 14.9 20.4 15 20 15Z"
+                                                        fill="black"/>
+												</svg>
+											</span>
+                                            <!--end::Svg Icon-->
+										</span>
+										<span class="menu-title">Customers</span>
+										<span class="menu-arrow"></span>
+									</span>
+                    <div class="menu-sub menu-sub-accordion">
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/apps/customers/getting-started.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Getting Started</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/apps/customers/list.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Customer Listing</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/apps/customers/view.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Customer Details</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+									<span class="menu-link">
+										<span class="menu-icon">
+											<!--begin::Svg Icon | path: icons/duotune/files/fil025.svg-->
+											<span class="svg-icon svg-icon-2">
+												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                     viewBox="0 0 24 24" fill="none">
+													<path opacity="0.3"
+                                                          d="M14 2H6C4.89543 2 4 2.89543 4 4V20C4 21.1046 4.89543 22 6 22H18C19.1046 22 20 21.1046 20 20V8L14 2Z"
+                                                          fill="black"/>
+													<path d="M20 8L14 2V6C14 7.10457 14.8954 8 16 8H20Z" fill="black"/>
+													<path
+                                                        d="M10.3629 14.0084L8.92108 12.6429C8.57518 12.3153 8.03352 12.3153 7.68761 12.6429C7.31405 12.9967 7.31405 13.5915 7.68761 13.9453L10.2254 16.3488C10.6111 16.714 11.215 16.714 11.6007 16.3488L16.3124 11.8865C16.6859 11.5327 16.6859 10.9379 16.3124 10.5841C15.9665 10.2565 15.4248 10.2565 15.0789 10.5841L11.4631 14.0084C11.1546 14.3006 10.6715 14.3006 10.3629 14.0084Z"
+                                                        fill="black"/>
+												</svg>
+											</span>
+                                            <!--end::Svg Icon-->
+										</span>
+										<span class="menu-title">File Manager</span>
+										<span class="menu-arrow"></span>
+									</span>
+                    <div class="menu-sub menu-sub-accordion">
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/apps/file-manager/folders.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Folders</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/apps/file-manager/files.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Files</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/apps/file-manager/blank.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Blank Directory</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/apps/file-manager/settings.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Settings</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+									<span class="menu-link">
+										<span class="menu-icon">
+											<!--begin::Svg Icon | path: icons/duotune/finance/fin002.svg-->
+											<span class="svg-icon svg-icon-2">
+												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                     viewBox="0 0 24 24" fill="none">
+													<path d="M22 7H2V11H22V7Z" fill="black"/>
+													<path opacity="0.3"
+                                                          d="M21 19H3C2.4 19 2 18.6 2 18V6C2 5.4 2.4 5 3 5H21C21.6 5 22 5.4 22 6V18C22 18.6 21.6 19 21 19ZM14 14C14 13.4 13.6 13 13 13H5C4.4 13 4 13.4 4 14C4 14.6 4.4 15 5 15H13C13.6 15 14 14.6 14 14ZM16 15.5C16 16.3 16.7 17 17.5 17H18.5C19.3 17 20 16.3 20 15.5C20 14.7 19.3 14 18.5 14H17.5C16.7 14 16 14.7 16 15.5Z"
+                                                          fill="black"/>
+												</svg>
+											</span>
+                                            <!--end::Svg Icon-->
+										</span>
+										<span class="menu-title">Invoice Manager</span>
+										<span class="menu-arrow"></span>
+									</span>
+                    <div class="menu-sub menu-sub-accordion">
+                        <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+											<span class="menu-link">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+												<span class="menu-title">View Invoices</span>
+												<span class="menu-arrow"></span>
+											</span>
+                            <div class="menu-sub menu-sub-accordion menu-active-bg">
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/apps/invoices/view/invoice-1.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Invoice 1</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/apps/invoices/view/invoice-2.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Invoice 2</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link" href="../../demo8/dist/apps/invoices/view/invoice-3.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+                                        <span class="menu-title">Invoice 3</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/apps/invoices/create.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Create Invoice</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+									<span class="menu-link">
+										<span class="menu-icon">
+											<!--begin::Svg Icon | path: icons/duotune/communication/com011.svg-->
+											<span class="svg-icon svg-icon-2">
+												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                     viewBox="0 0 24 24" fill="none">
+													<path opacity="0.3"
+                                                          d="M21 19H3C2.4 19 2 18.6 2 18V6C2 5.4 2.4 5 3 5H21C21.6 5 22 5.4 22 6V18C22 18.6 21.6 19 21 19Z"
+                                                          fill="black"/>
+													<path
+                                                        d="M21 5H2.99999C2.69999 5 2.49999 5.10005 2.29999 5.30005L11.2 13.3C11.7 13.7 12.4 13.7 12.8 13.3L21.7 5.30005C21.5 5.10005 21.3 5 21 5Z"
+                                                        fill="black"/>
+												</svg>
+											</span>
+                                            <!--end::Svg Icon-->
+										</span>
+										<span class="menu-title">Inbox</span>
+										<span class="menu-arrow"></span>
+									</span>
+                    <div class="menu-sub menu-sub-accordion">
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/apps/inbox/listing.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Messages</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/apps/inbox/compose.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Compose</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/apps/inbox/reply.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">View &amp; Reply</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+									<span class="menu-link">
+										<span class="menu-icon">
+											<!--begin::Svg Icon | path: icons/duotune/communication/com012.svg-->
+											<span class="svg-icon svg-icon-2">
+												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                     viewBox="0 0 24 24" fill="none">
+													<path opacity="0.3"
+                                                          d="M20 3H4C2.89543 3 2 3.89543 2 5V16C2 17.1046 2.89543 18 4 18H4.5C5.05228 18 5.5 18.4477 5.5 19V21.5052C5.5 22.1441 6.21212 22.5253 6.74376 22.1708L11.4885 19.0077C12.4741 18.3506 13.6321 18 14.8167 18H20C21.1046 18 22 17.1046 22 16V5C22 3.89543 21.1046 3 20 3Z"
+                                                          fill="black"/>
+													<rect x="6" y="12" width="7" height="2" rx="1" fill="black"/>
+													<rect x="6" y="7" width="12" height="2" rx="1" fill="black"/>
+												</svg>
+											</span>
+                                            <!--end::Svg Icon-->
+										</span>
+										<span class="menu-title">Chat</span>
+										<span class="menu-arrow"></span>
+									</span>
+                    <div class="menu-sub menu-sub-accordion">
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/apps/chat/private.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Private Chat</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/apps/chat/group.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Group Chat</span>
+                            </a>
+                        </div>
+                        <div class="menu-item">
+                            <a class="menu-link" href="../../demo8/dist/apps/chat/drawer.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+                                <span class="menu-title">Drawer Chat</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <a class="menu-link" href="../../demo8/dist/apps/calendar.html">
+										<span class="menu-icon">
+											<!--begin::Svg Icon | path: icons/duotune/general/gen014.svg-->
+											<span class="svg-icon svg-icon-2">
+												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                     viewBox="0 0 24 24" fill="none">
+													<path opacity="0.3"
+                                                          d="M21 22H3C2.4 22 2 21.6 2 21V5C2 4.4 2.4 4 3 4H21C21.6 4 22 4.4 22 5V21C22 21.6 21.6 22 21 22Z"
+                                                          fill="black"/>
+													<path
+                                                        d="M6 6C5.4 6 5 5.6 5 5V3C5 2.4 5.4 2 6 2C6.6 2 7 2.4 7 3V5C7 5.6 6.6 6 6 6ZM11 5V3C11 2.4 10.6 2 10 2C9.4 2 9 2.4 9 3V5C9 5.6 9.4 6 10 6C10.6 6 11 5.6 11 5ZM15 5V3C15 2.4 14.6 2 14 2C13.4 2 13 2.4 13 3V5C13 5.6 13.4 6 14 6C14.6 6 15 5.6 15 5ZM19 5V3C19 2.4 18.6 2 18 2C17.4 2 17 2.4 17 3V5C17 5.6 17.4 6 18 6C18.6 6 19 5.6 19 5Z"
+                                                        fill="black"/>
+													<path
+                                                        d="M8.8 13.1C9.2 13.1 9.5 13 9.7 12.8C9.9 12.6 10.1 12.3 10.1 11.9C10.1 11.6 10 11.3 9.8 11.1C9.6 10.9 9.3 10.8 9 10.8C8.8 10.8 8.59999 10.8 8.39999 10.9C8.19999 11 8.1 11.1 8 11.2C7.9 11.3 7.8 11.4 7.7 11.6C7.6 11.8 7.5 11.9 7.5 12.1C7.5 12.2 7.4 12.2 7.3 12.3C7.2 12.4 7.09999 12.4 6.89999 12.4C6.69999 12.4 6.6 12.3 6.5 12.2C6.4 12.1 6.3 11.9 6.3 11.7C6.3 11.5 6.4 11.3 6.5 11.1C6.6 10.9 6.8 10.7 7 10.5C7.2 10.3 7.49999 10.1 7.89999 10C8.29999 9.90003 8.60001 9.80003 9.10001 9.80003C9.50001 9.80003 9.80001 9.90003 10.1 10C10.4 10.1 10.7 10.3 10.9 10.4C11.1 10.5 11.3 10.8 11.4 11.1C11.5 11.4 11.6 11.6 11.6 11.9C11.6 12.3 11.5 12.6 11.3 12.9C11.1 13.2 10.9 13.5 10.6 13.7C10.9 13.9 11.2 14.1 11.4 14.3C11.6 14.5 11.8 14.7 11.9 15C12 15.3 12.1 15.5 12.1 15.8C12.1 16.2 12 16.5 11.9 16.8C11.8 17.1 11.5 17.4 11.3 17.7C11.1 18 10.7 18.2 10.3 18.3C9.9 18.4 9.5 18.5 9 18.5C8.5 18.5 8.1 18.4 7.7 18.2C7.3 18 7 17.8 6.8 17.6C6.6 17.4 6.4 17.1 6.3 16.8C6.2 16.5 6.10001 16.3 6.10001 16.1C6.10001 15.9 6.2 15.7 6.3 15.6C6.4 15.5 6.6 15.4 6.8 15.4C6.9 15.4 7.00001 15.4 7.10001 15.5C7.20001 15.6 7.3 15.6 7.3 15.7C7.5 16.2 7.7 16.6 8 16.9C8.3 17.2 8.6 17.3 9 17.3C9.2 17.3 9.5 17.2 9.7 17.1C9.9 17 10.1 16.8 10.3 16.6C10.5 16.4 10.5 16.1 10.5 15.8C10.5 15.3 10.4 15 10.1 14.7C9.80001 14.4 9.50001 14.3 9.10001 14.3C9.00001 14.3 8.9 14.3 8.7 14.3C8.5 14.3 8.39999 14.3 8.39999 14.3C8.19999 14.3 7.99999 14.2 7.89999 14.1C7.79999 14 7.7 13.8 7.7 13.7C7.7 13.5 7.79999 13.4 7.89999 13.2C7.99999 13 8.2 13 8.5 13H8.8V13.1ZM15.3 17.5V12.2C14.3 13 13.6 13.3 13.3 13.3C13.1 13.3 13 13.2 12.9 13.1C12.8 13 12.7 12.8 12.7 12.6C12.7 12.4 12.8 12.3 12.9 12.2C13 12.1 13.2 12 13.6 11.8C14.1 11.6 14.5 11.3 14.7 11.1C14.9 10.9 15.2 10.6 15.5 10.3C15.8 10 15.9 9.80003 15.9 9.70003C15.9 9.60003 16.1 9.60004 16.3 9.60004C16.5 9.60004 16.7 9.70003 16.8 9.80003C16.9 9.90003 17 10.2 17 10.5V17.2C17 18 16.7 18.4 16.2 18.4C16 18.4 15.8 18.3 15.6 18.2C15.4 18.1 15.3 17.8 15.3 17.5Z"
+                                                        fill="black"/>
+												</svg>
+											</span>
+                                            <!--end::Svg Icon-->
+										</span>
+                        <span class="menu-title">Calendar</span>
+                    </a>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-content pt-8 pb-0">
+                        <span class="menu-section text-muted text-uppercase fs-8 ls-1">Layout</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <a class="menu-link" href="https://preview.keenthemes.com/metronic8/demo8/layout-builder.html"
+                       title="Build your layout and export HTML for server side integration" data-bs-toggle="tooltip"
+                       data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+										<span class="menu-icon">
+											<!--begin::Svg Icon | path: icons/duotune/general/gen019.svg-->
+											<span class="svg-icon svg-icon-2">
+												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                     viewBox="0 0 24 24" fill="none">
+													<path
+                                                        d="M17.5 11H6.5C4 11 2 9 2 6.5C2 4 4 2 6.5 2H17.5C20 2 22 4 22 6.5C22 9 20 11 17.5 11ZM15 6.5C15 7.9 16.1 9 17.5 9C18.9 9 20 7.9 20 6.5C20 5.1 18.9 4 17.5 4C16.1 4 15 5.1 15 6.5Z"
+                                                        fill="black"/>
+													<path opacity="0.3"
+                                                          d="M17.5 22H6.5C4 22 2 20 2 17.5C2 15 4 13 6.5 13H17.5C20 13 22 15 22 17.5C22 20 20 22 17.5 22ZM4 17.5C4 18.9 5.1 20 6.5 20C7.9 20 9 18.9 9 17.5C9 16.1 7.9 15 6.5 15C5.1 15 4 16.1 4 17.5Z"
+                                                          fill="black"/>
+												</svg>
+											</span>
+                                            <!--end::Svg Icon-->
+										</span>
+                        <span class="menu-title">Layout Builder</span>
+                    </a>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-content">
+                        <div class="separator mx-1 my-4"></div>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <a class="menu-link" href="../../demo8/dist/documentation/getting-started/changelog.html">
+										<span class="menu-icon">
+											<!--begin::Svg Icon | path: icons/duotune/coding/cod003.svg-->
+											<span class="svg-icon svg-icon-2">
+												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                     viewBox="0 0 24 24" fill="none">
+													<path
+                                                        d="M16.95 18.9688C16.75 18.9688 16.55 18.8688 16.35 18.7688C15.85 18.4688 15.75 17.8688 16.05 17.3688L19.65 11.9688L16.05 6.56876C15.75 6.06876 15.85 5.46873 16.35 5.16873C16.85 4.86873 17.45 4.96878 17.75 5.46878L21.75 11.4688C21.95 11.7688 21.95 12.2688 21.75 12.5688L17.75 18.5688C17.55 18.7688 17.25 18.9688 16.95 18.9688ZM7.55001 18.7688C8.05001 18.4688 8.15 17.8688 7.85 17.3688L4.25001 11.9688L7.85 6.56876C8.15 6.06876 8.05001 5.46873 7.55001 5.16873C7.05001 4.86873 6.45 4.96878 6.15 5.46878L2.15 11.4688C1.95 11.7688 1.95 12.2688 2.15 12.5688L6.15 18.5688C6.35 18.8688 6.65 18.9688 6.95 18.9688C7.15 18.9688 7.35001 18.8688 7.55001 18.7688Z"
+                                                        fill="black"/>
+													<path opacity="0.3"
+                                                          d="M10.45 18.9687C10.35 18.9687 10.25 18.9687 10.25 18.9687C9.75 18.8687 9.35 18.2688 9.55 17.7688L12.55 5.76878C12.65 5.26878 13.25 4.8687 13.75 5.0687C14.25 5.1687 14.65 5.76878 14.45 6.26878L11.45 18.2688C11.35 18.6688 10.85 18.9687 10.45 18.9687Z"
+                                                          fill="black"/>
+												</svg>
+											</span>
+                                            <!--end::Svg Icon-->
+										</span>
+                        <span class="menu-title">Changelog v8.0.34</span>
+                    </a>
+                </div>
+            </div>
+            <!--end::Menu-->
+        </div>
+        <!--end::Aside Menu-->
+    </div>
+    <!--end::Aside menu-->
+    <!--begin::Footer-->
+    <div class="aside-footer flex-column-auto py-5" id="kt_aside_footer">
+        <a href="../../demo8/dist/documentation/getting-started.html" class="btn btn-custom btn-primary w-100"
+           data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss-="click"
+           title="200+ in-house components and 3rd-party plugins">
+            <span class="btn-label">Docs &amp; Components</span>
+            <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
+            <span class="svg-icon btn-icon svg-icon-2">
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                     fill="none">
+									<path opacity="0.3"
+                                          d="M19 22H5C4.4 22 4 21.6 4 21V3C4 2.4 4.4 2 5 2H14L20 8V21C20 21.6 19.6 22 19 22ZM12.5 18C12.5 17.4 12.6 17.5 12 17.5H8.5C7.9 17.5 8 17.4 8 18C8 18.6 7.9 18.5 8.5 18.5L12 18C12.6 18 12.5 18.6 12.5 18ZM16.5 13C16.5 12.4 16.6 12.5 16 12.5H8.5C7.9 12.5 8 12.4 8 13C8 13.6 7.9 13.5 8.5 13.5H15.5C16.1 13.5 16.5 13.6 16.5 13ZM12.5 8C12.5 7.4 12.6 7.5 12 7.5H8C7.4 7.5 7.5 7.4 7.5 8C7.5 8.6 7.4 8.5 8 8.5H12C12.6 8.5 12.5 8.6 12.5 8Z"
+                                          fill="black"/>
+									<rect x="7" y="17" width="6" height="2" rx="1" fill="black"/>
+									<rect x="7" y="12" width="10" height="2" rx="1" fill="black"/>
+									<rect x="7" y="7" width="6" height="2" rx="1" fill="black"/>
+									<path d="M15 8H20L14 2V7C14 7.6 14.4 8 15 8Z" fill="black"/>
+								</svg>
+							</span>
+            <!--end::Svg Icon-->
+        </a>
+    </div>
+    <!--end::Footer-->
 </div>
