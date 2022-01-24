@@ -54,10 +54,9 @@
 @include('layouts.share.profile')
 <!-- end::User Panel-->
 
-
-<!--begin::Quick Cart-->
-
-<!--end::Quick Cart-->
+<!--begin::پنل سریع-->
+@include('layouts.share.quick-panel')
+<!--end::پنل سریع-->
 
 @include('layouts.share.script')
 
