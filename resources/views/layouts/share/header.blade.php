@@ -49,7 +49,7 @@
         <!--begin::Toolbar container-->
         <div class="container-fluid py-6 py-lg-0 d-flex flex-column flex-lg-row align-items-lg-stretch justify-content-lg-between">
             <!--begin::Page title-->
-            <div class="page-title d-flex justify-content-center flex-column me-5">
+            <div class="page-title d-flex justify-content-center flex-column me-5 d-none">
                 <!--begin::Title-->
                 <h1 class="d-flex flex-column text-dark fw-bolder fs-3 mb-0">Dashboard</h1>
                 <!--end::Title-->
@@ -81,7 +81,7 @@
             </div>
             <!--end::Page title-->
             <!--begin::Action group-->
-            <div class="d-flex align-items-stretch overflow-auto pt-3 pt-lg-0">
+            <div class="d-flex align-items-stretch overflow-auto pt-3 pt-lg-0 d-none">
                 <!--begin::Action wrapper-->
                 <div class="d-flex align-items-center">
                     <!--begin::Label-->

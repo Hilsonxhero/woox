@@ -1,4 +1,4 @@
-<head>
+
     <base href="">
     <title>Metronic - the world's #1 selling Bootstrap Admin Theme Ecosystem for HTML, Vue, React, Angular &amp; Laravel by Keenthemes</title>
     <meta charset="utf-8" />
@@ -13,15 +13,15 @@
     <link rel="canonical" href="https://preview.keenthemes.com/metronic8" />
     <link rel="shortcut icon" href="{{asset('panel/assets/media/logos/favicon.ico')}}" />
     <!--begin::Fonts-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
+{{--    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />--}}
     <!--end::Fonts-->
     <!--begin::Page Vendor Stylesheets(used by this page)-->
 
-    <link href="{{asset('panel/assets/plugins/custom/fullcalendar/fullcalendar.bundle.css')}}" rel="stylesheet" type="text/css" />
+{{--    <link href="{{asset('panel/assets/plugins/custom/fullcalendar/fullcalendar.bundle.css')}}" rel="stylesheet" type="text/css" />--}}
     <link href="{{asset('panel/assets/plugins/custom/datatables/datatables.bundle.css')}}" rel="stylesheet" type="text/css" />
     <!--end::Page Vendor Stylesheets-->
     <!--begin::Global Stylesheets Bundle(used by all pages)-->
     <link href="{{asset('panel/assets/plugins/global/plugins.bundle.rtl.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{asset('panel/assets/css/style.bundle.rtl.css')}}" rel="stylesheet" type="text/css" />
     <!--end::Global Stylesheets Bundle-->
-</head>
+
