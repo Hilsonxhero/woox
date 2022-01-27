@@ -49,9 +49,9 @@
         <!--begin::Toolbar container-->
         <div class="container-fluid py-6 py-lg-0 d-flex flex-column flex-lg-row align-items-lg-stretch justify-content-lg-between">
             <!--begin::Page title-->
-            <div class="page-title d-flex justify-content-center flex-column me-5 d-none">
+            <div class="page-title d-flex justify-content-center flex-column me-5 ">
                 <!--begin::Title-->
-                <h1 class="d-flex flex-column text-dark fw-bolder fs-3 mb-0">Dashboard</h1>
+                <h1 class="d-flex flex-column text-dark fw-bolder fs-3 mb-2">Dashboard</h1>
                 <!--end::Title-->
                 <!--begin::Breadcrumb-->
                 <ul class="breadcrumb breadcrumb-separatorless fw-bold fs-7 pt-1">
@@ -81,7 +81,7 @@
             </div>
             <!--end::Page title-->
             <!--begin::Action group-->
-            <div class="d-flex align-items-stretch overflow-auto pt-3 pt-lg-0 d-none">
+            <div class="d-flex align-items-stretch overflow-auto pt-3 pt-lg-0 d-none ">
                 <!--begin::Action wrapper-->
                 <div class="d-flex align-items-center">
                     <!--begin::Label-->

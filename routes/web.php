@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::prefix('user')->group(function (){
+    Route::get('/auth', [\App\Http\Controllers\Auth\AuthController::class, 'index'])->name('user.auth.show');
+//    Route::post('/auth/confirm', [\App\Http\Controllers\Auth\AuthController::class, 'index'])->name('user.login.show');
 });

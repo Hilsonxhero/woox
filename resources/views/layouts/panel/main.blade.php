@@ -2,26 +2,26 @@
 <html lang="en" direction="rtl" dir="rtl" style="direction: rtl">
 <!--begin::Head-->
 <head>
-    @include('layouts.share.head')
+    @include('layouts.panel.share.head')
 
     @yield('css')
 </head>
 
 <!--end::Head-->
 <!--begin::Body-->
-<body id="kt_body" class="header-tablet-and-mobile-fixed aside-enabled">
+<body id="kt_body" class="header-tablet-and-mobile-fixed aside-enabled dark-mode">
 <!--begin::Main-->
 <!--begin::Root-->
 <div class="d-flex flex-column flex-root">
     <!--begin::Page-->
     <div class="page d-flex flex-row flex-column-fluid">
         <!--begin::Aside-->
-    @include('layouts.share.sidebar')
+    @include('layouts.panel.share.sidebar')
     <!--end::Aside-->
         <!--begin::Wrapper-->
         <div class="wrapper d-flex flex-column flex-row-fluid" id="kt_wrapper">
             <!--begin::Header-->
-        @include('layouts.share.header')
+        @include('layouts.panel.share.header')
         <!--end::Header-->
             <!--begin::Content-->
             <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
@@ -37,7 +37,7 @@
             </div>
             <!--end::Content-->
             <!--begin::Footer-->
-        @include('layouts.share.footer')
+        @include('layouts.panel.share.footer')
         <!--end::Footer-->
         </div>
         <!--end::Wrapper-->
@@ -1197,7 +1197,7 @@
 
 <!--end::Modals-->
 <!--begin::Javascript-->
-@include('layouts.share.script')
+@include('layouts.panel.share.script')
 
 <!--end::Page Custom Javascript-->
 @yield('js')
