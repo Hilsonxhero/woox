@@ -12,16 +12,19 @@
 @section('content')
 
     <div class="account-ui">
-        <form class="form-ui" action="http://hilsonxhero.test/users/login" method="post">
-            <input type="hidden" name="_token" value="wnhWb4Z0gHTyONRRjd7pMD5oFO7wIxnEL9m29JE3">
+        <form class="form-ui" action="{{route('user.auth.store')}}" method="post">
+            @csrf
             <div class="form-content-ui">
                 <div class="user-icon"></div>
                 <h5 class="my-4">ورود / ثبت‌نام</h5>
                 <div class="form-group">
-                    <label for="email" class="col-form-label body-2 mb-2">شماره موبایل یا پست الکترونیک خود را وارد
+                    <label for="phone" class="col-form-label body-2 mb-2">شماره موبایل یا پست الکترونیک خود را وارد
                         کنید </label>
                     <div class="username-iu">
-                        <input type="text" name="email" id="email" class="form-control" placeholder="">
+                        <input type="text" name="phone" id="phone" class="form-control" placeholder="">
+                        @error('phone')
+                        <p>{{$message}}</p>
+                        @enderror
                     </div>
                 </div>
                 <div class="form-group">
@@ -44,7 +47,7 @@
 @endsection
 
 @section('js')
- <script>
+    <script>
 
- </script>
+    </script>
 @endsection

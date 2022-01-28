@@ -2,12 +2,6 @@
 
 @section('css')
     <link href="{{asset('assets/plugins/custom/vis-timeline/vis-timeline.bundle.css')}}" rel="stylesheet" type="text/css" />
-
-    <style>
-        .apexcharts-tooltip{
-            max-width: 40% !important;
-        }
-    </style>
 @endsection
 
 @section('content')

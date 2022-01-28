@@ -21,8 +21,8 @@
     <link href="{{asset('panel/assets/plugins/custom/datatables/datatables.bundle.css')}}" rel="stylesheet" type="text/css" />
     <!--end::Page Vendor Stylesheets-->
     <!--begin::Global Stylesheets Bundle(used by all pages)-->
-    <link href="{{asset('panel/assets/plugins/global/plugins.dark.bundle.rtl.css')}}" rel="stylesheet" type="text/css" />
-    <link href="{{asset('panel/assets/css/style.dark.bundle.rtl.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('panel/assets/plugins/global/plugins.bundle.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('panel/assets/css/style.bundle.rtl.css')}}" rel="stylesheet" type="text/css" />
 
     <link href="{{asset('panel/assets/css/custom.css')}}" rel="stylesheet" type="text/css" />
     <!--end::Global Stylesheets Bundle-->

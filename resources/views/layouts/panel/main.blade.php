@@ -9,7 +9,7 @@
 
 <!--end::Head-->
 <!--begin::Body-->
-<body id="kt_body" class="header-tablet-and-mobile-fixed aside-enabled dark-mode">
+<body id="kt_body" class="header-tablet-and-mobile-fixed aside-enabled">
 <!--begin::Main-->
 <!--begin::Root-->
 <div class="d-flex flex-column flex-root">
