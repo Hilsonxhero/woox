@@ -13,3 +13,21 @@
 <script src="{{asset('panel/assets/js/custom/widgets.js')}}"></script>
 <script src="{{asset('panel/assets/js/custom/apps/chat/chat.js')}}"></script>
 <script src="{{asset('panel/assets/js/custom/utilities/modals/users-search.js')}}"></script>
+
+@if (session()->has('success'))
+<script>
+    Swal.fire({
+        text: "{{ session()->get('success') }}",
+        icon: "success",
+        buttonsStyling: !1,
+        confirmButtonText: "باشه",
+        customClass: {
+            confirmButton: "btn btn-primary"
+        }
+    }).then((function(t) {
+        // t.isConfirmed && n.hide()
+
+    }))
+</script>
+@endif
+

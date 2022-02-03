@@ -370,6 +370,13 @@
                        href="../../demo3/dist/account/referrals.html">گزارشات</a>
                 </li>
                 <!--end::Nav item-->
+
+                <!--begin::Nav item-->
+                <li class="nav-item mt-2">
+                    <a class="nav-link text-active-primary ms-0 me-10 py-5"
+                       href="../../demo3/dist/account/referrals.html">کیف پول دیجیتال</a>
+                </li>
+                <!--end::Nav item-->
             </ul>
             <!--begin::Navs-->
         </div>
@@ -596,7 +603,7 @@
         <div class="card-header border-0 cursor-pointer" role="button" data-bs-toggle="collapse"
              data-bs-target="#kt_account_signin_method">
             <div class="card-title m-0">
-                <h3 class="fw-bolder m-0">Sign-in Method</h3>
+                <h3 class="fw-bolder m-0">تنظیمات امنیتی</h3>
             </div>
         </div>
         <!--end::Card header-->
@@ -608,7 +615,7 @@
                 <div class="d-flex flex-wrap align-items-center">
                     <!--begin::Label-->
                     <div id="kt_signin_email">
-                        <div class="fs-6 fw-bolder mb-1">Email Address</div>
+                        <div class="fs-6 fw-bolder mb-1">ایمیل</div>
                         <div class="fw-bold text-gray-600">support@keenthemes.com</div>
                     </div>
                     <!--end::Label-->
@@ -619,8 +626,9 @@
                             <div class="row mb-6">
                                 <div class="col-lg-6 mb-4 mb-lg-0">
                                     <div class="fv-row mb-0">
-                                        <label for="emailaddress" class="form-label fs-6 fw-bolder mb-3">Enter New Email
-                                            Address</label>
+                                        <label for="emailaddress" class="form-label fs-6 fw-bolder mb-3">
+                                            ایمیل
+                                        </label>
                                         <input type="email" class="form-control form-control-lg form-control-solid"
                                                id="emailaddress" placeholder="Email Address" name="emailaddress"
                                                value="support@keenthemes.com"/>
@@ -628,19 +636,20 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="fv-row mb-0">
-                                        <label for="confirmemailpassword" class="form-label fs-6 fw-bolder mb-3">Confirm
-                                            Password</label>
+                                        <label for="confirmemailpassword" class="form-label fs-6 fw-bolder mb-3">
+                                            تایید رمز عبور
+                                        </label>
                                         <input type="password" class="form-control form-control-lg form-control-solid"
                                                name="confirmemailpassword" id="confirmemailpassword"/>
                                     </div>
                                 </div>
                             </div>
                             <div class="d-flex">
-                                <button id="kt_signin_submit" type="button" class="btn btn-primary me-2 px-6">Update
-                                    Email
+                                <button id="kt_signin_submit" type="button" class="btn btn-primary me-2 px-6">
+                                    ویرایش ایمیل
                                 </button>
                                 <button id="kt_signin_cancel" type="button"
-                                        class="btn btn-color-gray-400 btn-active-light-primary px-6">Cancel
+                                        class="btn btn-color-gray-400 btn-active-light-primary px-6">لغو
                                 </button>
                             </div>
                         </form>
@@ -649,7 +658,7 @@
                     <!--end::Edit-->
                     <!--begin::Action-->
                     <div id="kt_signin_email_button" class="ms-auto">
-                        <button class="btn btn-light btn-active-light-primary">Change Email</button>
+                        <button class="btn btn-light btn-active-light-primary">تغییر ایمیل</button>
                     </div>
                     <!--end::Action-->
                 </div>
@@ -661,7 +670,7 @@
                 <div class="d-flex flex-wrap align-items-center mb-10">
                     <!--begin::Label-->
                     <div id="kt_signin_password">
-                        <div class="fs-6 fw-bolder mb-1">Password</div>
+                        <div class="fs-6 fw-bolder mb-1">رمز عبور</div>
                         <div class="fw-bold text-gray-600">************</div>
                     </div>
                     <!--end::Label-->
@@ -672,36 +681,40 @@
                             <div class="row mb-1">
                                 <div class="col-lg-4">
                                     <div class="fv-row mb-0">
-                                        <label for="currentpassword" class="form-label fs-6 fw-bolder mb-3">Current
-                                            Password</label>
+                                        <label for="currentpassword" class="form-label fs-6 fw-bolder mb-3">
+                                            رمز عبور جاری
+                                        </label>
                                         <input type="password" class="form-control form-control-lg form-control-solid"
                                                name="currentpassword" id="currentpassword"/>
                                     </div>
                                 </div>
                                 <div class="col-lg-4">
                                     <div class="fv-row mb-0">
-                                        <label for="newpassword" class="form-label fs-6 fw-bolder mb-3">New
-                                            Password</label>
+                                        <label for="newpassword" class="form-label fs-6 fw-bolder mb-3">
+                                            رمز عبور جدید
+                                        </label>
                                         <input type="password" class="form-control form-control-lg form-control-solid"
                                                name="newpassword" id="newpassword"/>
                                     </div>
                                 </div>
                                 <div class="col-lg-4">
                                     <div class="fv-row mb-0">
-                                        <label for="confirmpassword" class="form-label fs-6 fw-bolder mb-3">Confirm New
-                                            Password</label>
+                                        <label for="confirmpassword" class="form-label fs-6 fw-bolder mb-3">
+                                            تایید رمز عبور جدید
+                                        </label>
                                         <input type="password" class="form-control form-control-lg form-control-solid"
                                                name="confirmpassword" id="confirmpassword"/>
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-text mb-5">Password must be at least 8 character and contain symbols</div>
+                            <div class="form-text mb-5">رمز عبور باید حداقل 8 کارکتر باشد</div>
                             <div class="d-flex">
-                                <button id="kt_password_submit" type="button" class="btn btn-primary me-2 px-6">Update
-                                    Password
+                                <button id="kt_password_submit" type="button" class="btn btn-primary me-2 px-6">
+                                    ویرایش
                                 </button>
                                 <button id="kt_password_cancel" type="button"
-                                        class="btn btn-color-gray-400 btn-active-light-primary px-6">Cancel
+                                        class="btn btn-color-gray-400 btn-active-light-primary px-6">
+                                    لغو
                                 </button>
                             </div>
                         </form>
@@ -710,7 +723,7 @@
                     <!--end::Edit-->
                     <!--begin::Action-->
                     <div id="kt_signin_password_button" class="ms-auto">
-                        <button class="btn btn-light btn-active-light-primary">Reset Password</button>
+                        <button class="btn btn-light btn-active-light-primary">تغییر رمز عبور</button>
                     </div>
                     <!--end::Action-->
                 </div>
@@ -736,15 +749,15 @@
                     <div class="d-flex flex-stack flex-grow-1 flex-wrap flex-md-nowrap">
                         <!--begin::Content-->
                         <div class="mb-3 mb-md-0 fw-bold">
-                            <h4 class="text-gray-900 fw-bolder">Secure Your Account</h4>
-                            <div class="fs-6 text-gray-700 pe-7">Two-factor authentication adds an extra layer of
-                                security to your account. To log in, in addition you'll need to provide a 6 digit code
+                            <h4 class="text-gray-900 fw-bolder">ورود دو مرحله ای</h4>
+                            <div class="fs-6 text-gray-700 pe-7">
+                                ورود دو مرحله ای جهت افزایش امنیت حساب شما
                             </div>
                         </div>
                         <!--end::Content-->
                         <!--begin::Action-->
                         <a href="#" class="btn btn-primary px-6 align-self-center text-nowrap" data-bs-toggle="modal"
-                           data-bs-target="#kt_modal_two_factor_authentication">Enable</a>
+                           data-bs-target="#kt_modal_two_factor_authentication">فعال</a>
                         <!--end::Action-->
                     </div>
                     <!--end::Wrapper-->
@@ -757,7 +770,7 @@
     </div>
     <!--end::Sign-in Method-->
     <!--begin::Connected Accounts-->
-    <div class="card mb-5 mb-xl-10">
+    <div class="card mb-5 mb-xl-10 d-none">
         <!--begin::Card header-->
         <div class="card-header border-0 cursor-pointer" role="button" data-bs-toggle="collapse"
              data-bs-target="#kt_account_connected_accounts" aria-expanded="true"
@@ -879,7 +892,7 @@
              data-bs-target="#kt_account_email_preferences" aria-expanded="true"
              aria-controls="kt_account_email_preferences">
             <div class="card-title m-0">
-                <h3 class="fw-bolder m-0">Email Preferences</h3>
+                <h3 class="fw-bolder m-0">تنظیمات ارسال اعلانات</h3>
             </div>
         </div>
         <!--begin::Card header-->
@@ -896,8 +909,9 @@
                         <!--end::Input-->
                         <!--begin::Label-->
                         <span class="form-check-label d-flex flex-column align-items-start">
-													<span class="fw-bolder fs-5 mb-0">Successful Payments</span>
-													<span class="text-muted fs-6">Receive a notification for every successful payment.</span>
+													<span class="fw-bolder fs-5 mb-0">خرید موفق</span>
+													<span
+                                                        class="text-muted fs-6">دریافت تمام اعلانات مربوط به سفارش</span>
 												</span>
                         <!--end::Label-->
                     </label>
@@ -905,108 +919,13 @@
                     <!--begin::Option-->
                     <div class="separator separator-dashed my-6"></div>
                     <!--end::Option-->
-                    <!--begin::Option-->
-                    <label class="form-check form-check-custom form-check-solid align-items-start">
-                        <!--begin::Input-->
-                        <input class="form-check-input me-3" type="checkbox" name="email-preferences[]"
-                               checked="checked" value="1"/>
-                        <!--end::Input-->
-                        <!--begin::Label-->
-                        <span class="form-check-label d-flex flex-column align-items-start">
-													<span class="fw-bolder fs-5 mb-0">Payouts</span>
-													<span class="text-muted fs-6">Receive a notification for every initiated payout.</span>
-												</span>
-                        <!--end::Label-->
-                    </label>
-                    <!--end::Option-->
-                    <!--begin::Option-->
-                    <div class="separator separator-dashed my-6"></div>
-                    <!--end::Option-->
-                    <!--begin::Option-->
-                    <label class="form-check form-check-custom form-check-solid align-items-start">
-                        <!--begin::Input-->
-                        <input class="form-check-input me-3" type="checkbox" name="email-preferences[]" value="1"/>
-                        <!--end::Input-->
-                        <!--begin::Label-->
-                        <span class="form-check-label d-flex flex-column align-items-start">
-													<span class="fw-bolder fs-5 mb-0">Fee Collection</span>
-													<span class="text-muted fs-6">Receive a notification each time you collect a fee from sales</span>
-												</span>
-                        <!--end::Label-->
-                    </label>
-                    <!--end::Option-->
-                    <!--begin::Option-->
-                    <div class="separator separator-dashed my-6"></div>
-                    <!--end::Option-->
-                    <!--begin::Option-->
-                    <label class="form-check form-check-custom form-check-solid align-items-start">
-                        <!--begin::Input-->
-                        <input class="form-check-input me-3" type="checkbox" name="email-preferences[]"
-                               checked="checked" value="1"/>
-                        <!--end::Input-->
-                        <!--begin::Label-->
-                        <span class="form-check-label d-flex flex-column align-items-start">
-													<span class="fw-bolder fs-5 mb-0">Customer Payment Dispute</span>
-													<span class="text-muted fs-6">Receive a notification if a payment is disputed by a customer and for dispute purposes.</span>
-												</span>
-                        <!--end::Label-->
-                    </label>
-                    <!--end::Option-->
-                    <!--begin::Option-->
-                    <div class="separator separator-dashed my-6"></div>
-                    <!--end::Option-->
-                    <!--begin::Option-->
-                    <label class="form-check form-check-custom form-check-solid align-items-start">
-                        <!--begin::Input-->
-                        <input class="form-check-input me-3" type="checkbox" name="email-preferences[]" value="1"/>
-                        <!--end::Input-->
-                        <!--begin::Label-->
-                        <span class="form-check-label d-flex flex-column align-items-start">
-													<span class="fw-bolder fs-5 mb-0">Refund Alerts</span>
-													<span class="text-muted fs-6">Receive a notification if a payment is stated as risk by the Finance Department.</span>
-												</span>
-                        <!--end::Label-->
-                    </label>
-                    <!--end::Option-->
-                    <!--begin::Option-->
-                    <div class="separator separator-dashed my-6"></div>
-                    <!--end::Option-->
-                    <!--begin::Option-->
-                    <label class="form-check form-check-custom form-check-solid align-items-start">
-                        <!--begin::Input-->
-                        <input class="form-check-input me-3" type="checkbox" name="email-preferences[]"
-                               checked="checked" value="1"/>
-                        <!--end::Input-->
-                        <!--begin::Label-->
-                        <span class="form-check-label d-flex flex-column align-items-start">
-													<span class="fw-bolder fs-5 mb-0">Invoice Payments</span>
-													<span class="text-muted fs-6">Receive a notification if a customer sends an incorrect amount to pay their invoice.</span>
-												</span>
-                        <!--end::Label-->
-                    </label>
-                    <!--end::Option-->
-                    <!--begin::Option-->
-                    <div class="separator separator-dashed my-6"></div>
-                    <!--end::Option-->
-                    <!--begin::Option-->
-                    <label class="form-check form-check-custom form-check-solid align-items-start">
-                        <!--begin::Input-->
-                        <input class="form-check-input me-3" type="checkbox" name="email-preferences[]" value="1"/>
-                        <!--end::Input-->
-                        <!--begin::Label-->
-                        <span class="form-check-label d-flex flex-column align-items-start">
-													<span class="fw-bolder fs-5 mb-0">Webhook API Endpoints</span>
-													<span class="text-muted fs-6">Receive notifications for consistently failing webhook API endpoints.</span>
-												</span>
-                        <!--end::Label-->
-                    </label>
-                    <!--end::Option-->
+
                 </div>
                 <!--end::Card body-->
                 <!--begin::Card footer-->
                 <div class="card-footer d-flex justify-content-end py-6 px-9">
-                    <button class="btn btn-light btn-active-light-primary me-2">Discard</button>
-                    <button class="btn btn-primary px-6">Save Changes</button>
+                    <button class="btn btn-light btn-active-light-primary me-2">لغو</button>
+                    <button class="btn btn-primary px-6">ذخیره تغییرات</button>
                 </div>
                 <!--end::Card footer-->
             </form>
@@ -1016,12 +935,12 @@
     </div>
     <!--end::Notifications-->
     <!--begin::Notifications-->
-    <div class="card mb-5 mb-xl-10">
+    <div class="card mb-5 mb-xl-10 d-none">
         <!--begin::Card header-->
         <div class="card-header border-0 cursor-pointer" role="button" data-bs-toggle="collapse"
              data-bs-target="#kt_account_notifications" aria-expanded="true" aria-controls="kt_account_notifications">
             <div class="card-title m-0">
-                <h3 class="fw-bolder m-0">Notifications</h3>
+                <h3 class="fw-bolder m-0">اعلانات</h3>
             </div>
         </div>
         <!--begin::Card header-->
@@ -1160,7 +1079,7 @@
         <div class="card-header border-0 cursor-pointer" role="button" data-bs-toggle="collapse"
              data-bs-target="#kt_account_deactivate" aria-expanded="true" aria-controls="kt_account_deactivate">
             <div class="card-title m-0">
-                <h3 class="fw-bolder m-0">Deactivate Account</h3>
+                <h3 class="fw-bolder m-0">غیرفعال کردن حساب</h3>
             </div>
         </div>
         <!--end::Card header-->
@@ -1191,11 +1110,11 @@
                         <div class="d-flex flex-stack flex-grow-1">
                             <!--begin::Content-->
                             <div class="fw-bold">
-                                <h4 class="text-gray-900 fw-bolder">You Are Deactivating Your Account</h4>
-                                <div class="fs-6 text-gray-700">For extra security, this requires you to confirm your
-                                    email or phone number when you reset yousignr password.
+                                <h4 class="text-gray-900 fw-bolder">شما اکانت خود را غیرفعال می کنید</h4>
+                                <div class="fs-6 text-gray-700">
+                                    برای امنیت بیشتر، این نیاز به تأیید شما دارد
                                     <br/>
-                                    <a class="fw-bolder" href="#">Learn more</a></div>
+                                    <a class="fw-bolder" href="#">اطلاعات بیشتر</a></div>
                             </div>
                             <!--end::Content-->
                         </div>
@@ -1205,8 +1124,9 @@
                     <!--begin::Form input row-->
                     <div class="form-check form-check-solid fv-row">
                         <input name="deactivate" class="form-check-input" type="checkbox" value="" id="deactivate"/>
-                        <label class="form-check-label fw-bold ps-2 fs-6" for="deactivate">I confirm my account
-                            deactivation</label>
+                        <label class="form-check-label fw-bold ps-2 fs-6" for="deactivate">
+                            غیر فعال کردن اکانت را تایید میکنم
+                        </label>
                     </div>
                     <!--end::Form input row-->
                 </div>
@@ -1214,7 +1134,7 @@
                 <!--begin::Card footer-->
                 <div class="card-footer d-flex justify-content-end py-6 px-9">
                     <button id="kt_account_deactivate_account_submit" type="submit" class="btn btn-danger fw-bold">
-                        Deactivate Account
+                        غیرفعال
                     </button>
                 </div>
                 <!--end::Card footer-->

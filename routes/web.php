@@ -49,15 +49,4 @@ Route::prefix('user')->group(function () {
         Route::get('/profile', [\App\Http\Controllers\User\UserController::class, 'profile'])->name('user.profile.show');
     });
 
-
-});
-
-
-Route::get('verify-link/{phone}', function () {
-
-})->name('verify.link');
-
-Route::get('dd', function () {
-    $url = \Illuminate\Support\Facades\URL::temporarySignedRoute('verify.link', now()->addMonth(1), ['phone' => "09010105397"]);
-    dd($url);
 });
