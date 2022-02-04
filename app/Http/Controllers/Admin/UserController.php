@@ -21,13 +21,35 @@ class UserController extends Controller
 
     public function create()
     {
-        //
+        $roles = Role::all();
+        return view('panel.users.create', compact('roles'));
     }
 
 
-    public function store(Request $request)
+    public function store(UserRequest $request)
     {
-        //
+
+        if ($request->file('avatar')) {
+            $request->merge(['media_id' => MediaFileService::publicUpload($request->file('avatar'))->id]);
+        }
+
+        if (!is_null($request->password)) {
+            $request->merge(['password' => bcrypt($request->password)]);
+        }
+
+        $user = User::Create([
+            'username' => $request->username,
+            'email' => $request->email,
+            'phone' => $request->phone,
+            'national_number' => $request->national_number,
+            'media_id' => $request->media_id,
+            'status' => $request->status,
+            'password' => $request->password,
+        ]);
+
+        $user->syncRoles($request->role);
+
+        return redirect()->route('admin.users.index')->with('success', 'عملیات ایجاد با موفقیت انجام شد');
     }
 
 
@@ -49,10 +71,7 @@ class UserController extends Controller
     public function update(UserRequest $request, $id)
     {
 
-
-
         $user = User::where('id', $id)->first();
-
 
         if ($request->file('avatar')) {
 
@@ -64,10 +83,8 @@ class UserController extends Controller
         }
 
         if (!is_null($request->password)) {
-            $update['password'] = bcrypt($request->password);
             $request->merge(['password' => bcrypt($request->password)]);
         }
-
 
 
         $user->syncRoles($request->role)->update([
@@ -86,6 +103,9 @@ class UserController extends Controller
 
     public function destroy($id)
     {
-        //
+        $user = User::where('id', $id)->first();
+        if ($user->media) $user->media->delete();
+        $user->delete();
+        return redirect()->back()->with('success', 'عملیات حذف با موفقیت انجام شد');
     }
 }

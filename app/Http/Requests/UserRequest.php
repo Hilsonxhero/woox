@@ -28,14 +28,30 @@ class UserRequest extends FormRequest
      */
     public function rules()
     {
+
+        if (request()->isMethod('post')) {
+            return [
+                'username' => ['nullable'],
+                'phone' => ['required', 'unique:users,phone', new ValidMobile()],
+                'password' => ['nullable', 'confirmed', Rules\Password::defaults()],
+                'email' => ['nullable', 'email', 'unique:users,email'],
+                'national_number' => ['nullable'],
+                'avatar' => ['nullable', 'file'],
+                'role' => ['nullable', 'exists:roles,name'],
+                'status' => ['required', Rule::in(User::$statuses)],
+            ];
+        }
+
+
         return [
             'username' => ['required'],
-            'phone' => ['nullable', new ValidMobile(), Rule::unique('users', 'phone')->ignore(request()->id)],
+            'phone' => ['required', new ValidMobile(), Rule::unique('users', 'phone')->ignore(request()->id)],
             'password' => ['nullable', 'confirmed', Rules\Password::defaults()],
-            'email' => ['required', 'email'],
-            'national_number' => ['required'],
+            'email' => ['nullable', 'email', Rule::unique('users', 'email')->ignore(request()->id)],
+            'national_number' => ['nullable'],
             'avatar' => ['nullable', 'file'],
-            'status' => ['required', Rule::in(User::$statuses)],
+            'role' => ['nullable', 'exists:roles,name'],
+            'status' => ['nullable', Rule::in(User::$statuses)],
         ];
     }
 }

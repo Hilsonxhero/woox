@@ -3,7 +3,13 @@
     font-style: normal;
     font-weight: 900;
     src: url('../fonts/IRANSans/eot/IRANSansWeb(FaNum)_Black.eot');
-    src: url('../fonts/IRANSans/eot/IRANSansWeb(FaNum)_Black.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../fonts/IRANSans/woff2/IRANSansWeb(FaNum)_Black.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../fonts/IRANSans/woff/IRANSansWeb(FaNum)_Black.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/IRANSans/ttf/IRANSansWeb(FaNum)_Black.ttf') format('truetype');
+    src: url('../fonts/IRANSans/eot/IRANSansWeb(FaNum)_Black.eot?#iefix') format('embedded-opentype'),
+        /* IE6-8 */
+        url('../fonts/IRANSans/woff2/IRANSansWeb(FaNum)_Black.woff2') format('woff2'),
+        /* FF39+,Chrome36+, Opera24+*/
+        url('../fonts/IRANSans/woff/IRANSansWeb(FaNum)_Black.woff') format('woff'),
+        /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+        url('../fonts/IRANSans/ttf/IRANSansWeb(FaNum)_Black.ttf') format('truetype');
 }
 
 @font-face {
@@ -11,7 +17,13 @@
     font-style: normal;
     font-weight: bold;
     src: url('../fonts/IRANSans/eot/IRANSansWeb(FaNum)_Bold.eot');
-    src: url('../fonts/IRANSans/eot/IRANSansWeb(FaNum)_Bold.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../fonts/IRANSans/woff2/IRANSansWeb(FaNum)_Bold.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../fonts/IRANSans/woff/IRANSansWeb(FaNum)_Bold.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/IRANSans/ttf/IRANSansWeb(FaNum)_Bold.ttf') format('truetype');
+    src: url('../fonts/IRANSans/eot/IRANSansWeb(FaNum)_Bold.eot?#iefix') format('embedded-opentype'),
+        /* IE6-8 */
+        url('../fonts/IRANSans/woff2/IRANSansWeb(FaNum)_Bold.woff2') format('woff2'),
+        /* FF39+,Chrome36+, Opera24+*/
+        url('../fonts/IRANSans/woff/IRANSansWeb(FaNum)_Bold.woff') format('woff'),
+        /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+        url('../fonts/IRANSans/ttf/IRANSansWeb(FaNum)_Bold.ttf') format('truetype');
 }
 
 @font-face {
@@ -19,7 +31,13 @@
     font-style: normal;
     font-weight: 500;
     src: url('../fonts/IRANSans/eot/IRANSansWeb(FaNum)_Medium.eot');
-    src: url('../fonts/IRANSans/eot/IRANSansWeb(FaNum)_Medium.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../fonts/IRANSans/woff2/IRANSansWeb(FaNum)_Medium.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../fonts/IRANSans/woff/IRANSansWeb(FaNum)_Medium.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/IRANSans/ttf/IRANSansWeb(FaNum)_Medium.ttf') format('truetype');
+    src: url('../fonts/IRANSans/eot/IRANSansWeb(FaNum)_Medium.eot?#iefix') format('embedded-opentype'),
+        /* IE6-8 */
+        url('../fonts/IRANSans/woff2/IRANSansWeb(FaNum)_Medium.woff2') format('woff2'),
+        /* FF39+,Chrome36+, Opera24+*/
+        url('../fonts/IRANSans/woff/IRANSansWeb(FaNum)_Medium.woff') format('woff'),
+        /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+        url('../fonts/IRANSans/ttf/IRANSansWeb(FaNum)_Medium.ttf') format('truetype');
 }
 
 @font-face {
@@ -27,7 +45,13 @@
     font-style: normal;
     font-weight: 300;
     src: url('../fonts/IRANSans/eot/IRANSansWeb(FaNum)_Light.eot');
-    src: url('../fonts/IRANSans/eot/IRANSansWeb(FaNum)_Light.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../fonts/IRANSans/woff2/IRANSansWeb(FaNum)_Light.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../fonts/IRANSans/woff/IRANSansWeb(FaNum)_Light.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/IRANSans/ttf/IRANSansWeb(FaNum)_Light.ttf') format('truetype');
+    src: url('../fonts/IRANSans/eot/IRANSansWeb(FaNum)_Light.eot?#iefix') format('embedded-opentype'),
+        /* IE6-8 */
+        url('../fonts/IRANSans/woff2/IRANSansWeb(FaNum)_Light.woff2') format('woff2'),
+        /* FF39+,Chrome36+, Opera24+*/
+        url('../fonts/IRANSans/woff/IRANSansWeb(FaNum)_Light.woff') format('woff'),
+        /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+        url('../fonts/IRANSans/ttf/IRANSansWeb(FaNum)_Light.ttf') format('truetype');
 }
 
 @font-face {
@@ -35,7 +59,13 @@
     font-style: normal;
     font-weight: 200;
     src: url('../fonts/IRANSans/eot/IRANSansWeb(FaNum)_UltraLight.eot');
-    src: url('../fonts/IRANSans/eot/IRANSansWeb(FaNum)_UltraLight.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../fonts/IRANSans/woff2/IRANSansWeb(FaNum)_UltraLight.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../fonts/IRANSans/woff/IRANSansWeb(FaNum)_UltraLight.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/IRANSans/ttf/IRANSansWeb(FaNum)_UltraLight.ttf') format('truetype');
+    src: url('../fonts/IRANSans/eot/IRANSansWeb(FaNum)_UltraLight.eot?#iefix') format('embedded-opentype'),
+        /* IE6-8 */
+        url('../fonts/IRANSans/woff2/IRANSansWeb(FaNum)_UltraLight.woff2') format('woff2'),
+        /* FF39+,Chrome36+, Opera24+*/
+        url('../fonts/IRANSans/woff/IRANSansWeb(FaNum)_UltraLight.woff') format('woff'),
+        /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+        url('../fonts/IRANSans/ttf/IRANSansWeb(FaNum)_UltraLight.ttf') format('truetype');
 }
 
 @font-face {
@@ -43,22 +73,31 @@
     font-style: normal;
     font-weight: normal;
     src: url('../fonts/IRANSans/eot/IRANSansWeb(FaNum).eot');
-    src: url('../fonts/IRANSans/eot/IRANSansWeb(FaNum).eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../fonts/IRANSans/woff2/IRANSansWeb(FaNum).woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../fonts/IRANSans/woff/IRANSansWeb(FaNum).woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/IRANSans/ttf/IRANSansWeb(FaNum).ttf') format('truetype');
+    src: url('../fonts/IRANSans/eot/IRANSansWeb(FaNum).eot?#iefix') format('embedded-opentype'),
+        /* IE6-8 */
+        url('../fonts/IRANSans/woff2/IRANSansWeb(FaNum).woff2') format('woff2'),
+        /* FF39+,Chrome36+, Opera24+*/
+        url('../fonts/IRANSans/woff/IRANSansWeb(FaNum).woff') format('woff'),
+        /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+        url('../fonts/IRANSans/ttf/IRANSansWeb(FaNum).ttf') format('truetype');
 }
 
-.form-select.form-select-transparent, .form-select.form-select-transparent:focus {
+.form-select.form-select-transparent,
+.form-select.form-select-transparent:focus {
     background-color: transparent;
     border-color: transparent !important;
     color: #181c32;
     outline: 0;
 }
 
-html, body {
+html,
+body {
     font-family: IRANSans !important;
 }
 
 
-.page-item.next .page-link i, .page-item.previous .page-link i {
+.page-item.next .page-link i,
+.page-item.previous .page-link i {
     color: #5e6278;
 }
 
@@ -79,7 +118,8 @@ html, body {
 }
 
 
-.page-item .page-link .next, .page-item .page-link .previous {
+.page-item .page-link .next,
+.page-item .page-link .previous {
     display: block;
     height: 0.875rem;
     width: 0.875rem;
@@ -101,6 +141,48 @@ html, body {
     font-family: IRANSans;
 }
 
-.popover{
+.popover {
     font-family: IRANSans;
+}
+
+
+.select2-container--bootstrap5 .select2-dropdown .select2-results__option.select2-results__option--selected {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 11'%3e%3cpath fill='%23FFFFFF' d='M4.89557 6.49823L2.79487 4.26513C2.26967 3.70683 1.38251 3.70683 0.857309 4.26513C0.375593 4.77721 0.375593 5.57574 0.857309 6.08781L4.74989 10.2257C5.14476 10.6455 5.81176 10.6455 6.20663 10.2257L13.1427 2.85252C13.6244 2.34044 13.6244 1.54191 13.1427 1.02984C12.6175 0.471537 11.7303 0.471536 11.2051 1.02984L6.06096 6.49823C5.74506 6.83403 5.21146 6.83403 4.89557 6.49823Z'/%3e%3c/svg%3e");
+    background-size: 0.8rem;
+    background-position: center left 1.25rem;
+    background-color: #009ef7;
+    color: #fff;
+    transition: color .2s ease, background-color .2s ease;
+}
+
+
+table.dataTable>thead .sorting:before,
+table.dataTable>thead .sorting:after,
+table.dataTable>thead .sorting_asc:before,
+table.dataTable>thead .sorting_asc:after,
+table.dataTable>thead .sorting_desc:before,
+table.dataTable>thead .sorting_desc:after {
+
+    display: inline-block;
+    width: 0.75rem;
+    height: 0.75rem;
+    content: " ";
+    top: 50%;
+    bottom: auto;
+    left: auto;
+    right: auto;
+    margin-right: 1rem;
+    transform: unset !important
+}
+
+
+table thead tr th {
+    text-align: center;
+}
+
+table tbody tr td {
+    text-align: center;
 }

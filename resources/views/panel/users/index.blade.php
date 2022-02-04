@@ -123,9 +123,8 @@
                     </button>
                     <!--end::Export-->
                     <!--begin::Add user-->
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                        data-bs-target="#kt_modal_add_user">
-                        <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
+                    <a href="{{ route('admin.users.create') }}" type="button" class="btn btn-primary">
+
                         <span class="svg-icon svg-icon-2">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                 <rect opacity="0.5" x="11.364" y="20.364" width="16" height="2" rx="1"
@@ -134,9 +133,9 @@
                             </svg>
                         </span>
                         کاربر جدید
-                        <!--end::Svg Icon-->
-                    </button>
-                    <!--end::Add user-->
+
+                    </a>
+
                 </div>
                 <!--end::Toolbar-->
                 <!--begin::Group actions-->
@@ -534,7 +533,7 @@
                                 <div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
                                     <a href="../../demo8/dist/apps/user-management/users/view.html">
                                         <div class="symbol-label">
-                                            <img src="{{asset($user->profile)}}" alt="Emma Smith"
+                                            <img src="{{ asset($user->profile) }}" alt="Emma Smith"
                                                 class="w-100" />
                                         </div>
                                     </a>
@@ -551,18 +550,32 @@
                                 </div>
                                 <!--begin::User details-->
                             </td>
-                            <!--end::User=-->
-                            <!--begin::Role=-->
-                            <td>Administrator</td>
-                            <!--end::Role=-->
-                            <!--begin::Last login=-->
+
+
+                            <td class="text-center">
+                                @if (count($user->roles) > 0)
+                                    @foreach ($user->roles as $role)
+                                        <span class="badge badge-light-primary"> {{ $role->name }}</span>
+                                    @endforeach
+                                @else
+                                    <span class="badge badge-light-primary">کاربر عادی</span>
+                                @endif
+
+
+                            </td>
+
                             <td class="text-center">
                                 <div class="badge badge-light fw-bolder">{{ $user->phone }}</div>
                             </td>
                             <!--end::Last login=-->
                             <!--begin::Two step=-->
                             <td>
-                                <div class="badge badge-light-success fw-bolder">تایید شده</div>
+                                @if ($user->status == \App\Models\User::ACTIVE_STATUS)
+                                    <div class="badge badge-light-success fw-bolder">فعال</div>
+                                @else
+                                    <div class="badge badge-light-danger fw-bolder">غیر فعال</div>
+                                @endif
+
                             </td>
                             <!--end::Two step=-->
                             <!--begin::Joined-->
@@ -586,17 +599,27 @@
                                 <!--begin::Menu-->
                                 <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4"
                                     data-kt-menu="true">
-                                    <!--begin::Menu item-->
+
                                     <div class="menu-item px-3">
                                         <a href="{{ route('admin.users.edit', $user->id) }}"
                                             class="menu-link px-3">ویرایش</a>
                                     </div>
-                                    <!--end::Menu item-->
-                                    <!--begin::Menu item-->
-                                    <div class="menu-item px-3">
-                                        <a href="#" class="menu-link px-3" data-kt-users-table-filter="delete_row">حذف</a>
+
+
+                                    <div class="menu-item">
+
+                                        <form action="" id="js-delete-user-form" method="post">
+                                            @csrf
+                                            @method('delete')
+                                        </form>
+
                                     </div>
-                                    <!--end::Menu item-->
+
+                                    <div class="menu-item px-3">
+                                        <a data-id="{{ json_encode($user->id) }}" type="button" class="menu-link px-3"
+                                            data-kt-users-table-filter="delete_row">حذف</a>
+                                    </div>
+
                                 </div>
                                 <!--end::Menu-->
                             </td>

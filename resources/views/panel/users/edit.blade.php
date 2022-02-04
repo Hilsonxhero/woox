@@ -6,6 +6,8 @@
 
 @section('content')
 
+
+
     <form id="kt_ecommerce_add_category_form" action="{{ route('admin.users.update', $user->id) }}" method="post"
         class="form d-flex flex-column flex-lg-row" enctype="multipart/form-data" data-kt-redirect="">
         @csrf
@@ -114,14 +116,14 @@
                 <div class="card-header">
                     <!--begin::Card title-->
                     <div class="card-title">
-                        <h2>Store Template</h2>
+                        <h2>نقش کاربری</h2>
                     </div>
                     <!--end::Card title-->
                 </div>
 
                 <div class="card-body pt-0">
 
-                    <label for="kt_ecommerce_add_category_store_template" class="form-label">نقش کاربری</label>
+
 
                     <select name="role" class="form-select mb-2" data-control="select2" data-hide-search="true"
                         data-placeholder="انتخاب نقش کاربری" id="kt_ecommerce_add_category_store_template">
@@ -150,6 +152,19 @@
                 </div>
 
                 <div class="card-body pt-0">
+
+
+                    @if ($errors->any())
+
+                        @foreach ($errors as $error)
+
+                            <p>{{ $error }}</p>
+
+                        @endforeach
+
+                    @else
+
+                    @endif
 
 
                     <div class="d-flex flex-column flex-md-row gap-5">
