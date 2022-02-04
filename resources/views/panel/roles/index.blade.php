@@ -310,7 +310,7 @@
                                                                 <input class="form-check-input js-role-permissions" type="checkbox"
                                                                     value="{{ $permission->name }}"
                                                                     name="permissions[{{ $permission->name }}]"
-                                                                    @if (\Spatie\Permission\Models\Role::where('id', 2)->first()->hasPermissionTo($permission->name)) checked @endif />
+                                                                     />
                                                                 {{-- <span class="form-check-label"></span> --}}
                                                             </label>
                                                         </div>
