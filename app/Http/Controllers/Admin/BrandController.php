@@ -49,7 +49,7 @@ class BrandController extends Controller
             'title' => $request->title,
             'link' => $request->link,
             'description' => $request->description,
-            'parent_id' => $request->category_id,
+            'category_id' => $request->category_id,
             'media_id' => $request->media_id,
             'status' => $request->status,
         ]);
@@ -78,7 +78,7 @@ class BrandController extends Controller
     {
         $categories = Category::select('id', 'title')->get();
 
-        $brand = Brand::query()->where('id', $id)->first();
+        $brand = Brand::query()->where('id', $id)->with('category')->first();
 
         return view('panel.brands.edit', compact('categories', 'brand'));
     }
@@ -124,6 +124,10 @@ class BrandController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $item = Brand::where('id', $id)->first();
+        $item->delete();
+        if ($item->media) $item->media->delete();
+
+        return redirect()->back()->with('success', 'عملیات حذف با موفقیت انجام شد');
     }
 }

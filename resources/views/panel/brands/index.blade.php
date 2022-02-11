@@ -33,7 +33,7 @@
             <!--begin::Card toolbar-->
             <div class="card-toolbar">
                 <!--begin::Add customer-->
-                <a href="{{ route('admin.brands.create') }}" class="btn btn-primary">دسته جدید</a>
+                <a href="{{ route('admin.brands.create') }}" class="btn btn-primary">ایجاد برند</a>
                 <!--end::Add customer-->
             </div>
             <!--end::Card toolbar-->
@@ -54,6 +54,7 @@
                             </div>
                         </th>
                         <th class="min-w-250px">عنوان</th>
+                        <th class="min-w-250px">دسته بندی</th>
                         <th class="min-w-150px">وضعیت</th>
                         <th class="text-end min-w-70px">عملیات</th>
                     </tr>
@@ -75,29 +76,33 @@
                             <!--begin::brands=-->
                             <td>
                                 <div class="d-flex">
-                                    <!--begin::Thumbnail-->
+
                                     <a href="../../demo8/dist/apps/ecommerce/catalog/edit-brands.html"
                                         class="symbol symbol-50px">
                                         <span class="symbol-label"
                                             style="background-image:url({{ asset($brand->icon) }});"></span>
                                     </a>
-                                    <!--end::Thumbnail-->
+
                                     <div class="ms-5">
-                                        <!--begin::Title-->
+
                                         <a href="../../demo8/dist/apps/ecommerce/catalog/edit-brands.html"
                                             class="text-gray-800 text-hover-primary fs-5 fw-bolder mb-1"
-                                            data-kt-ecommerce-brands-filter="brands_name">{{ $brand->title }}</a>
-                                        <!--end::Title-->
-                                        <!--begin::Description-->
+                                            data-kt-ecommerce-brands-filter="brand_name">{{ $brand->title }}</a>
+
                                         <div class="text-muted fs-7 fw-bolder">
                                             {!! Str::limit($brand->description, 20) !!}
                                         </div>
-                                        <!--end::Description-->
+
                                     </div>
                                 </div>
                             </td>
-                            <!--end::brands=-->
-                            <!--begin::Type=-->
+
+                            <td>
+                                <div class="badge badge-light-warning">
+                                    {{ $brand->category->title }}
+                                </div>
+                            </td>
+
                             <td>
 
                                 @switch($brand->status)
@@ -108,13 +113,13 @@
                                     @break
 
                                     @case(\App\Models\Brand::STATUS_REJECTED)
-                                        <div class="badge badge-light-success">
+                                        <div class="badge badge-light-danger">
                                             @lang(\App\Models\Brand::STATUS_REJECTED)
                                         </div>
                                     @break
 
                                     @case(\App\Models\Brand::STATUS_PENDING)
-                                        <div class="badge badge-light-success">
+                                        <div class="badge badge-light-warning">
                                             @lang(\App\Models\Brand::STATUS_PENDING)
                                         </div>
                                     @break
@@ -151,8 +156,15 @@
                                     <!--end::Menu item-->
                                     <!--begin::Menu item-->
                                     <div class="menu-item px-3">
-                                        <a href="#" class="menu-link px-3"
+
+                                        <form class="d-inline-block" method="post" action="" id="js-delete-form">
+                                            @csrf
+                                            @method('delete')
+                                        </form>
+
+                                        <a href="#" class="menu-link px-3" data-id="{{ json_encode($brand->id) }}"
                                             data-kt-ecommerce-brands-filter="delete_row">حذف</a>
+
                                     </div>
                                     <!--end::Menu item-->
                                 </div>
@@ -176,8 +188,6 @@
 @endsection
 
 @section('js')
-    {{-- <script src="{{ asset('panel/assets/js/custom/apps/ecommerce/catalog/categories.js') }}"></script> --}}
-
     <script>
         var KTAppEcommerceCategories = (function() {
             var t,
@@ -187,45 +197,36 @@
                         '[data-kt-ecommerce-brands-filter="delete_row"]'
                     ).forEach((t) => {
                         t.addEventListener("click", function(t) {
+                            id = $(t.target).data('id')
+
+                            console.log('id', id);
+
+
                             t.preventDefault();
                             const n = t.target.closest("tr"),
                                 o = n.querySelector(
-                                    '[data-kt-ecommerce-brands-filter="category_name"]'
+                                    '[data-kt-ecommerce-brands-filter="brand_name"]'
                                 ).innerText;
                             Swal.fire({
-                                text: "Are you sure you want to delete " + o + "?",
+                                text: "آیا از حذف  " + o + " اطمینان دارید ؟ ",
                                 icon: "warning",
                                 showCancelButton: !0,
                                 buttonsStyling: !1,
-                                confirmButtonText: "Yes, delete!",
-                                cancelButtonText: "No, cancel",
+                                confirmButtonText: "بله",
+                                cancelButtonText: "نه",
                                 customClass: {
                                     confirmButton: "btn fw-bold btn-danger",
                                     cancelButton: "btn fw-bold btn-active-light-primary",
                                 },
                             }).then(function(t) {
-                                t.value ?
-                                    Swal.fire({
-                                        text: "You have deleted " + o + "!.",
-                                        icon: "success",
-                                        buttonsStyling: !1,
-                                        confirmButtonText: "Ok, got it!",
-                                        customClass: {
-                                            confirmButton: "btn fw-bold btn-primary",
-                                        },
-                                    }).then(function() {
-                                        e.row($(n)).remove().draw();
-                                    }) :
-                                    "cancel" === t.dismiss &&
-                                    Swal.fire({
-                                        text: o + " was not deleted.",
-                                        icon: "error",
-                                        buttonsStyling: !1,
-                                        confirmButtonText: "Ok, got it!",
-                                        customClass: {
-                                            confirmButton: "btn fw-bold btn-primary",
-                                        },
-                                    });
+                                if (!t.value) {
+                                    t.dismiss
+                                } else {
+                                    $("#js-delete-form").attr('action',
+                                        `/panel/brands/${id}`)
+                                    $("#js-delete-form").submit()
+                                }
+
                             });
                         });
                     });

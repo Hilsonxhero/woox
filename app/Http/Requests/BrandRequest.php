@@ -29,7 +29,7 @@ class BrandRequest extends FormRequest
             return [
                 'title' => ['required', 'unique:brands,title', 'min:3', 'string'],
                 'link' => ['required', 'min:3', 'string'],
-                'category_id' => ['nullable', 'exists:brands,id'],
+                'category_id' => ['required', 'exists:categories,id'],
                 'thumb' => ['nullable', 'file', 'mimes:png,jpg,jpeg,gif'],
             ];
         }
@@ -38,7 +38,7 @@ class BrandRequest extends FormRequest
         return [
             'title' => ['required', 'min:3', 'string', Rule::unique('brands', 'title')->ignore(request()->id)],
             'link' => ['required', 'min:3', 'string'],
-            'category_id' => ['nullable', 'exists:brands,id'],
+            'category_id' => ['required', 'exists:categories,id'],
             'thumb' => ['nullable', 'file', 'mimes:png,jpg,jpeg,gif'],
         ];
     }
