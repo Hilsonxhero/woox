@@ -1,6 +1,11 @@
 {
     "active": "فعال",
     "inactive": "غیر فعال",
+    "published": "منتشر شده",
+    "unpublished": "منتشر نشده",
+    "accepted": "تایید شده",
+    "rejected": "تایید نشده",
+    "pending": "در حال انتظار",
     "A fresh verification link has been sent to your email address.": "لینک تایید جدیدی برای ایمیل شما ارسال شد.",
     "A new verification link has been sent to the email address you provided during registration.": "A new verification link has been sent to the email address you provided during registration.",
     "All rights reserved.": "کلیه حقوق محفوظ است.",

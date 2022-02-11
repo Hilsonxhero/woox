@@ -2,13 +2,17 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\Http\Controllers\Controller;
-use App\Http\Requests\UserRequest;
 use App\Models\User;
-use App\Services\MediaFileService;
+use App\Exports\UsersExport;
 use Illuminate\Http\Request;
-use Spatie\Permission\Models\Permission;
+use App\Http\Requests\UserRequest;
+use App\Services\MediaFileService;
 use Spatie\Permission\Models\Role;
+use App\Http\Controllers\Controller;
+use Spatie\Permission\Models\Permission;
+use niklasravnsborg\LaravelPdf\PdfWrapper;
+use Maatwebsite\Excel\Facades\Excel;
+use PDF;
 
 class UserController extends Controller
 {
@@ -99,6 +103,35 @@ class UserController extends Controller
 
 
         return redirect()->route('admin.users.index')->with('success', 'عملیات ویرایش با موفقیت انجام شد');
+    }
+
+    public function export()
+    {
+        switch (request('format')) {
+
+            case 'excel':
+
+                return Excel::download(new UsersExport, 'users.xlsx');
+
+                break;
+
+            case 'csv':
+
+                return Excel::download(new UsersExport, 'users.csv');
+
+                break;
+
+            case 'pdf':
+
+                $users = User::all();
+                $pdf = PDF::loadView('exports.users', compact('users'));
+                return $pdf->download('users.pdf');
+
+                break;
+        }
+
+
+        return redirect()->back();
     }
 
     public function destroy($id)

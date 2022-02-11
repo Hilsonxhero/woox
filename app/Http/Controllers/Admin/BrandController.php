@@ -2,8 +2,12 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\Http\Controllers\Controller;
+use App\Models\Brand;
+use App\Models\Category;
 use Illuminate\Http\Request;
+use App\Services\MediaFileService;
+use App\Http\Requests\BrandRequest;
+use App\Http\Controllers\Controller;
 
 class BrandController extends Controller
 {
@@ -14,7 +18,9 @@ class BrandController extends Controller
      */
     public function index()
     {
-        //
+        $brands = Brand::all();
+
+        return view('panel.brands.index', compact('brands'));
     }
 
     /**
@@ -24,7 +30,9 @@ class BrandController extends Controller
      */
     public function create()
     {
-        //
+        $categories = Category::all();
+
+        return view('panel.brands.create', compact('categories'));
     }
 
     /**
@@ -33,9 +41,20 @@ class BrandController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(BrandRequest $request)
     {
-        //
+        if ($request->file('thumb')) $request->merge(['media_id' => MediaFileService::publicUpload($request->file('thumb'))->id]);
+
+        $item =  Brand::create([
+            'title' => $request->title,
+            'link' => $request->link,
+            'description' => $request->description,
+            'parent_id' => $request->category_id,
+            'media_id' => $request->media_id,
+            'status' => $request->status,
+        ]);
+
+        return redirect()->route('admin.brands.index')->with('success', 'عملیات ایجاد با موفقیت انجام شد');
     }
 
     /**
@@ -57,7 +76,11 @@ class BrandController extends Controller
      */
     public function edit($id)
     {
-        //
+        $categories = Category::select('id', 'title')->get();
+
+        $brand = Brand::query()->where('id', $id)->first();
+
+        return view('panel.brands.edit', compact('categories', 'brand'));
     }
 
     /**
@@ -67,9 +90,30 @@ class BrandController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(BrandRequest $request, $id)
     {
-        //
+        $brand = Brand::query()->where('id', $id)->first();
+
+        if ($request->file('thumb')) {
+            $request->merge(['media_id' => MediaFileService::publicUpload($request->file('thumb'))->id]);
+
+            if ($brand->media) {
+                $brand->media->delete();
+            }
+        }
+
+
+
+        $brand->update([
+            'title' => $request->title,
+            'link' => $request->link,
+            'description' => $request->description,
+            'category_id' => $request->category_id ?? $brand->category_id,
+            'media_id' => $request->media_id ?? $brand->media_id,
+            'status' => $request->status,
+        ]);
+
+        return redirect()->route('admin.brands.index')->with('success', 'عملیات ویرایش با موفقیت انجام شد');
     }
 
     /**

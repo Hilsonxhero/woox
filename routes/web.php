@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,6 +22,16 @@ Route::get('/', [\App\Http\Controllers\HomeController::class, 'index'])->name('h
 //})->middleware(['auth'])->name('dashboard');
 
 //require __DIR__.'/auth.php';
+
+// Route::get('dd', function () {
+//     $data = [
+//         'foo' => 'تست متن'
+//     ];
+//     $pdf = PDF::loadView('pdf', $data);
+
+//     return $pdf->stream('test.pdf');
+// });
+
 
 Route::get('/', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
@@ -48,5 +60,4 @@ Route::prefix('user')->group(function () {
     Route::middleware(['auth'])->group(function () {
         Route::get('/profile', [\App\Http\Controllers\User\UserController::class, 'profile'])->name('user.profile.show');
     });
-
 });

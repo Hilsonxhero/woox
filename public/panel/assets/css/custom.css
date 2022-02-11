@@ -179,10 +179,44 @@ table.dataTable>thead .sorting_desc:after {
 }
 
 
-table thead tr th {
+/* table thead tr th {
     text-align: center;
+} */
+
+/* table tbody tr td {
+    text-align: center;
+} */
+
+
+.ql-editor.ql-blank:before {
+    right: 15px !important;
+    left: 15px !important;
+    color: #A1A5B7 !important;
+    font-style: normal !important;
+    direction: rtl !important;
+    text-align: right !important;
 }
 
-table tbody tr td {
-    text-align: center;
+.ck.ck-toolbar {
+    background: transparent !important;
+    border: 1px solid #E4E6EF !important;
+}
+
+.ck.ck-editor__main>.ck-editor__editable:not(.ck-focused) {
+    border-color: #E4E6EF !important;
+}
+
+.ck-focused {
+    border: 1px solid #E4E6EF !important;
+    border-color: #E4E6EF !important;
+}
+
+.ck-content.ck-focused {
+    border: 1px solid #E4E6EF !important;
+    border-color: #E4E6EF !important;
+    box-shadow: none !important;
+}
+
+.editor-ui {
+    display: none;
 }
