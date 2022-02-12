@@ -15,4 +15,5 @@ Route::prefix('panel')->group(function () {
     Route::resource('roles', \App\Http\Controllers\Admin\RoleController::class);
     Route::resource('categories', \App\Http\Controllers\Admin\CategoryController::class);
     Route::resource('brands', \App\Http\Controllers\Admin\BrandController::class);
+    Route::resource('warranties', \App\Http\Controllers\Admin\BrandController::class);
 });
