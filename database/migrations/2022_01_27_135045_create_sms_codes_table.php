@@ -15,16 +15,9 @@ class CreateSmsCodesTable extends Migration
     {
         Schema::create('sms_codes', function (Blueprint $table) {
             $table->id();
-//            $table->unsignedBigInteger('user_id');
             $table->unsignedBigInteger('phone');
-//            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
-
             $table->integer('code');
-
-//            $table->unique(['user_id' , 'code']);
-
             $table->unique(['phone', 'code']);
-
             $table->timestamp('expired_at');
         });
     }

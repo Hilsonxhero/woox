@@ -197,6 +197,7 @@
                         '[data-kt-ecommerce-brands-filter="delete_row"]'
                     ).forEach((t) => {
                         t.addEventListener("click", function(t) {
+                            
                             id = $(t.target).data('id')
 
                             console.log('id', id);

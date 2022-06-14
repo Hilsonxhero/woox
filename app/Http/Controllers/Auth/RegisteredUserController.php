@@ -54,7 +54,7 @@ class RegisteredUserController extends Controller
             $code = $code->code;
         }
 
-        //            Notification::send(null, new VerifyPhoneNotification($phone, $code));
+        Notification::send(null, new VerifyPhoneNotification($phone, $code));
 
         if (!$user) {
             $url = \Illuminate\Support\Facades\URL::temporarySignedRoute('user.confirm.register', now()->addMinutes(50), ['phone' => $phone]);
@@ -65,10 +65,10 @@ class RegisteredUserController extends Controller
         return redirect($url);
 
 
-//        event(new Registered($user));
-//
-//        Auth::login($user);
-//
-//        return redirect(RouteServiceProvider::HOME);
+        //        event(new Registered($user));
+        //
+        //        Auth::login($user);
+        //
+        //        return redirect(RouteServiceProvider::HOME);
     }
 }

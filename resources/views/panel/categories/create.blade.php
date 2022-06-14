@@ -140,7 +140,6 @@
 
                         </x-text-editor>
 
-
                     </x-input-group>
 
                 </div>

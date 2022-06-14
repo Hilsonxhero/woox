@@ -40,7 +40,7 @@ class VerifyPhoneNotification extends Notification
     }
 
 
-    public function ToSms()
+    public function toSms()
     {
         return [
             'text' => " کد فعال سازی {$this->code}",

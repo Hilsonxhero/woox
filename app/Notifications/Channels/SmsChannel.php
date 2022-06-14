@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App\Notifications\Channels;
-
 
 use Illuminate\Notifications\Notification;
 
@@ -25,5 +23,4 @@ class SmsChannel
             throw $e;
         }
     }
-
 }

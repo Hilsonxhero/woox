@@ -12,7 +12,6 @@ class Category extends Model
 {
     use HasFactory, SoftDeletes, Sluggable, HasMeta;
 
-
     protected $fillable = [
         'title',
         'link',

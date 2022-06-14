@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <style>
-        body,
-
         html {
             font-family: fa
         }
+    </style>
+    <style>
+        body,
+
 
         table.dataTable {
             width: 100% !important;
@@ -306,7 +308,6 @@
         table tbody tr td {
             text-align: center;
         }
-
     </style>
 
     <title>Document</title>
@@ -327,12 +328,12 @@
         </thead>
         <tbody>
             @foreach ($users as $user)
-                <tr>
-                    <td>{{ $user->id }}</td>
-                    <td>{{ $user->username }}</td>
-                    <td>{{ $user->email }}</td>
-                    <td>{{ $user->phone }}</td>
-                </tr>
+            <tr>
+                <td>{{ $user->id }}</td>
+                <td>{{ $user->username }}</td>
+                <td>{{ $user->email }}</td>
+                <td>{{ $user->phone }}</td>
+            </tr>
             @endforeach
 
         </tbody>

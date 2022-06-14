@@ -47,7 +47,7 @@ Route::prefix('user')->group(function () {
         Route::get('/auth/login/confirm', [\App\Http\Controllers\Auth\AuthenticatedSessionController::class, 'create'])
             ->name('user.confirm.login');
 
-        Route::post('/auth/register/confirm/', [\App\Http\Controllers\Auth\ConfirmController::class, 'check'])
+        Route::post('/auth/login/confirm/', [\App\Http\Controllers\Auth\ConfirmController::class, 'check'])
             ->name('user.confirm.login.check');
 
         Route::get('/auth/register/confirm/{phone}', [\App\Http\Controllers\Auth\ConfirmController::class, 'show'])
